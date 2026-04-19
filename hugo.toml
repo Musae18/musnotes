@@ -37,11 +37,11 @@ enableRobotsTXT = true
 
         [[params.profileMode.buttons]]
             name = "Catatan Keraguan"
-            url = "/posts"
+            url = "posts"
 
         [[params.profileMode.buttons]]
             name = "Aktualisasi lain"
-            url = "/projects"
+            url = "projects"
 
 
     # --- IKON SOSIAL MEDIA ---
@@ -49,4 +49,4 @@ enableRobotsTXT = true
         name = "github"
         url = "https://github.com/Musae18"
 [params.assets]
-        favicon = "/favicon.ico"
+        favicon = "favicon.ico"
