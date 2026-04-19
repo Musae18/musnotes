@@ -1,6 +1,6 @@
 ---
 title: "Aktualisasi lain"
-description: "Ruang untuk catatan singkat, proyek, dan arah pikir yang sedang bergerak."
+description: "belum ada apa apa"
 ---
 
-Kumpulan halaman yang sedang tumbuh pelan.
+funfact : aku lagi mengembangkan aplikasi gamifield study companion, nanti kalau sudah jadi aku tunjukin disini
