@@ -33,8 +33,6 @@ maka mungkin kepastian yang kucari juga tidak sepenuhnya berada di luar sana.
 
 Bisa jadi ia hanya muncul dari caraku memersepsikan dunia.
 
-# Hijau yang Tidak Sepasti Itu
-
 Kita sering merasa bahwa daun pasti berwarna hijau.  
 Tapi, apakah benar-benar pasti?
 
@@ -66,8 +64,6 @@ Ia adalah hasil interpretasi neural pada *Homo sapiens*.
 Apakah daun berwarna hijau?  
 Jawabannya tergantung siapa yang menjadi pengamat. 🙃🌿
 
-# Setelah Angka Itu
-
 Jika hijau hanya label mental, apa yang tersisa di luar kepala kita?
 
 Mungkin alam semesta tidak pernah benar-benar melukis materi dengan warna.  
@@ -78,12 +74,10 @@ Angka itu akan tetap ada meskipun kita tidak melihatnya.
 Mungkin kepastian hanya berhenti di angka.
 
 Setelah angka itu menyentuh retina,  
-kepastian mulai runtuh—  
+kepastian mulai runtuh, 
 digantikan oleh label yang dikarang sistem saraf agar kita tidak menabrak pohon saat berjalan. 😄
 
 ---
 
 Kalau begitu, ketika aku bertanya apa yang pasti di alam semesta,  
-apakah aku benar-benar mencari kepastian…
-
-atau hanya mencari label yang terasa pasti?
+>apakah aku benar-benar mencari kepastian…atau hanya mencari label yang terasa pasti?
