@@ -63,6 +63,10 @@ body {
     color: var(--color-text-primary);
 }
 
+.post-content > * {
+    max-width: 65ch;
+}
+
 .post-title {
     letter-spacing: 0.3px;
     color: var(--color-text-primary);
@@ -112,6 +116,104 @@ a:hover {
     color: var(--color-hover-accent);
     background: var(--color-surface-soft);
     transform: scale(1.02);
+}
+
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    color: var(--color-text-primary);
+    letter-spacing: 0.01em;
+}
+
+.post-content h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+.post-content h3,
+.post-content h4 {
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.post-content strong {
+    color: var(--color-hover-accent);
+    font-weight: 600;
+}
+
+.post-content em {
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.post-content blockquote {
+    margin: 2rem 0;
+    padding: 1rem 1.25rem;
+    border-left: 3px solid var(--color-primary-lavender);
+    border-radius: 0 14px 14px 0;
+    background: linear-gradient(
+        180deg,
+        rgba(139, 131, 246, 0.08) 0%,
+        rgba(139, 131, 246, 0.04) 100%
+    );
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.post-content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.post-content hr {
+    height: 1px;
+    margin: 2.5rem 0;
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        var(--color-link-underline) 18%,
+        var(--color-link-underline) 82%,
+        transparent 100%
+    );
+    border: 0;
+}
+
+.post-content mark {
+    padding: 0.1rem 0.35rem;
+    border-radius: 999px;
+    background: rgba(139, 131, 246, 0.14);
+    color: var(--color-text-primary);
+}
+
+.post-content code {
+    border: 1px solid rgba(139, 131, 246, 0.14);
+    color: var(--color-hover-accent);
+}
+
+.dark .post-content strong {
+    color: var(--color-primary-lavender);
+}
+
+.dark .post-content em {
+    color: var(--color-text-muted);
+}
+
+.dark .post-content blockquote {
+    border-left-color: var(--color-primary-lavender);
+    background: linear-gradient(
+        180deg,
+        rgba(196, 181, 253, 0.10) 0%,
+        rgba(196, 181, 253, 0.05) 100%
+    );
+}
+
+.dark .post-content mark {
+    background: rgba(196, 181, 253, 0.18);
+    color: var(--color-text-primary);
+}
+
+.dark .post-content code {
+    border-color: rgba(196, 181, 253, 0.22);
+    color: var(--color-primary-lavender);
 }
 
 @media (max-width: 767px) {
