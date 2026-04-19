@@ -1,5 +1,5 @@
 # === PENGATURAN DASAR (ROOT) ===
-baseURL = "/"
+baseURL = "https://musnotess.vercel.app/"
 languageCode = "id"
 title = "MuS"          # Ini yang bakal ngubah teks di pojok kiri atas!
 theme = "PaperMod"     # Penting biar temanya kebaca
