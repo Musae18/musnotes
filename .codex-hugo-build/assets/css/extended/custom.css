@@ -1,0 +1,267 @@
+/* =========================================
+   MuS: Quiet Diary Refinement
+   ========================================= */
+
+/* ---------- Color System (CSS Variables) ---------- */
+:root {
+    /* Lavender Dreamy Palette */
+    --color-primary-lavender: #8b83f6;
+    --color-primary-lavender-rgb: 139, 131, 246;
+    --color-accent-lavender-dark: #c4b5fd;
+    --color-accent-lavender-dark-rgb: 196, 181, 253;
+    
+    /* Neutral Grays */
+    --color-border-soft: #e4e4e7;
+    --color-text-primary: #3f3f46;
+    --color-text-secondary: #71717a;
+    
+    /* Transitions */
+    --transition-smooth: all 0.25s ease;
+    --transition-fast: all 0.2s ease;
+}
+
+.dark {
+    --color-text-primary: #d4d4d8;
+    --color-text-secondary: #a1a1aa;
+    --color-border-soft: rgba(255, 255, 255, 0.12);
+}
+
+/* ---------- Fade-in: hadir pelan ---------- */
+body {
+    animation: fadeIn 0.6s ease-in-out;
+    background:
+        radial-gradient(circle at top, rgba(var(--color-primary-lavender-rgb), 0.10), transparent 35%),
+        linear-gradient(180deg, #fcfcfe 0%, #f6f5ff 100%);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.dark body {
+    background:
+        radial-gradient(circle at top, rgba(var(--color-accent-lavender-dark-rgb), 0.10), transparent 35%),
+        linear-gradient(180deg, #17171c 0%, #111117 100%);
+}
+
+/* ---------- Notebook Margin dengan gradient divider ---------- */
+.main {
+    padding-left: 2rem;
+    position: relative;
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(
+        to bottom,
+        var(--color-border-soft) 0%,
+        var(--color-border-soft) 10%,
+        var(--color-border-soft) 90%,
+        transparent 100%
+    );
+}
+
+@media (max-width: 767px) {
+    .main::before {
+        display: none;
+    }
+}
+
+
+/* ---------- Typography untuk diary ---------- */
+.post-content {
+    line-height: 1.85;
+    color: var(--color-text-primary);
+    max-width: 65ch;
+}
+
+.post-title {
+    letter-spacing: 0.3px;
+    color: var(--color-text-primary);
+}
+
+
+/* ---------- Link: lavender dreamy ---------- */
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(var(--color-primary-lavender-rgb), 0.18);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    transition: var(--transition-smooth);
+}
+
+a:hover {
+    color: var(--color-primary-lavender);
+    text-decoration-color: var(--color-primary-lavender);
+    text-decoration-thickness: 2px;
+}
+
+
+/* ---------- Profile Image ---------- */
+.profile_inner img {
+    border: 2px solid var(--color-border-soft);
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    transition: var(--transition-smooth);
+}
+
+.profile_inner img:hover {
+    border-color: rgba(var(--color-primary-lavender-rgb), 0.35);
+    box-shadow: 0 4px 10px rgba(var(--color-primary-lavender-rgb), 0.08);
+    transform: translateY(-2px);
+}
+
+.profile .profile_inner {
+    width: min(100%, 680px);
+    padding: 2.75rem 2rem;
+    border: 1px solid rgba(var(--color-primary-lavender-rgb), 0.12);
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.72);
+    box-shadow: 0 20px 60px rgba(var(--color-primary-lavender-rgb), 0.10);
+    backdrop-filter: blur(14px);
+}
+
+.profile_inner h1 {
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    letter-spacing: -0.04em;
+    color: var(--color-text-primary);
+}
+
+.profile_inner > span {
+    max-width: 54ch;
+    font-size: 1rem;
+    line-height: 1.9;
+    color: var(--color-text-secondary);
+}
+
+
+/* ---------- Buttons (PaperMod) ---------- */
+.button {
+    border-radius: 999px;
+    border: 1px solid var(--color-border-soft);
+    background: transparent;
+    transition: var(--transition-smooth);
+}
+
+.button:hover {
+    border-color: rgba(var(--color-primary-lavender-rgb), 0.35);
+    color: var(--color-primary-lavender);
+    background: rgba(var(--color-primary-lavender-rgb), 0.08);
+    transform: scale(1.02);
+}
+
+.buttons {
+    max-width: 100%;
+    gap: 0.85rem;
+}
+
+.button {
+    padding: 0.75rem 1.15rem;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.35rem;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    border-radius: 999px;
+    border: 1px solid rgba(var(--color-primary-lavender-rgb), 0.16);
+    background: rgba(var(--color-primary-lavender-rgb), 0.08);
+    transition: var(--transition-smooth);
+}
+
+.social-icons a:hover {
+    border-color: rgba(var(--color-primary-lavender-rgb), 0.35);
+    background: rgba(var(--color-primary-lavender-rgb), 0.14);
+    transform: translateY(-2px);
+}
+
+
+/* ---------- Dark mode refinement ---------- */
+.dark .post-content {
+    color: var(--color-text-primary);
+}
+
+.dark a {
+    text-decoration-color: rgba(var(--color-accent-lavender-dark-rgb), 0.25);
+}
+
+.dark a:hover {
+    color: var(--color-accent-lavender-dark);
+    text-decoration-color: var(--color-accent-lavender-dark);
+}
+
+.dark .button {
+    border-color: var(--color-border-soft);
+}
+
+.dark .button:hover {
+    border-color: rgba(var(--color-accent-lavender-dark-rgb), 0.5);
+    color: var(--color-accent-lavender-dark);
+    background: rgba(var(--color-accent-lavender-dark-rgb), 0.10);
+    transform: scale(1.02);
+}
+
+.dark .profile .profile_inner {
+    background: rgba(24, 24, 31, 0.76);
+    border-color: rgba(var(--color-accent-lavender-dark-rgb), 0.18);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.32);
+}
+
+.dark .social-icons a {
+    border-color: rgba(var(--color-accent-lavender-dark-rgb), 0.20);
+    background: rgba(var(--color-accent-lavender-dark-rgb), 0.10);
+}
+
+.dark .social-icons a:hover {
+    border-color: rgba(var(--color-accent-lavender-dark-rgb), 0.48);
+    background: rgba(var(--color-accent-lavender-dark-rgb), 0.16);
+}
+
+
+/* ---------- Social Icons sizing fix ---------- */
+.social-icons svg,
+.social-icons img {
+    display: block;
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    min-height: 22px;
+    max-width: 22px;
+    max-height: 22px;
+    object-fit: contain;
+    flex: 0 0 22px;
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding-left: 0;
+    }
+
+    .profile .profile_inner {
+        padding: 2rem 1.25rem;
+        border-radius: 22px;
+    }
+
+    .profile_inner > span {
+        font-size: 0.95rem;
+        line-height: 1.75;
+    }
+}
