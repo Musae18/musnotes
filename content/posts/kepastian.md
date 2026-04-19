@@ -80,4 +80,4 @@ digantikan oleh label yang dikarang sistem saraf agar kita tidak menabrak pohon 
 ---
 
 Kalau begitu, ketika aku bertanya apa yang pasti di alam semesta,  
->apakah aku benar-benar mencari kepastian…atau hanya mencari label yang terasa pasti?
+apakah aku benar-benar mencari kepastian…atau hanya mencari label yang terasa pasti?
