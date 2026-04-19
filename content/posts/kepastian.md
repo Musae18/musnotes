@@ -13,8 +13,6 @@ Teman imajinerku memberi saran.
 
 Baiklah. Kita bahas tentang kepastian tanpa kepastian 😆  
 
-## Apa yang Pasti?
-
 Apa yang pasti di alam semesta?
 
 Aku mungkin akan menjawab pertanyaan itu dengan senyum tipis 😏 lalu berkata,
@@ -35,7 +33,7 @@ maka mungkin kepastian yang kucari juga tidak sepenuhnya berada di luar sana.
 
 Bisa jadi ia hanya muncul dari caraku memersepsikan dunia.
 
-## Hijau yang Tidak Sepasti Itu
+# Hijau yang Tidak Sepasti Itu
 
 Kita sering merasa bahwa daun pasti berwarna hijau.  
 Tapi, apakah benar-benar pasti?
@@ -68,7 +66,7 @@ Ia adalah hasil interpretasi neural pada *Homo sapiens*.
 Apakah daun berwarna hijau?  
 Jawabannya tergantung siapa yang menjadi pengamat. 🙃🌿
 
-## Setelah Angka Itu
+# Setelah Angka Itu
 
 Jika hijau hanya label mental, apa yang tersisa di luar kepala kita?
 
