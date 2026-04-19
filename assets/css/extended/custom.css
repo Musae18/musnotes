@@ -150,3 +150,10 @@ a:hover {
     background: rgba(var(--color-accent-lavender-dark-rgb), 0.10);
     transform: scale(1.02);
 }
+
+
+/* ---------- Social Icons sizing fix ---------- */
+.social-icons svg {
+    width: 24px;
+    height: 24px;
+}

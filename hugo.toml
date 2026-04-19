@@ -17,6 +17,9 @@ enableRobotsTXT = true
     ShowShareButtons = false
     ShowPostNavLinks = true
     ShowBreadCrumbs = false
+    ShowToc = false
+    ShowWordCount = false
+    ShowFullTextinRSS = true
 
     ShowCodeCopyButtons = false
     disableScrollToTop = false
