@@ -12,11 +12,11 @@ Teman imajinerku memberi saran.
 
 > “Nulis tentang kepastian saja.”
 
-Baiklah. Kita bahas tentang kepastian tanpa kepastian 😆
+Baiklah. Kita bahas tentang kepastian tanpa kepastian 
 
 Apa yang pasti di alam semesta?
 
-Aku mungkin akan menjawab pertanyaan itu dengan senyum tipis 😏 lalu berkata,
+Aku mungkin akan menjawab pertanyaan itu dengan senyum tipis lalu berkata,
 
 > “Mungkin yang pasti di alam semesta adalah persepsi kita terhadap materi yang ada di ruang dan waktu.”
 
@@ -24,7 +24,7 @@ Jawaban yang aneh, kan?
 
 Tapi sebelum mencoba menjelaskannya, ada satu hal yang mengganggu.
 
-Siapa yang mengajukan pertanyaan itu? ☠️
+Siapa yang mengajukan pertanyaan itu? 
 Oh iya. Diriku sendiri.
 
 Jika pertanyaan tentang kepastian saja lahir dari pikiranku sendiri,
@@ -63,7 +63,7 @@ Jadi, warna sebagai sifat cahaya sebenarnya tidak pasti.
 Ia adalah hasil interpretasi neural pada *Homo sapiens*.
 
 Apakah daun berwarna hijau?
-Jawabannya tergantung siapa yang menjadi pengamat. 🙃🌿
+Jawabannya tergantung siapa yang menjadi pengamat.
 
 Jika hijau hanya label mental, apa yang tersisa di luar kepala kita?
 
