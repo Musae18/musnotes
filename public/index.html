@@ -8,10 +8,10 @@
 <meta name="robots" content="index, follow">
 <title>MuS</title>
 
-<meta name="description" content="Catatan reflektif tentang biologi dan sistem.">
+<meta name="description" content="Catatan reflektif.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.d2da4406d6333245f294f9afd867a81ef54216c7c83c56f7558a5f72fc3e31b0.css" integrity="sha256-0tpEBtYzMkXylPmv2GeoHvVCFsfIPFb3VYpfcvw&#43;MbA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.01cb47e113235674a56f4a50b30228a16467d2d3228072419f1ed8e3954069f1.css" integrity="sha256-ActH4RMjVnSlb0pQswIooWRn0tMigHJBnx7Y45VAafE=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -66,16 +66,19 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/">
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="MuS">
   <meta property="og:title" content="MuS">
-  <meta property="og:description" content="Catatan reflektif tentang biologi dan sistem.">
+  <meta property="og:description" content="Catatan reflektif.">
   <meta property="og:locale" content="id">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="MuS">
-  <meta name="twitter:description" content="Catatan reflektif tentang biologi dan sistem.">
+  <meta name="twitter:description" content="Catatan reflektif.">
 
 <script type="application/ld+json">
 {
@@ -83,7 +86,7 @@
   "@type": "Organization",
   "name": "MuS",
   "url": "http://localhost:1313/",
-  "description": "Catatan reflektif tentang biologi dan sistem.",
+  "description": "Catatan reflektif.",
   "logo": "http://localhost:1313/favicon.ico",
   "sameAs": [
       "https://github.com/Musae18"
@@ -128,7 +131,7 @@
         <img draggable="false" src="https://github.com/Musae18.png" alt="MuS" title="MuS"
             height="120" width="120" />
         <h1>MuS</h1>
-        <span>Kumpulan hipotesis mentah tentang biologi dan sistem. Saya lebih sering bingung daripada tahu.</span><div class="social-icons" >
+        <span>Refleksi kosmik yang mungkin terlalu percaya diri. Lebih sering bingung daripada tahu.</span><div class="social-icons" >
     <a href="https://github.com/Musae18" target="_blank" rel="noopener noreferrer me"
         title="Github">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -141,12 +144,12 @@
 </div>
 
         <div class="buttons">
-            <a class="button" href="/posts" rel="noopener" title="Catatan Keraguan">
+            <a class="button" href="posts" rel="noopener" title="Catatan Keraguan">
                 <span class="button-inner">
                     Catatan Keraguan
                 </span>
             </a>
-            <a class="button" href="/projects" rel="noopener" title="Aktualisasi lain">
+            <a class="button" href="projects" rel="noopener" title="Aktualisasi lain">
                 <span class="button-inner">
                     Aktualisasi lain
                 </span>
@@ -158,13 +161,22 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">MuS</a></span> · 
+    <div class="footer-symbol" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+    <div class="footer-meta">
+            <span>&copy; 2026 <a href="http://localhost:1313/">MuS</a></span><span>&middot;</span>
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+        <span>
+            Powered by
+            <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>
+            &amp;
+            <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        </span>
+    </div>
 </footer>
 <a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -177,12 +189,11 @@
 <script>
     let menu = document.getElementById('menu');
     if (menu) {
-        
         const scrollPosition = localStorage.getItem("menu-scroll-position");
         if (scrollPosition) {
             menu.scrollLeft = parseInt(scrollPosition, 10);
         }
-        
+
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }

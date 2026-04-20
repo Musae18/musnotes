@@ -1,227 +1,375 @@
 /* =========================================
-   MuS: Quiet Diary Refinement
+   MuS: Botanical-Cosmic PaperMod Override
    ========================================= */
 
-:root {
-    --color-primary-lavender: #8b83f6;
-    --color-hover-accent: #7b74ee;
-    --color-border-soft: #e4e4e7;
-    --color-divider-top: rgba(139, 131, 246, 0.00);
-    --color-divider-mid: rgba(139, 131, 246, 0.16);
-    --color-text-primary: #3f3f46;
-    --color-text-muted: #71717a;
-    --color-link-underline: rgba(139, 131, 246, 0.22);
-    --color-surface-soft: rgba(139, 131, 246, 0.06);
-    --transition-soft: all 0.25s ease;
+:root,
+:root[data-theme="dark"] {
+    --bg-color: #FAF7F2;
+    --main-text: #352F36;
+    --orchid-accent: #6B4F5B;
+    --sage-fade: #9A8C98;
+
+    --theme: var(--bg-color);
+    --entry: rgba(255, 255, 255, 0.58);
+    --primary: var(--main-text);
+    --secondary: var(--sage-fade);
+    --tertiary: rgba(107, 79, 91, 0.14);
+    --content: var(--main-text);
+    --code-block-bg: #EFE7E2;
+    --code-bg: #F4EDE7;
+    --border: rgba(107, 79, 91, 0.2);
+    --radius: 10px;
+    --header-height: 72px;
+    color-scheme: light;
 }
 
-.dark {
-    --color-primary-lavender: #c4b5fd;
-    --color-hover-accent: #d2c5ff;
-    --color-border-soft: rgba(255, 255, 255, 0.12);
-    --color-divider-top: rgba(196, 181, 253, 0.00);
-    --color-divider-mid: rgba(196, 181, 253, 0.18);
-    --color-text-primary: #d4d4d8;
-    --color-text-muted: #b4b4be;
-    --color-link-underline: rgba(196, 181, 253, 0.26);
-    --color-surface-soft: rgba(196, 181, 253, 0.08);
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+.logo a,
+.menu a,
+.button,
+.post-title,
+.entry-header h1,
+.entry-header h2,
+.entry-header h3,
+.post-content,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.footer,
+.pagination a {
+    font-family: "Alice", Georgia, "Times New Roman", serif;
+}
+
+code,
+pre,
+kbd,
+samp {
+    font-family: Consolas, "Courier New", monospace;
 }
 
 body {
-    animation: fadeIn 0.45s ease-in-out;
+    color: var(--main-text);
+    background-color: var(--bg-color);
+    background-image:
+        radial-gradient(circle at top left, rgba(154, 140, 152, 0.14), transparent 34%),
+        radial-gradient(circle at 85% 8%, rgba(107, 79, 91, 0.08), transparent 26%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(250, 247, 242, 0.96) 100%);
+    line-height: 1.72;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(4px); }
-    to { opacity: 1; transform: translateY(0); }
+.main,
+.list,
+.post-single,
+.footer {
+    background: transparent;
 }
 
-.main {
-    padding-left: 2rem;
-    position: relative;
+.header {
+    background: rgba(250, 247, 242, 0.86);
+    border-bottom: 1px solid rgba(107, 79, 91, 0.12);
+    backdrop-filter: blur(10px);
 }
 
-.main::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background: linear-gradient(
-        to bottom,
-        var(--color-divider-top) 0%,
-        var(--color-divider-mid) 12%,
-        var(--color-divider-mid) 88%,
-        var(--color-divider-top) 100%
-    );
+.logo a {
+    color: var(--orchid-accent);
+    font-size: 1.32rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
 }
 
-.post-content {
-    max-width: 65ch;
-    line-height: 1.88;
-    color: var(--color-text-primary);
+.logo a:hover,
+.logo a:focus-visible {
+    color: var(--orchid-accent);
 }
 
-.post-content > * {
-    max-width: 65ch;
+.menu a,
+.button,
+#theme-toggle {
+    color: var(--main-text);
 }
 
-.post-title {
-    letter-spacing: 0.3px;
-    color: var(--color-text-primary);
+h1,
+h2,
+h3,
+.post-title,
+.page-header h1,
+.entry-header h1,
+.entry-header h2,
+.entry-header h3 {
+    color: var(--orchid-accent);
 }
 
-.post-meta,
+p,
+li,
+.post-content,
 .entry-content,
+.post-meta,
+.entry-footer,
 .profile_inner > span {
-    color: var(--color-text-muted);
+    color: var(--main-text);
 }
 
 a {
-    color: inherit;
-    text-decoration: underline;
-    text-decoration-color: var(--color-link-underline);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
-    transition: var(--transition-soft);
+    color: var(--orchid-accent);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+    transition: color 0.25s ease, border-bottom-style 0.25s ease, opacity 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-a:hover {
-    color: var(--color-hover-accent);
-    text-decoration-color: var(--color-hover-accent);
-    text-decoration-thickness: 2px;
+a:hover,
+a:focus-visible {
+    color: var(--orchid-accent);
+    border-bottom-style: solid;
 }
 
-.profile_inner img {
-    border: 2px solid var(--color-border-soft);
-    border-radius: 50%;
-    transition: var(--transition-soft);
+.logo a,
+.menu a,
+.button,
+.social-icons a,
+.entry-link,
+.post-tags a,
+.pagination a,
+#top-link,
+.footer a {
+    border-bottom: 0;
 }
 
-.profile_inner img:hover {
-    border-color: var(--color-link-underline);
-    transform: translateY(-2px);
+.profile_inner h1 {
+    font-size: clamp(2.4rem, 5vw, 3.4rem);
+    letter-spacing: 0.04em;
 }
 
-.button {
-    border-radius: 999px;
-    border: 1px solid var(--color-border-soft);
+.profile_inner > span {
+    color: var(--sage-fade);
+}
+
+.social-icons a {
+    color: var(--orchid-accent);
+    opacity: 0.84;
+}
+
+.social-icons a:hover,
+.social-icons a:focus-visible {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.post-entry,
+.first-entry {
     background: transparent;
-    transition: var(--transition-soft);
+    border: 1px solid rgba(107, 79, 91, 0.12);
+    box-shadow: none;
 }
 
-.button:hover {
-    border-color: var(--color-link-underline);
-    color: var(--color-hover-accent);
-    background: var(--color-surface-soft);
-    transform: scale(1.02);
+.post-entry:hover,
+.post-entry:focus-within {
+    transform: scale(1.01);
+    box-shadow: 0 16px 34px rgba(107, 79, 91, 0.08);
+    border-color: rgba(107, 79, 91, 0.2);
 }
 
-.post-content h2,
-.post-content h3,
-.post-content h4 {
-    color: var(--color-text-primary);
-    letter-spacing: 0.01em;
+.entry-header h2 {
+    line-height: 1.35;
 }
 
-.post-content h2 {
-    margin-top: 3rem;
-    margin-bottom: 1.25rem;
+.entry-content p,
+.entry-footer,
+.post-meta {
+    color: var(--sage-fade);
 }
 
-.post-content h3,
-.post-content h4 {
-    margin-top: 2.4rem;
-    margin-bottom: 1rem;
-}
-
-.post-content strong {
-    color: var(--color-hover-accent);
-    font-weight: 600;
-}
-
-.post-content em {
-    color: var(--color-text-muted);
-    font-style: italic;
-}
-
-.post-content blockquote {
-    margin: 2rem 0;
-    padding: 1rem 1.25rem;
-    border-left: 3px solid var(--color-primary-lavender);
-    border-radius: 0 14px 14px 0;
-    background: linear-gradient(
-        180deg,
-        rgba(139, 131, 246, 0.08) 0%,
-        rgba(139, 131, 246, 0.04) 100%
-    );
-    color: var(--color-text-muted);
-    font-style: italic;
-}
-
-.post-content blockquote p:last-child {
-    margin-bottom: 0;
+.post-content a,
+.entry-content a,
+.page-header a,
+.footer a {
+    color: var(--orchid-accent);
 }
 
 .post-content hr {
-    height: 1px;
-    margin: 2.5rem 0;
-    background: linear-gradient(
-        to right,
-        transparent 0%,
-        var(--color-link-underline) 18%,
-        var(--color-link-underline) 82%,
-        transparent 100%
-    );
-    border: 0;
+    display: none;
 }
 
-.post-content mark {
-    padding: 0.1rem 0.35rem;
-    border-radius: 999px;
-    background: rgba(139, 131, 246, 0.14);
-    color: var(--color-text-primary);
+.mus-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    margin: 3rem auto;
+    color: var(--orchid-accent);
+    opacity: 0.4;
+}
+
+.mus-divider::before,
+.mus-divider::after {
+    content: "";
+    width: min(72px, 14vw);
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(107, 79, 91, 0.4) 50%,
+        transparent 100%
+    );
+}
+
+.mus-divider svg,
+.footer-symbol svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.65rem;
+    color: var(--sage-fade);
+    border-top: 1px solid rgba(107, 79, 91, 0.12);
+    padding-bottom: 2rem;
+}
+
+.footer-symbol {
+    display: flex;
+    justify-content: center;
+    color: var(--orchid-accent);
+    opacity: 0.4;
+}
+
+.footer-meta {
+    text-align: center;
+    line-height: 1.7;
+}
+
+.footer-meta span {
+    display: inline-block;
+}
+
+.post-content blockquote {
+    border-inline-start: 2px solid rgba(107, 79, 91, 0.34);
+    background: rgba(255, 255, 255, 0.45);
+    color: var(--sage-fade);
 }
 
 .post-content code {
-    border: 1px solid rgba(139, 131, 246, 0.14);
-    color: var(--color-hover-accent);
+    color: var(--orchid-accent);
+    background: rgba(107, 79, 91, 0.08);
 }
 
-.dark .post-content strong {
-    color: var(--color-primary-lavender);
+#top-link {
+    background: rgba(107, 79, 91, 0.92);
+    color: var(--bg-color);
 }
 
-.dark .post-content em {
-    color: var(--color-text-muted);
-}
-
-.dark .post-content blockquote {
-    border-left-color: var(--color-primary-lavender);
-    background: linear-gradient(
-        180deg,
-        rgba(196, 181, 253, 0.10) 0%,
-        rgba(196, 181, 253, 0.05) 100%
-    );
-}
-
-.dark .post-content mark {
-    background: rgba(196, 181, 253, 0.18);
-    color: var(--color-text-primary);
-}
-
-.dark .post-content code {
-    border-color: rgba(196, 181, 253, 0.22);
-    color: var(--color-primary-lavender);
-}
-
-@media (max-width: 767px) {
-    .main {
-        padding-left: 0;
+@media (max-width: 768px) {
+    .header {
+        padding-top: 0.6rem;
+        padding-bottom: 0.85rem;
     }
 
-    .main::before {
-        display: none;
+    .header-nav {
+        align-items: center;
     }
+
+    .logo a {
+        font-size: 1.42rem;
+        letter-spacing: 0.14em;
+    }
+
+    .profile .buttons {
+        gap: 0.8rem;
+    }
+
+    .profile .buttons .button {
+        background: transparent;
+        border: 1px solid var(--orchid-accent);
+        border-radius: 4px;
+        color: var(--orchid-accent);
+        box-shadow: none;
+        padding: 0.65rem 1rem;
+        font-family: "Alice", Georgia, "Times New Roman", serif;
+        letter-spacing: 0.04em;
+    }
+
+    .profile .buttons .button:hover,
+    .profile .buttons .button:focus-visible {
+        background: rgba(107, 79, 91, 0.06);
+        transform: translateY(-1px);
+    }
+
+    .post-entry {
+        padding: 1.1rem;
+    }
+
+    .entry-content p {
+        color: var(--sage-fade);
+        line-height: 1.9;
+    }
+
+    .entry-header h2 {
+        line-height: 1.5;
+    }
+}
+
+/* --- DARK MODE FIX --- */
+/* Saat mode gelap aktif, kita ganti isi variabel warnanya */
+:root[data-theme="dark"] {
+    --bg-color: #1A1618; /* Hitam dengan rona ungu tua/plum, elegan banget */
+    --main-text: #EAE5E3; /* Off-white / krem terang biar mata nggak capek */
+    --orchid-accent: #B890A2; /* Withered Orchid tapi versi lebih terang biar kebaca di background gelap */
+    --sage-fade: #80757C; /* Abu-abu sage untuk dark mode */
+}
+
+/* Memaksa PaperMod untuk nurut sama warna kita di dark mode */
+[data-theme="dark"] body {
+    background-color: var(--bg-color) !important;
+    color: var(--main-text) !important;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Biar transisinya mulus pas tombol diklik */
+}
+
+/* Pastikan header dan elemen lain nggak nyangkut di warna lama */
+[data-theme="dark"] .header, [data-theme="dark"] .header .logo a, [data-theme="dark"] a {
+    color: var(--main-text);
+}
+
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3 {
+    color: var(--orchid-accent);
+}
+
+/* Pastikan kartu postingan tetep cakep di mode gelap */
+[data-theme="dark"] .post-entry {
+    background: rgba(0, 0, 0, 0.2); /* Bikin kartunya agak gelap transparan */
+}
+
+[data-theme="dark"] .post-entry:hover {
+    box-shadow: 0 10px 20px rgba(184, 144, 162, 0.1); /* Glow efek ngikutin accent terang */
+}
+
+/* --- FIX HEADER MAIN PETAK UMPET DI DARK MODE --- */
+
+/* Maksa tulisan "MuS" dan ikon tombol buat ganti warna */
+[data-theme="dark"] .logo a,
+[data-theme="dark"] #theme-toggle {
+    color: var(--main-text) !important;
+}
+
+/* Maksa bentuk SVG matahari/bulannya ngikutin warna terang */
+[data-theme="dark"] #theme-toggle svg {
+    color: var(--main-text) !important;
+    fill: var(--main-text) !important; /* Kadang PaperMod butuh ini biar full terang */
+}
+
+[data-theme="dark"] .header {
+    border-bottom: 1px solid rgba(234, 229, 227, 0.1) !important; /* Pake warna terang tapi transparan */
 }

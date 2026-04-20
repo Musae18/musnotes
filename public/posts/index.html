@@ -10,7 +10,7 @@
 <meta name="description" content="Kumpulan draf pemikiran">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.d2da4406d6333245f294f9afd867a81ef54216c7c83c56f7558a5f72fc3e31b0.css" integrity="sha256-0tpEBtYzMkXylPmv2GeoHvVCFsfIPFb3VYpfcvw&#43;MbA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.01cb47e113235674a56f4a50b30228a16467d2d3228072419f1ed8e3954069f1.css" integrity="sha256-ActH4RMjVnSlb0pQswIooWRn0tMigHJBnx7Y45VAafE=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -65,7 +65,10 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/posts/">
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<meta property="og:url" content="http://localhost:1313/posts/">
   <meta property="og:site_name" content="MuS">
   <meta property="og:title" content="Catatan Keraguan">
   <meta property="og:description" content="Kumpulan draf pemikiran">
@@ -140,23 +143,38 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Aku pernah menulis di caption bahwa “saya lebih banyak bingung daripada tahu”. Sekarang, kebetulan aku benar-benar bingung ingin menulis apa untuk konten pertama.
-Teman imajinerku memberi saran. “Nulis tentang kepastian saja.” Baiklah. Aku mengikuti sarannya, kita bahas tentang kepastian tanpa kepastian😆. Apa yang pasti di alam semesta? Aku mungkin akan menjawab pertanyaan itu dengan senyum tipis😏, lalu berkata, “Mungkin yang pasti di alam semesta adalah persepsi kita terhadap materi yang ada di ruang dan waktu.” Jawaban yang aneh, kan? Aku bisa mencoba menjelaskannya. Tapi sebelum itu, ada satu hal yang mengganggu. Siapa yang mengajukan pertanyaan itu?☠️ Oh iya. Diriku sendiri.
+    <p>Aku pernah menulis di caption bahwa “lebih sering bingung daripada tahu.”
+Sekarang, kebetulan aku benar-benar bingung ingin menulis apa untuk konten pertama.
+Teman imajinerku memberi saran.
+“Nulis tentang kepastian saja.”
+Baiklah. Kita bahas tentang kepastian tanpa kepastian 😆
+Apa yang pasti di alam semesta?
+Aku mungkin akan menjawab pertanyaan itu dengan senyum tipis 😏 lalu berkata,
+“Mungkin yang pasti di alam semesta adalah persepsi kita terhadap materi yang ada di ruang dan waktu.”
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-19 00:00:00 +0000 UTC'>April 19, 2026</span>&nbsp;·&nbsp;<span>3 menit</span></footer>
+  <footer class="entry-footer"><span title='2026-04-19 00:00:00 +0000 UTC'>April 19, 2026</span>&nbsp;·&nbsp;<span>2 menit</span></footer>
   <a class="entry-link" aria-label="post link to Membahas Kepastian Tanpa Kepastian" href="http://localhost:1313/posts/kepastian/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">MuS</a></span> · 
+    <div class="footer-symbol" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+    <div class="footer-meta">
+            <span>&copy; 2026 <a href="http://localhost:1313/">MuS</a></span><span>&middot;</span>
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+        <span>
+            Powered by
+            <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>
+            &amp;
+            <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        </span>
+    </div>
 </footer>
 <a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -169,12 +187,11 @@ Teman imajinerku memberi saran. “Nulis tentang kepastian saja.” Baiklah. Aku
 <script>
     let menu = document.getElementById('menu');
     if (menu) {
-        
         const scrollPosition = localStorage.getItem("menu-scroll-position");
         if (scrollPosition) {
             menu.scrollLeft = parseInt(scrollPosition, 10);
         }
-        
+
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
