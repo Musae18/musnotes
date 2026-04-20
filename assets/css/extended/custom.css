@@ -23,10 +23,10 @@
 }
 
 :root[data-theme="dark"] {
-    --bg-color: #1E1A20;
-    --main-text: #EFE6EA;
-    --orchid-accent: #D2B7C4;
-    --sage-fade: #B7AAB3;
+    --bg-color: #1A1618;
+    --main-text: #EAE5E3;
+    --orchid-accent: #B890A2;
+    --sage-fade: #80757C;
 
     --theme: var(--bg-color);
     --entry: rgba(255, 255, 255, 0.04);
@@ -435,19 +435,13 @@ a:focus-visible {
 }
 
 /* --- DARK MODE FIX --- */
-/* Saat mode gelap aktif, kita ganti isi variabel warnanya */
-:root[data-theme="dark"] {
-    --bg-color: #1A1618; /* Hitam dengan rona ungu tua/plum, elegan banget */
-    --main-text: #EAE5E3; /* Off-white / krem terang biar mata nggak capek */
-    --orchid-accent: #B890A2; /* Withered Orchid tapi versi lebih terang biar kebaca di background gelap */
-    --sage-fade: #80757C; /* Abu-abu sage untuk dark mode */
-}
+/* Styling tambahan untuk memastikan semua elemen nurut di dark mode */
 
 /* Memaksa PaperMod untuk nurut sama warna kita di dark mode */
 [data-theme="dark"] body {
     background-color: var(--bg-color) !important;
     color: var(--main-text) !important;
-    transition: background-color 0.4s ease, color 0.4s ease; /* Biar transisinya mulus pas tombol diklik */
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 /* Pastikan header dan elemen lain nggak nyangkut di warna lama */
@@ -461,27 +455,63 @@ a:focus-visible {
 
 /* Pastikan kartu postingan tetep cakep di mode gelap */
 [data-theme="dark"] .post-entry {
-    background: rgba(0, 0, 0, 0.2); /* Bikin kartunya agak gelap transparan */
+    background: rgba(0, 0, 0, 0.2);
 }
 
 [data-theme="dark"] .post-entry:hover {
-    box-shadow: 0 10px 20px rgba(184, 144, 162, 0.1); /* Glow efek ngikutin accent terang */
+    box-shadow: 0 10px 20px rgba(184, 144, 162, 0.1);
 }
 
-/* --- FIX HEADER MAIN PETAK UMPET DI DARK MODE --- */
-
-/* Maksa tulisan "MuS" dan ikon tombol buat ganti warna */
-[data-theme="dark"] .logo a,
-[data-theme="dark"] #theme-toggle {
-    color: var(--main-text) !important;
+/* --- DARK MODE REFINEMENTS --- */
+[data-theme="dark"] {
+    /* Remove gradients and set solid background */
+    background: #19171C !important;
+    background-image: none !important;
 }
 
-/* Maksa bentuk SVG matahari/bulannya ngikutin warna terang */
-[data-theme="dark"] #theme-toggle svg {
-    color: var(--main-text) !important;
-    fill: var(--main-text) !important; /* Kadang PaperMod butuh ini biar full terang */
+[data-theme="dark"] body {
+    background-color: #19171C !important;
+    color: #E8E3E6 !important; /* Main text color */
+    line-height: 1.75; /* Slightly increased line-height */
 }
 
 [data-theme="dark"] .header {
-    border-bottom: 1px solid rgba(234, 229, 227, 0.1) !important; /* Pake warna terang tapi transparan */
+    background-color: #1E1A22 !important; /* Header background */
+    border-bottom: 1px solid rgba(143, 108, 124, 0.25); /* Subtle bottom border */
+}
+
+[data-theme="dark"] .post-entry {
+    background-color: #232028; /* Card background */
+    box-shadow: none; /* Remove existing shadows */
+    transition: all 0.25s ease;
+}
+
+[data-theme="dark"] .post-entry:hover {
+    box-shadow: 0 8px 24px rgba(143, 108, 124, 0.12); /* Subtle lift and glow */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+[data-theme="dark"] .post-meta,
+[data-theme="dark"] .entry-footer,
+[data-theme="dark"] .breadcrumbs {
+    color: #B7AEB6; /* Secondary text color */
+}
+
+[data-theme="dark"] a {
+    color: #8F6C7C; /* Accent color */
+}
+
+[data-theme="dark"] a:hover {
+    color: #8F6C7C; /* Keep hover consistent */
+}
+
+[data-theme="dark"] blockquote {
+    border-left: 4px solid #8F6C7C; /* Left border */
+    color: #E8E3E6; /* Slightly brighter text */
+    font-style: italic; /* Italic font-style */
+}
+
+[data-theme="dark"] ::selection {
+    background: rgba(143, 108, 124, 0.35); /* Text selection background */
+    color: #ffffff; /* Text selection color */
 }
