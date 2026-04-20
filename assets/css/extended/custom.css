@@ -23,20 +23,21 @@
 }
 
 :root[data-theme="dark"] {
-    --bg-color: #1A1618;
-    --main-text: #EAE5E3;
-    --orchid-accent: #B890A2;
-    --sage-fade: #80757C;
+    --bg-color: #161417; /* Deep background for better contrast */
+    --main-text: #F2F0F1; /* Comfortable off-white for text */
+    --orchid-accent: #D6A8BC; /* Brighter accent color */
+    --sage-fade: #A397A0; /* Softer secondary color */
 
     --theme: var(--bg-color);
-    --entry: rgba(255, 255, 255, 0.04);
+    --entry: #1E1B20; /* Card background */
     --primary: var(--main-text);
     --secondary: var(--sage-fade);
-    --tertiary: rgba(210, 183, 196, 0.12);
+    --tertiary: rgba(214, 168, 188, 0.15);
     --content: var(--main-text);
-    --code-block-bg: #2A232C;
+    --code-block-bg: #252028; /* Code block background */
     --code-bg: #261F28;
-    --border: rgba(210, 183, 196, 0.18);
+    --border: rgba(214, 168, 188, 0.2); /* Subtle border */
+
     color-scheme: dark;
 }
 
@@ -157,8 +158,10 @@ a {
 
 a:hover,
 a:focus-visible {
-    color: var(--orchid-accent);
-    border-bottom-style: solid;
+    color: var(--orchid-accent) !important; /* Ensure visibility */
+    border-bottom: 2px solid var(--orchid-accent); /* Add underline for emphasis */
+    opacity: 1; /* Ensure full visibility */
+    transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .logo a,
@@ -462,56 +465,136 @@ a:focus-visible {
     box-shadow: 0 10px 20px rgba(184, 144, 162, 0.1);
 }
 
-/* --- DARK MODE REFINEMENTS --- */
-[data-theme="dark"] {
-    /* Remove gradients and set solid background */
-    background: #19171C !important;
-    background-image: none !important;
+/* --- DARK MODE REFACTOR --- */
+:root[data-theme="dark"] {
+    --bg-color: #161417; /* Deep background for better contrast */
+    --main-text: #F2F0F1; /* Comfortable off-white for text */
+    --orchid-accent: #D6A8BC; /* Brighter accent color */
+    --sage-fade: #A397A0; /* Softer secondary color */
+
+    --theme: var(--bg-color);
+    --entry: #1E1B20; /* Card background */
+    --primary: var(--main-text);
+    --secondary: var(--sage-fade);
+    --tertiary: rgba(214, 168, 188, 0.15);
+    --content: var(--main-text);
+    --code-block-bg: #252028; /* Code block background */
+    --border: rgba(214, 168, 188, 0.2); /* Subtle border */
+
+    color-scheme: dark;
 }
 
 [data-theme="dark"] body {
-    background-color: #19171C !important;
-    color: #E8E3E6 !important; /* Main text color */
-    line-height: 1.75; /* Slightly increased line-height */
+    background-image: none !important; /* Disable gradients */
+    background-color: var(--bg-color) !important;
+    color: var(--main-text) !important;
 }
 
-[data-theme="dark"] .header {
-    background-color: #1E1A22 !important; /* Header background */
-    border-bottom: 1px solid rgba(143, 108, 124, 0.25); /* Subtle bottom border */
+[data-theme="dark"] .post-content, 
+[data-theme="dark"] .post-content p, 
+[data-theme="dark"] .post-content li {
+    color: var(--main-text) !important;
+    opacity: 1 !important; /* Ensure full opacity */
 }
 
-[data-theme="dark"] .post-entry {
-    background-color: #232028; /* Card background */
-    box-shadow: none; /* Remove existing shadows */
+[data-theme="dark"] .mus-divider::before,
+[data-theme="dark"] .mus-divider::after {
+    background: linear-gradient(90deg, transparent, var(--orchid-accent), transparent);
+}
+
+/* --- START HOVER EFFECT FIXES --- */
+
+/* Base link hover (in-content links only) */
+article a:hover,
+.post-content a:hover {
+    color: var(--orchid-accent);
+    border-bottom: 2px dotted var(--orchid-accent);
     transition: all 0.25s ease;
 }
 
-[data-theme="dark"] .post-entry:hover {
-    box-shadow: 0 8px 24px rgba(143, 108, 124, 0.12); /* Subtle lift and glow */
-    transform: translateY(-2px); /* Lift effect */
+/* Menu hover with animated underline */
+.menu a {
+    position: relative;
+    transition: color 0.25s ease;
 }
 
-[data-theme="dark"] .post-meta,
-[data-theme="dark"] .entry-footer,
-[data-theme="dark"] .breadcrumbs {
-    color: #B7AEB6; /* Secondary text color */
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--orchid-accent);
+    transition: width 0.25s ease;
 }
 
-[data-theme="dark"] a {
-    color: #8F6C7C; /* Accent color */
+.menu a:hover {
+    color: var(--orchid-accent);
 }
 
-[data-theme="dark"] a:hover {
-    color: #8F6C7C; /* Keep hover consistent */
+.menu a:hover::after {
+    width: 100%;
 }
 
-[data-theme="dark"] blockquote {
-    border-left: 4px solid #8F6C7C; /* Left border */
-    color: #E8E3E6; /* Slightly brighter text */
-    font-style: italic; /* Italic font-style */
+/* Post entry hover effects */
+.post-entry {
+    transition: all 0.25s ease;
 }
 
-[data-theme="dark"] ::selection {
-    background: rgba(143, 108, 124, 0.35); /* Text selection background */
-    color: #ffffff; /* Text selection color */
+/* Light mode post entry hover */
+.post-entry:hover {
+    background-color: #F3EAF0; /* Slightly more orchid-ish */
+    box-shadow: 0 12px 28px rgba(107, 79, 91, 0.18);
+    transform: translateY(-3px);
 }
+
+/* Dark mode post entry hover */
+:root[data-theme="dark"] .post-entry:hover {
+    background-color: #2A242E;
+    box-shadow: 0 12px 28px rgba(143, 108, 124, 0.18);
+}
+
+/* --- END HOVER EFFECT FIXES --- */
+
+/* --- START BUTTON AND LOGO HOVER FIXES --- */
+
+/* Light/Dark mode toggle button hover */
+#theme-toggle {
+    transition: all 0.25s ease;
+    border-radius: 999px;
+    padding: 6px 10px;
+}
+
+#theme-toggle:hover {
+    background-color: var(--orchid-accent);
+    color: #FFFFFF !important;
+    box-shadow: 0 0 0 3px rgba(107, 79, 91, 0.15);
+    transform: translateY(-1px);
+}
+
+/* Logo hover effect for both light and dark modes */
+.logo a {
+    transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.logo a:hover {
+    color: var(--orchid-accent);
+    transform: scale(1.05);
+}
+
+/* --- END BUTTON AND LOGO HOVER FIXES --- */
+
+/* --- START DASHBOARD IMAGE FIXES --- */
+
+/* Dashboard image hover effect */
+.profile_inner img {
+    transition: border 0.25s ease, transform 0.25s ease;
+}
+
+.profile_inner img:hover {
+    border: 2px solid var(--orchid-accent);
+    transform: scale(1.05);
+}
+
+/* --- END DASHBOARD IMAGE FIXES --- */
