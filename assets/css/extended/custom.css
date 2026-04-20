@@ -2,8 +2,7 @@
    MuS: Botanical-Cosmic PaperMod Override
    ========================================= */
 
-:root,
-:root[data-theme="dark"] {
+:root {
     --bg-color: #FAF7F2;
     --main-text: #352F36;
     --orchid-accent: #6B4F5B;
@@ -21,6 +20,24 @@
     --radius: 10px;
     --header-height: 72px;
     color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+    --bg-color: #1E1A20;
+    --main-text: #EFE6EA;
+    --orchid-accent: #D2B7C4;
+    --sage-fade: #B7AAB3;
+
+    --theme: var(--bg-color);
+    --entry: rgba(255, 255, 255, 0.04);
+    --primary: var(--main-text);
+    --secondary: var(--sage-fade);
+    --tertiary: rgba(210, 183, 196, 0.12);
+    --content: var(--main-text);
+    --code-block-bg: #2A232C;
+    --code-bg: #261F28;
+    --border: rgba(210, 183, 196, 0.18);
+    color-scheme: dark;
 }
 
 html {
@@ -81,11 +98,22 @@ body {
     backdrop-filter: blur(10px);
 }
 
+:root[data-theme="dark"] .header {
+    background: rgba(30, 26, 32, 0.92);
+    border-bottom-color: rgba(210, 183, 196, 0.12);
+}
+
 .logo a {
     color: var(--orchid-accent);
     font-size: 1.32rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+}
+
+:root[data-theme="dark"] .logo a,
+:root[data-theme="dark"] .menu a,
+:root[data-theme="dark"] #theme-toggle {
+    color: var(--main-text);
 }
 
 .logo a:hover,
@@ -200,6 +228,25 @@ a:focus-visible {
     display: none;
 }
 
+.post-content,
+.post-content p,
+.post-content li,
+.post-content blockquote,
+.post-content blockquote p,
+.post-content strong,
+.post-content em {
+    color: var(--content);
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    color: var(--orchid-accent);
+}
+
 .mus-divider {
     display: flex;
     align-items: center;
@@ -260,6 +307,71 @@ a:focus-visible {
     border-inline-start: 2px solid rgba(107, 79, 91, 0.34);
     background: rgba(255, 255, 255, 0.45);
     color: var(--sage-fade);
+}
+
+:root[data-theme="dark"] .post-entry,
+:root[data-theme="dark"] .first-entry {
+    border-color: rgba(210, 183, 196, 0.14);
+}
+
+:root[data-theme="dark"] .post-entry:hover,
+:root[data-theme="dark"] .post-entry:focus-within {
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
+    border-color: rgba(210, 183, 196, 0.24);
+}
+
+:root[data-theme="dark"] .entry-content p,
+:root[data-theme="dark"] .entry-footer,
+:root[data-theme="dark"] .post-meta,
+:root[data-theme="dark"] .profile_inner > span,
+:root[data-theme="dark"] .footer {
+    color: var(--sage-fade);
+}
+
+:root[data-theme="dark"] .post-content blockquote {
+    border-inline-start-color: rgba(210, 183, 196, 0.42);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--main-text);
+}
+
+:root[data-theme="dark"] .post-content code {
+    color: #F3D9E5;
+    background: rgba(210, 183, 196, 0.12);
+}
+
+:root[data-theme="dark"] .post-single,
+:root[data-theme="dark"] .post-single .post-header,
+:root[data-theme="dark"] .post-single .post-content,
+:root[data-theme="dark"] .post-single .post-content p,
+:root[data-theme="dark"] .post-single .post-content li,
+:root[data-theme="dark"] .post-single .post-content ul,
+:root[data-theme="dark"] .post-single .post-content ol,
+:root[data-theme="dark"] .post-single .post-content strong,
+:root[data-theme="dark"] .post-single .post-content em,
+:root[data-theme="dark"] .post-single .post-content blockquote p {
+    color: var(--main-text) !important;
+}
+
+:root[data-theme="dark"] .post-single .post-title,
+:root[data-theme="dark"] .post-single .post-content h1,
+:root[data-theme="dark"] .post-single .post-content h2,
+:root[data-theme="dark"] .post-single .post-content h3,
+:root[data-theme="dark"] .post-single .post-content h4,
+:root[data-theme="dark"] .post-single .post-content h5,
+:root[data-theme="dark"] .post-single .post-content h6 {
+    color: var(--orchid-accent) !important;
+}
+
+:root[data-theme="dark"] .post-single .post-content a,
+:root[data-theme="dark"] .post-single .post-content a:visited {
+    color: #E6CBD8 !important;
+    border-bottom-color: currentColor;
+}
+
+:root[data-theme="dark"] .post-single .post-meta,
+:root[data-theme="dark"] .post-single .breadcrumbs,
+:root[data-theme="dark"] .post-single .post-footer {
+    color: var(--sage-fade) !important;
 }
 
 .post-content code {

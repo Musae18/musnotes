@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://musnotess.vercel.app/posts/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kepastian/</loc>
+    <loc>https://musnotess.vercel.app/posts/kepastian/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://musnotess.vercel.app/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://musnotess.vercel.app/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://musnotess.vercel.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://musnotess.vercel.app/tags/</loc>
   </url>
 </urlset>
