@@ -1,13 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Catatan Keraguan on MuS</title>
+    <title>musnotes on MuS</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Catatan Keraguan on MuS</description>
+    <description>Recent content in musnotes on MuS</description>
     <generator>Hugo</generator>
     <language>id</language>
-    <lastBuildDate>Tue, 21 Apr 2026 01:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 01:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identitas dan Noise dari Persepsi Orang Lain</title>
+      <link>http://localhost:1313/posts/noiseidentitas/</link>
+      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/noiseidentitas/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Di artikel sebelumnya, aku membahas bahwa &lt;a href=&#34;https://musae18.github.io/musnotes/posts/identitas/&#34;&gt;identitas&lt;/a&gt; adalah proses biologis dan kognitif yang terus bergerak, yang membentuk asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?&lt;/p&gt;
+&lt;p&gt;Untuk memahami ini, kita bisa melihat bagaimana identitas diverifikasi. Dalam kehidupan sehari-hari, identitas sering direduksi menjadi data: nama, tempat lahir, status, atau pekerjaan. Seolah-olah dengan informasi itu, seseorang bisa “dipahami”.&lt;/p&gt;
+&lt;p&gt;Hal yang serupa juga terjadi dalam biologi. Untuk mengidentifikasi suatu organisme, diperlukan berbagai indikator: morfologi, anatomi, fisiologi, hingga molekuler. Proses ini kompleks, bahkan taksonomi sering dianggap sebagai salah satu wilayah paling “abu-abu” dalam biologi.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>Di artikel sebelumnya, aku membahas bahwa <a href="https://musae18.github.io/musnotes/posts/identitas/">identitas</a> adalah proses biologis dan kognitif yang terus bergerak, yang membentuk asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?</p>
+<p>Untuk memahami ini, kita bisa melihat bagaimana identitas diverifikasi. Dalam kehidupan sehari-hari, identitas sering direduksi menjadi data: nama, tempat lahir, status, atau pekerjaan. Seolah-olah dengan informasi itu, seseorang bisa “dipahami”.</p>
+<p>Hal yang serupa juga terjadi dalam biologi. Untuk mengidentifikasi suatu organisme, diperlukan berbagai indikator: morfologi, anatomi, fisiologi, hingga molekuler. Proses ini kompleks, bahkan taksonomi sering dianggap sebagai salah satu wilayah paling “abu-abu” dalam biologi.</p>
+<p>Namun, ada satu pertanyaan sederhana: apakah organisme yang diidentifikasi itu sendiri peduli terhadap identitasnya yang rumit?</p>
+<p>Jawabannya tidak.</p>
+<p>Kecuali organisme itu sendiri yang mengidentifikasi dirinya sendiri, seperti <em>Homo sapiens</em>.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Pemikiran ini mengingatkanku pada sebuah bait dari buku yang ditulis Sapardi Djoko Damono dan Rintik Sedu :</p>
+<blockquote>
+<p>“siapa gerangan yang sudi mendengarkan kita bernyanyi<br>
+kecuali nyanyian itu sendiri?”<br>
+— Sapardi Djoko Damono &amp; Rintik Sedu, <em>Masih Ingatkah Kau Jalan Pulang</em></p>
+</blockquote>
+<p>Tentu, bait ini bisa ditafsirkan dengan banyak cara. Namun, bagiku, “nyanyian” adalah representasi dari pengalaman subjektif: emosi, ingatan, dan makna yang hanya bisa sepenuhnya dipahami oleh individu itu sendiri.</p>
+<p>Bernyanyi adalah upaya untuk mengekspresikan pengalaman itu keluar.</p>
+<p>Namun, apakah orang lain benar-benar “mendengarkan”?
+Atau mereka hanya merasa mendengarkan?</p>
+<p>Mungkin, ketika seseorang menerima ekspresi kita, yang mereka pahami bukanlah pengalaman kita yang sebenarnya, melainkan interpretasi mereka sendiri. Sebuah model mental yang mereka bentuk berdasarkan persepsi mereka.</p>
+<p>Jika begitu, maka pemahaman antar individu bukanlah proses transfer makna, melainkan proses konstruksi makna.</p>
+<p>Dan di titik ini, pertanyaannya berubah:</p>
+<p>apakah seseorang benar-benar bisa memahami diri kita,
+atau mereka hanya memahami versi kita yang ada di dalam pikiran mereka?</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Ketidakmampuan orang lain untuk benar-benar “mendengar” nyanyian kita sering kali berujung pada satu hal: pemberian label. Label adalah cara termudah bagi orang lain untuk mengakhiri kerumitan tafsir. Namun, di saat yang sama, kita pun sering terjebak dalam keletihan yang sama.</p>
+<p>Aku teringat bagian lain dalam buku yang sama seperti kutipan tadi, tentang bagaimana sebuah tanda ditakdirkan sebagai tafsir atas dirinya sendiri. Dan saat lelah menafsirkan, ia tidak lagi peduli dengan tafsirnya sendiri.</p>
+<p>Bukankah kita juga begitu? Sebuah tanda yang tidak pernah selesai menafsirkan diri sendiri?</p>
+<p>Pertanyaan besarnya: jika kita sendiri adalah tanda yang tidak pernah selesai menafsirkan diri, bagaimana mungkin kita menuntut orang lain untuk memiliki tafsir yang “benar” tentang kita?</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Mungkin, identitas memang bukan untuk sepenuhnya dipahami orang lain. Ia seperti <em>silent music</em> yang frekuensinya paling pas di telinga kita sendiri. Orang lain mungkin hanya menangkapnya sebagai suara yang terdistorsi, lalu menamainya dengan label-label tertentu. Label itu tetaplah noise terhadap pengalaman subjektif kita. Namun, seperti setiap gangguan sinyal, sebagian dari noise itu bisa saja kita serap, kita tafsirkan ulang, lalu perlahan menjadi bagian dari komposisi yang kita dengar sebagai “aku”.☠️</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Identitas: Organisme yang Hidup di Balik Gray Matter</title>
       <link>http://localhost:1313/posts/identitas/</link>
