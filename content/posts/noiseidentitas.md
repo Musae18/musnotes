@@ -3,7 +3,7 @@
 title: "Identitas dan Noise dari Persepsi Orang Lain"
 date: 2026-04-22T01:00:00+07:00
 draft: false
-------------
+---
 
 Di artikel sebelumnya, aku membahas bahwa [identitas](https://musae18.github.io/musnotes/posts/identitas/) adalah proses biologis dan kognitif yang terus bergerak, yang membentuk asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?
 
@@ -53,4 +53,4 @@ Pertanyaan besarnya: jika kita sendiri adalah tanda yang tidak pernah selesai me
 
 {{< mus-divider >}}
 
-Mungkin, identitas memang bukan untuk sepenuhnya dipahami orang lain. Ia seperti *silent music* yang frekuensinya paling pas di telinga kita sendiri. Orang lain mungkin hanya menangkapnya sebagai suara yang terdistorsi, lalu menamainya dengan label-label tertentu. Label itu tetaplah noise terhadap pengalaman subjektif kita. Namun, seperti setiap gangguan sinyal, sebagian dari noise itu bisa saja kita serap, kita tafsirkan ulang, lalu perlahan menjadi bagian dari komposisi yang kita dengar sebagai “aku”.☠️
+Mungkin, identitas memang bukan untuk sepenuhnya dipahami orang lain. Ia seperti *silent music* yang frekuensinya paling pas di telinga kita sendiri. Orang lain mungkin hanya menangkapnya sebagai suara yang terdistorsi, lalu menamainya dengan label-label tertentu. Label itu tetaplah noise terhadap pengalaman subjektif kita. Namun, seperti setiap gangguan sinyal, sebagian dari noise itu bisa saja kita serap, kita tafsirkan ulang, lalu perlahan menjadi bagian dari komposisi yang kita dengar sebagai “aku”.☠️☠️
