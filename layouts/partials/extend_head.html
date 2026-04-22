@@ -19,7 +19,7 @@
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {{ end }}
 
-{{ if not .Site.IsServer }}
+{{ if hugo.IsProduction }}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY5BLRBK9P"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
