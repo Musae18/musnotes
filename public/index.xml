@@ -17,9 +17,11 @@
       <content:encoded><![CDATA[<hr>
 <blockquote>
 <p>Di sebuah pemakaman di Wina, pada nisan Ludwig Boltzmann, terukir sebuah persamaan sederhana:</p>
-<p>$$S = k_{B} \ln \Omega$$</p>
-<p>Persamaan ini menghubungkan entropi ($S$) dengan $\Omega$, jumlah kemungkinan keadaan yang dapat ditempati oleh suatu sistem. Semakin banyak kemungkinan yang tersedia, semakin tinggi entropinya.</p>
+<p>\begin{equation}
+S = k_{\mathrm{B}} ,, \ln ,, \Omega
+\end{equation}</p>
 </blockquote>
+<p>Persamaan ini menghubungkan entropi ($S$) dengan $\Omega$, jumlah kemungkinan keadaan yang dapat ditempati oleh suatu sistem. Semakin banyak kemungkinan yang tersedia, semakin tinggi entropinya.</p>
 <p>Jika identitas kita dipandang sebagai sebuah sistem, maka $\Omega$ dapat dibayangkan sebagai versi-versi diri yang belum terjadi. Label statis bekerja dengan cara memperkecil $\Omega$, mereduksi banyak kemungkinan menjadi satu bentuk yang tetap.</p>
 <p>Saat kita menolak label semacam itu, kita sebenarnya sedang membuka kembali ruang kemungkinan. Identitas bergerak menuju entropi yang lebih tinggi, bukan untuk menjadi kacau, melainkan untuk memberi dirinya kesempatan mengeksplorasi berbagai konfigurasi tentang siapa kita bisa menjadi.</p>
 <p>Seperti sistem di alam, identitas tidak selalu menemukan bentuknya dalam satu keadaan tetap. Ia melebar ke berbagai kemungkinan terlebih dahulu, sebelum perlahan mengendap pada struktur yang baru.</p>

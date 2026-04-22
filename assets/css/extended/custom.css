@@ -601,20 +601,33 @@ article a:hover,
 
 /* Custom Blockquote Estetik - Final Version */
 .post-content blockquote {
-    margin: 2.5rem auto;
-    padding: 2rem 1.5rem;
+    margin: 3rem auto;
+    padding: 2.2rem 1.5rem 2rem;
     border-left: none !important; /* Menghapus paksa garis kiri bawaan */
-    
-    /* Pakai border tipis yang warnanya otomatis ngikutin tema tapi transparan */
     border-top: 1px solid var(--border) !important;
     border-bottom: 1px solid var(--border) !important;
-    
     background-color: transparent !important;
     text-align: center;
     font-size: 1em;
     font-style: italic;
     color: var(--secondary);
     line-height: 1.8;
+    box-shadow: none;
+}
+
+.post-content blockquote p {
+    margin: 0;
+}
+
+.post-content blockquote > p:first-child {
+    max-width: 34ch;
+    margin: 0 auto;
+    font-size: clamp(1.12rem, 1.9vw, 1.34rem);
+    line-height: 1.9;
+}
+
+.post-content blockquote > p + p {
+    margin-top: 1.15rem;
 }
 
 /* Biar teks kutipannya sedikit lebih terang di dark mode */
@@ -626,7 +639,37 @@ article a:hover,
 .post-content blockquote .MathJax {
     font-style: normal;
     font-size: 1.15em;
-    margin: 1.5rem 0;
+    margin: 1.35rem 0 0.35rem;
+}
+
+.post-content mjx-container[display="true"] {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 1.35rem auto 0.2rem !important;
+    padding: 0.15rem 0 0.55rem;
+    border: 0;
+    border-bottom: 1px solid rgba(107, 79, 91, 0.18);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    font-size: clamp(1.55rem, 2.8vw, 2.35rem);
+    line-height: 1;
+    letter-spacing: 0.01em;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.post-content mjx-container[display="true"] mjx-math {
+    padding: 0 0.18rem;
+}
+
+.post-content mjx-container[jax="CHTML"] {
+    font-style: normal;
+}
+
+:root[data-theme="dark"] .post-content mjx-container[display="true"] {
+    border-bottom-color: rgba(214, 168, 188, 0.24);
 }
 
 /* Styling tambahan buat baris penulis (biar lebih kecil) */
@@ -638,4 +681,20 @@ article a:hover,
     opacity: 0.7;
     display: block;
     margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+    .post-content blockquote {
+        margin: 2.4rem auto;
+        padding: 1.8rem 1rem 1.7rem;
+    }
+
+    .post-content blockquote > p:first-child {
+        font-size: 1.02rem;
+    }
+
+    .post-content mjx-container[display="true"] {
+        font-size: clamp(1.2rem, 8vw, 1.65rem);
+        padding-bottom: 0.45rem;
+    }
 }

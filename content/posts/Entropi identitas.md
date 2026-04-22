@@ -9,9 +9,11 @@ summary: "Di sebuah pemakaman di Wina, terukir sebuah persamaan tentang entropi 
 
 > Di sebuah pemakaman di Wina, pada nisan Ludwig Boltzmann, terukir sebuah persamaan sederhana:
 >
-> $$S = k_{B} \ln \Omega$$
+> \begin{equation}
+> S = k_{\mathrm{B}} \,\, \ln \,\, \Omega
+>\end{equation}
 >
->Persamaan ini menghubungkan entropi ($S$) dengan $\Omega$, jumlah kemungkinan keadaan yang dapat ditempati oleh suatu sistem. Semakin banyak kemungkinan yang tersedia, semakin tinggi entropinya.
+Persamaan ini menghubungkan entropi ($S$) dengan $\Omega$, jumlah kemungkinan keadaan yang dapat ditempati oleh suatu sistem. Semakin banyak kemungkinan yang tersedia, semakin tinggi entropinya.
 
 Jika identitas kita dipandang sebagai sebuah sistem, maka $\Omega$ dapat dibayangkan sebagai versi-versi diri yang belum terjadi. Label statis bekerja dengan cara memperkecil $\Omega$, mereduksi banyak kemungkinan menjadi satu bentuk yang tetap.
 
