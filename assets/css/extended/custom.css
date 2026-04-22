@@ -599,23 +599,43 @@ article a:hover,
 
 /* --- END DASHBOARD IMAGE FIXES --- */
 
-/* Custom Blockquote Estetik untuk Persamaan */
+/* Custom Blockquote Estetik - Final Version */
 .post-content blockquote {
     margin: 2.5rem auto;
-    padding: 1.5rem 2rem;
-    border-left: none; 
-    border-top: 1px solid var(--border); 
-    border-bottom: 1px solid var(--border); 
-    background-color: transparent; 
-    text-align: center; 
-    font-size: 1em; /* <-- Diubah: Dikembalikan ke ukuran normal (1em) */
-    font-style: italic; 
-    color: var(--secondary); 
+    padding: 2rem 1.5rem;
+    border-left: none !important; /* Menghapus paksa garis kiri bawaan */
+    
+    /* Pakai border tipis yang warnanya otomatis ngikutin tema tapi transparan */
+    border-top: 1px solid var(--border) !important;
+    border-bottom: 1px solid var(--border) !important;
+    
+    background-color: transparent !important;
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    color: var(--secondary);
+    line-height: 1.8;
 }
 
-/* Memastikan font rumus MathJax tetap tegak dan proporsional */
+/* Biar teks kutipannya sedikit lebih terang di dark mode */
+[class~="dark"] .post-content blockquote {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .post-content blockquote .MathJax {
     font-style: normal;
-    font-size: 1.15em; /* <-- Diubah: Sedikit dikecilkan biar nggak 'teriak' */
-    margin: 1.5rem 0; 
+    font-size: 1.15em;
+    margin: 1.5rem 0;
+}
+
+/* Styling tambahan buat baris penulis (biar lebih kecil) */
+.post-content blockquote em, 
+.post-content blockquote strong {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+    opacity: 0.7;
+    display: block;
+    margin-top: 10px;
 }

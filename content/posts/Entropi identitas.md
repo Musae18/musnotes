@@ -31,7 +31,7 @@ Namun kemungkinan yang terlalu luas tidak selalu terasa nyaman. Di tengah banyak
 
 {{< mus-divider >}}
 
-Sebelumnya aku pernah menulis bahwa [otak dan dunia saling berimplikasi.](/) Cara kita memandang diri tidak pernah sepenuhnya lahir dari dalam. Ia terus dibentuk oleh lingkungan yang berubah. Jika dunia di sekitar kita memiliki $\Omega$ yang tinggi, dengan banyak kemungkinan yang terus bergeser, apa yang terjadi ketika pandangan kita terhadap diri justru dibekukan pada kemungkinan yang sempit?
+Sebelumnya aku pernah menulis bahwa [otak dan dunia saling berimplikasi.](https://musae18.github.io/musnotes/posts/identitas/) Cara kita memandang diri tidak pernah sepenuhnya lahir dari dalam. Ia terus dibentuk oleh lingkungan yang berubah. Jika dunia di sekitar kita memiliki $\Omega$ yang tinggi, dengan banyak kemungkinan yang terus bergeser, apa yang terjadi ketika pandangan kita terhadap diri justru dibekukan pada kemungkinan yang sempit?
 
 Ketidaksinkronan inilah yang perlahan memicu krisis. Label memang terasa nyaman karena ia mereduksi kemungkinan dan menciptakan keteraturan lokal. Namun pada saat yang sama, ia membuat identitas menjadi kaku di tengah lingkungan yang terus berubah. Dunia bergerak dengan entropi tinggi, sementara kita mencoba bertahan dalam konfigurasi yang tetap.
 
