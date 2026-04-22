@@ -15,7 +15,9 @@ Namun, ada satu pertanyaan sederhana: apakah organisme yang diidentifikasi itu s
 
 Jawabannya tidak.
 
-Kecuali organisme itu sendiri yang mengidentifikasi dirinya sendiri, seperti *Homo sapiens*.
+Kecuali organisme itu sendiri yang mengidentifikasi dirinya, seperti *Homo sapiens*.
+
+Di titik ini, perbedaannya mulai terasa. Dalam sains, identitas adalah hasil observasi. Di manusia, identitas juga menjadi pengalaman mental.
 
 {{< mus-divider >}}
 
@@ -43,7 +45,7 @@ atau mereka hanya memahami versi kita yang ada di dalam pikiran mereka?
 
 {{< mus-divider >}}
 
-Ketidakmampuan orang lain untuk benar-benar “mendengar” nyanyian kita sering kali berujung pada satu hal: pemberian label. Label adalah cara termudah bagi orang lain untuk mengakhiri kerumitan tafsir. Namun, di saat yang sama, kita pun sering terjebak dalam keletihan yang sama.
+Ketidakmampuan untuk benar-benar “mendengar” nyanyian orang lain sering kali berujung pada satu hal: pemberian label. Label adalah cara termudah bagi orang lain untuk mengakhiri kerumitan tafsir. Namun, di saat yang sama, kita pun sering terjebak dalam keletihan yang sama.
 
 Aku teringat bagian lain dalam buku yang sama seperti kutipan tadi, tentang bagaimana sebuah tanda ditakdirkan sebagai tafsir atas dirinya sendiri. Dan saat lelah menafsirkan, ia tidak lagi peduli dengan tafsirnya sendiri.
 
@@ -53,4 +55,6 @@ Pertanyaan besarnya: jika kita sendiri adalah tanda yang tidak pernah selesai me
 
 {{< mus-divider >}}
 
-Mungkin, identitas memang bukan untuk sepenuhnya dipahami orang lain. Ia seperti *silent music* yang frekuensinya paling pas di telinga kita sendiri. Orang lain mungkin hanya menangkapnya sebagai suara yang terdistorsi, lalu menamainya dengan label-label tertentu. Label itu tetaplah noise terhadap pengalaman subjektif kita. Namun, seperti setiap gangguan sinyal, sebagian dari noise itu bisa saja kita serap, kita tafsirkan ulang, lalu perlahan menjadi bagian dari komposisi yang kita dengar sebagai “aku”.☠️☠️
+Mungkin, identitas memang bukan untuk sepenuhnya dipahami orang lain. Ia seperti *silent music* yang frekuensinya paling pas di telinga kita sendiri. Orang lain mungkin hanya menangkapnya sebagai suara yang terdistorsi, lalu menamainya dengan label-label tertentu. 
+
+Label itu tetaplah noise terhadap pengalaman subjektif kita. Namun, seperti setiap gangguan sinyal, sebagian dari noise itu bisa saja kita serap, kita tafsirkan ulang, lalu perlahan menjadi bagian dari komposisi yang kita dengar sebagai “aku”.
