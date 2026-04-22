@@ -598,3 +598,24 @@ article a:hover,
 }
 
 /* --- END DASHBOARD IMAGE FIXES --- */
+
+/* Custom Blockquote Estetik untuk Persamaan */
+.post-content blockquote {
+    margin: 2.5rem auto;
+    padding: 1.5rem 2rem;
+    border-left: none; 
+    border-top: 1px solid var(--border); 
+    border-bottom: 1px solid var(--border); 
+    background-color: transparent; 
+    text-align: center; 
+    font-size: 1em; /* <-- Diubah: Dikembalikan ke ukuran normal (1em) */
+    font-style: italic; 
+    color: var(--secondary); 
+}
+
+/* Memastikan font rumus MathJax tetap tegak dan proporsional */
+.post-content blockquote .MathJax {
+    font-style: normal;
+    font-size: 1.15em; /* <-- Diubah: Sedikit dikecilkan biar nggak 'teriak' */
+    margin: 1.5rem 0; 
+}

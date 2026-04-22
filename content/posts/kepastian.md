@@ -76,7 +76,7 @@ Mungkin kepastian hanya berhenti di angka.
 
 Setelah angka itu menyentuh retina,
 kepastian mulai runtuh,
-digantikan oleh label yang dikarang sistem saraf agar kita tidak menabrak pohon saat berjalan. 😄
+digantikan oleh label yang dikarang sistem saraf agar kita tidak menabrak pohon saat berjalan. 
 
 {{< mus-divider >}}
 

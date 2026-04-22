@@ -50,3 +50,6 @@ enableRobotsTXT = true
         url = "https://github.com/Musae18"
 [params.assets]
         favicon = "favicon.ico"
+    [[params.socialIcons]]
+        name = "kofi" # Kita pakai nama kofi supaya ikon cangkirnya otomatis muncul
+        url = "https://trakteer.id/musae18_mus"
