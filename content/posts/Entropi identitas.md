@@ -25,7 +25,7 @@ Seperti sistem di alam, identitas tidak selalu menemukan bentuknya dalam satu ke
 
 {{< mus-divider >}}
 
-Bayangkan seseorang yang selama bertahun-tahun ditempeli label statis sebagai “anak pesantren”, dengan keseharian yang berputar di literatur Islam berbahasa Arab dan ayat suci. Dalam kerangka itu, identitasnya tampak berada pada $\Omega$ yang sempit, membuatnya tampak terkunci dalam satu konfigurasi. Setidaknya, begitulah yang terlihat dari luar.”
+Bayangkan seseorang yang selama bertahun-tahun ditempeli label statis sebagai “anak pesantren”, dengan keseharian yang berputar di literatur Islam berbahasa Arab dan ayat suci. Dalam kerangka itu, identitasnya tampak berada pada $\Omega$ yang sempit, membuatnya tampak terkunci dalam satu konfigurasi. Setidaknya, begitulah yang terlihat dari luar.
 
 Perlahan, ruang itu mulai melebar. Ia membaca literatur yang lebih luas, menyusun interpretasi filosofis dari puisi dan novel, dan menemukan ketertarikan pada musik. Kemudian Ia belajar instrumen secara otodidak, menghubungkan fakta-fakta dalam biologi dengan konsep-konsep dalam ilmu pengetahuan lainnya, hingga tenggelam dalam barisan kode di bahasa pemrograman. Satu per satu, kemungkinan baru ditambahkan, memperluas konfigurasi yang dapat ditempati oleh identitasnya.
 
