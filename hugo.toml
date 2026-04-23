@@ -1,17 +1,15 @@
-# === PENGATURAN DASAR (ROOT) ===
 baseURL = "https://musnotess.vercel.app/"
-languageCode = "id"
-title = "MuS"          # Ini yang bakal ngubah teks di pojok kiri atas!
-theme = "PaperMod"     # Penting biar temanya kebaca
+title = "MuS"
+theme = "PaperMod"
+defaultContentLanguage = "id"
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
-# === PENGATURAN TEMA (PARAMS) ===
 [params]
     env = "production"
-    description = "Catatan reflektif."
-
     defaultTheme = "auto"
     disableThemeToggle = false
+    disableLangToggle = false
 
     ShowReadingTime = true
     ShowShareButtons = false
@@ -24,32 +22,68 @@ enableRobotsTXT = true
     ShowCodeCopyButtons = false
     disableScrollToTop = false
 
-    # --- DASHBOARD (PROFILE MODE) ---
-    [params.profileMode]
-        enabled = true
-        title = "MuS"
-        subtitle = "Refleksi kosmik yang mungkin terlalu percaya diri. Lebih sering bingung daripada tahu."
-        imageUrl = "https://github.com/Musae18.png"
-        imageTitle = "MuS"
-        imageWidth = 120
-        imageHeight = 120
-        imageBorder = false
-
-        [[params.profileMode.buttons]]
-            name = "Catatan Keraguan"
-            url = "posts"
-
-        [[params.profileMode.buttons]]
-            name = "Aktualisasi lain"
-            url = "projects"
-
-
-    # --- IKON SOSIAL MEDIA ---
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/Musae18"
-[params.assets]
-        favicon = "favicon.ico"
+
     [[params.socialIcons]]
-        name = "kofi" # Kita pakai nama kofi supaya ikon cangkirnya otomatis muncul
+        name = "kofi"
         url = "https://trakteer.id/musae18_mus"
+
+    [params.assets]
+        favicon = "favicon.ico"
+
+[languages]
+    [languages.id]
+        languageName = "Bahasa Indonesia"
+        languageCode = "id-ID"
+        weight = 1
+        title = "MuS"
+
+        [languages.id.params]
+            description = "Catatan reflektif."
+
+            [languages.id.params.profileMode]
+                enabled = true
+                title = "MuS"
+                subtitle = "Refleksi kosmik yang mungkin terlalu percaya diri. Lebih sering bingung daripada tahu."
+                imageUrl = "https://github.com/Musae18.png"
+                imageTitle = "MuS"
+                imageWidth = 120
+                imageHeight = 120
+                imageBorder = false
+
+                [[languages.id.params.profileMode.buttons]]
+                    name = "Catatan Keraguan"
+                    url = "posts"
+
+                [[languages.id.params.profileMode.buttons]]
+                    name = "Aktualisasi lain"
+                    url = "projects"
+
+    [languages.en]
+        languageName = "English"
+        languageCode = "en-US"
+        weight = 2
+        title = "MuS"
+
+        [languages.en.params]
+            description = "Working Notes"
+
+            [languages.en.params.profileMode]
+                enabled = true
+                title = "MuS"
+                subtitle = "Cosmic reflections, perhaps a little too confident. More often confused than certain"
+                imageUrl = "https://github.com/Musae18.png"
+                imageTitle = "MuS"
+                imageWidth = 120
+                imageHeight = 120
+                imageBorder = false
+
+                [[languages.en.params.profileMode.buttons]]
+                    name = "Notes on Doubt"
+                    url = "posts"
+
+                [[languages.en.params.profileMode.buttons]]
+                    name = "Other Work"
+                    url = "projects"

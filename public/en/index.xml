@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MuS</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content on MuS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 23 Apr 2026 01:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Entropy of Identity</title>
+      <link>http://localhost:1313/en/posts/entropi-identitas/</link>
+      <pubDate>Thu, 23 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/en/posts/entropi-identitas/</guid>
+      <description>In a cemetery in Vienna, an equation about entropy is carved onto Ludwig Boltzmann&amp;rsquo;s tombstone. If our identity is a system, this equation explains why we need the space to be &amp;lsquo;messy&amp;rsquo; in order to keep evolving.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>In a cemetery in Vienna, on the tombstone of Ludwig Boltzmann, an equation is engraved:</p>
+<p>\begin{equation}
+S = k_{\mathrm{B}} ,, \ln ,, \Omega
+\end{equation}</p>
+</blockquote>
+<p>This equation connects entropy ($S$) with $\Omega$, the number of possible states a system can occupy, with $k_{\mathrm{B}}$ as the Boltzmann constant. The more possibilities available, the higher the entropy.</p>
+<p>In the realm of physics, entropy is not a moral judgment on &ldquo;messiness,&rdquo; but rather a measurement of the number of possible configurations.</p>
+<p>If our identity is viewed as a system, then $\Omega$ can be imagined as the versions of ourselves that haven&rsquo;t happened yet. Static labels work by shrinking $\Omega$, reducing countless possibilities into a single, fixed form.</p>
+<p>When we reject such labels, we are actually reopening the space of possibility. Identity moves toward a higher entropy—not to become chaotic, but to give itself the chance to explore various configurations.</p>
+<p>Like systems in nature, identity doesn&rsquo;t always find its form in a single fixed state. It expands into various possibilities first, before slowly settling into a new structure.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Imagine someone who, for years, has been given the static label of a &ldquo;pesantren (Islamic boarding school) kid,&rdquo; with a daily life revolving around Arabic-language Islamic literature and holy verses. Within that framework, his identity seems to exist in a narrow $\Omega$, making him appear locked in a single configuration. At least, that’s how it looks from the outside.</p>
+<p>Slowly, that space begins to widen. He reads broader literature, constructs philosophical interpretations of poetry and novels, and discovers an interest in music. Then he teaches himself an instrument, connects biological facts with concepts in other sciences, and eventually loses himself in lines of programming code. One by one, new possibilities are added, expanding the configurations his identity can occupy.</p>
+<p>From the perspective of an outsider who favors order, this change might look unfocused—perhaps even like he&rsquo;s going &ldquo;off track.&rdquo; But he isn&rsquo;t destroying his identity. He is simply enlarging $\Omega$, allowing himself to explore more possibilities before settling into a certain form. In fact, it’s possible that the initial identity was never truly &ldquo;fixed.&rdquo; It only appeared stable because the space of possibility hadn&rsquo;t been opened yet.</p>
+<p>Endless possibility isn&rsquo;t always comfortable. Amidst so many potential versions of ourselves, we are often driven to simplify. Labels become a sort of resting point—something to hold onto when complexity starts to feel exhausting. They act like <a href="https://musae18.github.io/musnotes/posts/noiseidentitas/">noise</a> that soothes, blurring the diversity of possibilities into a single, easily recognizable pattern. The social world works in a similar way: it finds it easier to understand things that are fixed, consistent, and predictable.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>I previously wrote that <a href="https://musae18.github.io/musnotes/posts/identitas/">the brain and the world are mutually implicated.</a> The way we view ourselves is never born entirely from within. It is constantly shaped by a changing environment. If the world around us has a high $\Omega$, with possibilities constantly shifting, what happens when our self-view is frozen into a narrow possibility?</p>
+<p>This synchrony gap is what slowly triggers a crisis. Labels feel comfortable because they reduce possibility and create local order. But at the same time, they make identity rigid in the face of an ever-changing environment. The world moves with high entropy, while we try to survive in a fixed configuration.</p>
+<p>In such conditions, pressure becomes inevitable. Like an organism that must constantly adjust to its ecological environment, identity is also required to adapt. But adaptation is never fast or simple. It requires an unstable phase, where the old form loosens before a new configuration truly takes shape.</p>
+<p>Because of this, it’s only natural if, in the process of expanding these possibilities, we occasionally feel like a polar bear forced to adapt in the middle of a rainforest. The environment feels alien, the rhythm no longer fits, and every step is filled with uncertainty. It takes a long time for such an organism to find a new way of living.</p>
+<p>So it is with identity. It needs time to process, allowing itself to be unstable, before finally finding a rhythm that is more in tune with a world that never stops changing.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Identity and the Noise of Others&#39; Perception</title>
+      <link>http://localhost:1313/en/posts/noiseidentitas/</link>
+      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/en/posts/noiseidentitas/</guid>
+      <description>&lt;p&gt;In my previous post, I discussed how &lt;a href=&#34;https://musae18.github.io/musnotes/posts/identitas/&#34;&gt;identity&lt;/a&gt; is an ever-moving biological and cognitive process that forms our assumptions about ourselves. However, the question remains: what if identity is actually a label attached to us by those on the outside?&lt;/p&gt;
+&lt;p&gt;To understand this, we can look at how identity is verified. In everyday life, identity is often reduced to data: name, place of birth, status, or occupation. It is as if, with that information, a person can be &amp;ldquo;understood.&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In my previous post, I discussed how <a href="https://musae18.github.io/musnotes/posts/identitas/">identity</a> is an ever-moving biological and cognitive process that forms our assumptions about ourselves. However, the question remains: what if identity is actually a label attached to us by those on the outside?</p>
+<p>To understand this, we can look at how identity is verified. In everyday life, identity is often reduced to data: name, place of birth, status, or occupation. It is as if, with that information, a person can be &ldquo;understood.&rdquo;</p>
+<p>Something similar happens in biology. To identify an organism, various indicators are required: morphology, anatomy, physiology, and even molecular data. This process is complex—so much so that taxonomy is often considered one of the &ldquo;grayest&rdquo; areas in biology.</p>
+<p>Yet, there is a simple question: does the organism being identified actually care about its own complex identity?</p>
+<p>The answer is no.</p>
+<p>Unless, of course, that organism is the one identifying itself—like <em>Homo sapiens</em>.</p>
+<p>At this point, the difference becomes clear. In science, identity is the result of observation. In humans, identity is also a mental experience.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>This thought reminds me of a verse from a book by Sapardi Djoko Damono and Rintik Sedu:</p>
+<blockquote>
+<p>&ldquo;siapa gerangan yang sudi mendengarkan kita bernyanyi, kecuali nyanyian itu sendiri&rdquo;
+— Sapardi Djoko Damono &amp; Rintik Sedu, <em>Masih Ingatkah Kau Jalan Pulang</em>
+(Who on earth would be willing to listen to us sing, except the song itself?)</p>
+</blockquote>
+<p>Of course, this verse can be interpreted in many ways. But to me, the &ldquo;song&rdquo; represents subjective experience: the emotions, memories, and meanings that can only be fully understood by the individual.</p>
+<p>To sing is an attempt to project that experience outward.</p>
+<p>But, do others truly &ldquo;listen&rdquo;?
+Or do they only <em>feel</em> like they are listening?</p>
+<p>Perhaps, when someone receives our expression, what they understand isn&rsquo;t our actual experience, but their own interpretation of it—a mental model they’ve constructed based on their own perception.</p>
+<p>If that’s the case, then understanding between individuals isn&rsquo;t a transfer of meaning, but a construction of meaning.</p>
+<p>And here, the question shifts:</p>
+<p>Can anyone truly understand us,
+or do they only understand the version of us that exists within their own minds?</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>The inability to truly &ldquo;hear&rdquo; someone else&rsquo;s song often leads to one thing: labeling. Labels are the easiest way for others to end the complexity of interpretation. Yet, at the same time, we often fall into that same exhaustion.</p>
+<p>I am reminded of another part of the same book, about how a sign is destined to be an interpretation of itself. And when it tires of interpreting, it no longer cares about its own interpretation.</p>
+<p>Aren’t we the same? A sign that never finishes interpreting itself?</p>
+<p>The big question: if we ourselves are signs that never finish self-interpreting, how can we demand that others have the &ldquo;correct&rdquo; interpretation of us?</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Perhaps identity is never meant to be fully understood by others. It is like <em>silent music</em>, with a frequency that resonates most perfectly only in our own ears. Others might only catch it as distorted sound, which they then name with certain labels.</p>
+<p>Those labels remain &ldquo;noise&rdquo; to our subjective experience. However, like any signal interference, we might absorb some of that noise, reinterpret it, and slowly let it become part of the composition we hear as &ldquo;me.&rdquo;</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Identity: The Living Organism Behind the Gray Matter</title>
+      <link>http://localhost:1313/en/posts/identitas/</link>
+      <pubDate>Tue, 21 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/en/posts/identitas/</guid>
+      <description>&lt;p&gt;This confusion isn&amp;rsquo;t exactly new. It has been simmering for years, reminding me of the uncertainty I once wrote about in &lt;a href=&#34;https://www.google.com/search?q=/musnotes/posts/kepastian/&#34;&gt;Certainty&lt;/a&gt;. There, I questioned the reliability of our perception of the world. This time, I’m beginning to doubt the certainty of the one observing that world: myself.&lt;/p&gt;
+&lt;p&gt;There was a time when I felt like an anomaly in the middle of a crowd. As a communications student back then, I was supposed to be enthusiastic about practicing persuasion techniques or appearing confident in public. Instead, I felt like a stranger to it all. Rather than joining practical discussions, I was often found sitting alone in front of the psychology faculty—a place that, at the time, felt like an &amp;ldquo;unreachable home.&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This confusion isn&rsquo;t exactly new. It has been simmering for years, reminding me of the uncertainty I once wrote about in <a href="https://www.google.com/search?q=/musnotes/posts/kepastian/">Certainty</a>. There, I questioned the reliability of our perception of the world. This time, I’m beginning to doubt the certainty of the one observing that world: myself.</p>
+<p>There was a time when I felt like an anomaly in the middle of a crowd. As a communications student back then, I was supposed to be enthusiastic about practicing persuasion techniques or appearing confident in public. Instead, I felt like a stranger to it all. Rather than joining practical discussions, I was often found sitting alone in front of the psychology faculty—a place that, at the time, felt like an &ldquo;unreachable home.&rdquo;</p>
+<p>With earphones playing Chopin’s classical compositions, I would lose myself in the lines of thick books by Freud and Karen Horney. There, amidst the scent of library books and piano melodies, I began to wonder: if the label &ldquo;communications student&rdquo; felt so ill-fitting, then who exactly is this &ldquo;I&rdquo;?</p>
+<p>{{&lt; mus-divider &gt;}}</p>
+<p>The search for an answer eventually led me away from social narratives toward a more physical understanding. The turning point didn&rsquo;t come from a classroom discussion, but from an MIT lecture video, <em>Introduction to the Human Brain</em>. As the instructor dissected the wonders beneath the human skull, a wild idea exploded in my head: what if identity isn&rsquo;t a label given by our environment, but something far more organic? What if the only place identity truly resides is within our own network of neurons and synapses?</p>
+<p>From there, I began to formulate a hypothesis: that identity is deeply intertwined with ongoing biological and cognitive processes. It is born from the complex interaction between neural networks, synapses, and the social experiences accumulated throughout life. The brain acts as the integration center, while the social environment provides the stimuli that shape its developmental path.</p>
+<p>The two are not separate; the brain and the world are mutually implicated. Social information is absorbed, filtered, and then processed into a self-narrative. Yet, the brain is selective: it seems to try and preserve things that help maintain the continuity of identity or provide a sense of stability in new environments. Perhaps the drive to survive—even the urge to feel superior—is an adaptive mechanism so that the &ldquo;self-model&rdquo; doesn&rsquo;t collapse under social pressure.</p>
+<p>{{&lt; mus-divider &gt;}}</p>
+<p>Identity is not a static object or a mask that we swap out; it is an evolving system. It evolves much like science: new models replace parts of the old structure without negating the foundation. Just as a scientific theory grows through errors and updates, human identity stores its older versions as part of an existential continuity.</p>
+<p>If that’s the case, being oneself doesn&rsquo;t mean freezing the meaning of &ldquo;I,&rdquo; but rather constantly negotiating it as information, experience, and environments change. Identity is a living organism within the brain—always changing, yet never entirely becoming someone else.</p>
+<p>{{&lt; mus-divider &gt;}}</p>
+<p>But what about the perception that identity is merely a label attached to us by outsiders? Perhaps those labels become part of our identity if internalized. Or conversely, they only reinforce the identity we have already assumed for ourselves.</p>
+<p>Those labels stem from others&rsquo; perceptions of the persona we project. They build an imagination of us, then name that imagination &ldquo;identity.&rdquo; The question then shifts: do others truly see us, or do they only see the mental model they have constructed themselves?</p>
+<p>It seems this question will grow too long if I continue here. Perhaps I’ll save it for the next article: about the perception of others, and whether someone can ever truly understand who we are.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Discussing Certainty Without Certainty</title>
+      <link>http://localhost:1313/en/posts/kepastian/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/kepastian/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;I once wrote in a caption that I am &amp;ldquo;more often confused than certain.&amp;rdquo;
+And right now, as it happens, I’m genuinely confused about what to write for my first post.&lt;/p&gt;
+&lt;p&gt;My imaginary friend gave me a suggestion.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Just write about certainty.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alright then. Let’s discuss certainty without certainty.&lt;/p&gt;
+&lt;p&gt;What is truly certain in this universe?&lt;/p&gt;
+&lt;p&gt;I would probably answer that question with a faint smile and say,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Perhaps the only certainty in the universe is our perception of matter within space and time.&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>I once wrote in a caption that I am &ldquo;more often confused than certain.&rdquo;
+And right now, as it happens, I’m genuinely confused about what to write for my first post.</p>
+<p>My imaginary friend gave me a suggestion.</p>
+<blockquote>
+<p>&ldquo;Just write about certainty.&rdquo;</p>
+</blockquote>
+<p>Alright then. Let’s discuss certainty without certainty.</p>
+<p>What is truly certain in this universe?</p>
+<p>I would probably answer that question with a faint smile and say,</p>
+<blockquote>
+<p>&ldquo;Perhaps the only certainty in the universe is our perception of matter within space and time.&rdquo;</p>
+</blockquote>
+<p>A strange answer, isn&rsquo;t it?</p>
+<p>But before I try to explain it, one thing is bugging me.</p>
+<p>Who asked that question in the first place?
+Oh, right. It was me.</p>
+<p>If the question of certainty itself is born from my own mind,
+perhaps the certainty I’m searching for isn&rsquo;t entirely &ldquo;out there&rdquo; either.</p>
+<p>It might just be a byproduct of how I perceive the world.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>We often feel that a leaf is <em>certainly</em> green.
+But is it really?</p>
+<p>&hellip;The answer is: not necessarily.</p>
+<p>If you search on YouTube for <em>&ldquo;how is color processed by the brain?&rdquo;</em>, you’ll find educational content explaining <a href="https://www.britannica.com/science/photoreception">photoreceptors</a> in the retina.
+These cells convert light wavelengths into electrical signals, which the brain then interprets as a mental experience we call <em>color</em>.</p>
+<p>The question is:</p>
+<p>Why do we see 534-545 nanometers as green?
+Why isn&rsquo;t it some other color we&rsquo;ve never even imagined?</p>
+<p>Part of our photoreceptors—specifically cone cells like the M-cone—are sensitive to that wavelength range.
+The brain then compares the activation patterns:</p>
+<ul>
+<li>S-cones -&gt; blue</li>
+<li>M-cones -&gt; green</li>
+<li>L-cones -&gt; red</li>
+</ul>
+<p>If light around 540 nm enters the eye, the M-cones fire more intensely.
+The brain concludes: <em>this is green.</em></p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>So, color as a property of light isn&rsquo;t actually a &ldquo;certainty.&rdquo;
+It is a result of neural interpretation within <em>Homo sapiens</em>.</p>
+<p>Is the leaf green?
+The answer depends entirely on who is doing the observing.</p>
+<p>If &ldquo;green&rdquo; is just a mental label, what is actually left outside of our heads?</p>
+<p>Perhaps the universe never actually paints matter with color.
+There are only electromagnetic wavelengths at around 540 nanometers.</p>
+<p>That number would still exist even if we weren&rsquo;t there to see it.</p>
+<p>Perhaps certainty ends at the numbers.</p>
+<p>Once that number hits the retina,
+certainty begins to crumble,
+replaced by labels invented by the nervous system just so we don&rsquo;t go around bumping into trees.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>In that case, when I ask what is certain in the universe,
+am I really looking for certainty&hellip;
+or am I just looking for a label that <em>feels</em> certain?</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

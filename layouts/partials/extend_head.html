@@ -4,6 +4,63 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
 
+<style>
+  .lang-menu {
+    gap: 0.5rem;
+  }
+
+  .lang-menu li {
+    min-height: inherit;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .lang-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.08rem;
+    font-size: 0.86rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--primary);
+    opacity: 0.6;
+    transition: opacity 180ms ease, color 180ms ease;
+  }
+
+  .lang-link::after {
+    content: "";
+    position: absolute;
+    left: 0.08rem;
+    right: 0.08rem;
+    bottom: 0.76rem;
+    height: 1.5px;
+    background: #b56aa0;
+    transform: scaleX(0);
+    transform-origin: left center;
+    opacity: 0;
+    transition: transform 180ms ease, opacity 180ms ease;
+  }
+
+  .lang-link:hover,
+  .lang-link:focus-visible {
+    opacity: 0.92;
+  }
+
+  .lang-link:hover::after,
+  .lang-link:focus-visible::after,
+  .lang-link.is-active::after {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+
+  .lang-link.is-active {
+    opacity: 1;
+    font-weight: 600;
+  }
+</style>
+
 {{ if or .Params.math .Site.Params.math }}
 <script>
   MathJax = {

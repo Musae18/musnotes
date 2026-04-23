@@ -1,4 +1,4 @@
----
+﻿---
 
 title: "Identitas: Organisme yang Hidup di Balik Gray Matter"
 date: 2026-04-21T01:00:00+07:00
@@ -23,7 +23,7 @@ Keduanya tidak berdiri terpisah; otak dan dunia saling berimplikasi. Informasi s
 
 Identitas bukan sesuatu yang statis atau topeng yang berganti, melainkan sistem yang berkembang. Ia berevolusi sebagaimana ilmu pengetahuan: model baru menggantikan sebagian struktur lama tanpa meniadakan fondasinya. Seperti teori ilmiah yang tumbuh dari kesalahan dan pembaruan, identitas manusia juga menyimpan versi lamanya sebagai bagian dari kontinuitas eksistensial.
 
-Jika seperti itu, menjadi diri sendiri bukan berarti membekukan makna “aku,” melainkan terus menegosiasikannya seiring perubahan informasi, pengalaman, dan lingkungan. Identitas adalah organisme yang hidup di dalam otak, selalu berubah, tapi tak pernah sepenuhnya menjadi orang lain.
+Jika seperti itu, menjadi diri sendiri bukan berarti membekukan makna "aku," melainkan terus menegosiasikannya seiring perubahan informasi, pengalaman, dan lingkungan. Identitas adalah organisme yang hidup di dalam otak, selalu berubah, tapi tak pernah sepenuhnya menjadi orang lain.
 
 {{< mus-divider >}}
 

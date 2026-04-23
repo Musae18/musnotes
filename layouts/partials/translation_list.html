@@ -1,0 +1,14 @@
+{{- if .IsTranslated -}}
+{{- if (ne .Layout "search") -}}
+{{- if or .Params.author site.Params.author (.Param "ShowReadingTime") (not .Date.IsZero) }}&nbsp;|&nbsp;{{- end -}}
+{{- end -}}
+<ul class="i18n_list">
+    {{- range .Translations }}
+    <li>
+        <a href="{{ .RelPermalink }}">
+            {{- .Lang | upper -}}
+        </a>
+    </li>
+    {{- end }}
+</ul>
+{{- end -}}
