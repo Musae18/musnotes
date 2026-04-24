@@ -1,4 +1,4 @@
 ---
-title: "Aktualisasi lain."
-description: "Belum ada apa-apa"
+title: "Other explorations."
+description: "Nothing here yet"
 ---

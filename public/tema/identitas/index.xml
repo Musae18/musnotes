@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Identitas on MuS</title>
+    <link>https://musnotess.vercel.app/tema/identitas/</link>
+    <description>Recent content in Identitas on MuS</description>
+    <generator>Hugo</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Thu, 23 Apr 2026 01:00:00 +0700</lastBuildDate>
+    <atom:link href="https://musnotess.vercel.app/tema/identitas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entropi Identitas</title>
+      <link>https://musnotess.vercel.app/posts/entropi-identitas/</link>
+      <pubDate>Thu, 23 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>https://musnotess.vercel.app/posts/entropi-identitas/</guid>
+      <description>Di sebuah pemakaman di Wina, terukir sebuah persamaan tentang entropi pada nisan Ludwig Boltzmann. Jika identitas kita adalah sebuah sistem, persamaan ini menjelaskan mengapa kita butuh ruang untuk menjadi &amp;lsquo;berantakan&amp;rsquo; agar bisa terus berkembang.</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>Di sebuah pemakaman di Wina, pada nisan Ludwig Boltzmann, terukir sebuah persamaan:</p>
+<p>\begin{equation}
+S = k_{\mathrm{B}} ,, \ln ,, \Omega
+\end{equation}</p>
+</blockquote>
+<p>Persamaan ini menghubungkan entropi ($S$) dengan $\Omega$, jumlah kemungkinan keadaan yang dapat ditempati oleh suatu sistem, dengan $k_{\mathrm{B}}$ sebagai konstanta Boltzmann. Semakin banyak kemungkinan yang tersedia, semakin tinggi entropinya.</p>
+<p>Dalam pengertian fisika, entropi bukanlah penilaian moral tentang kekacauan, melainkan ukuran banyaknya konfigurasi yang mungkin.</p>
+<p>Jika identitas kita dipandang sebagai sebuah sistem, maka $\Omega$ dapat dibayangkan sebagai versi-versi diri yang belum terjadi. Label statis bekerja dengan cara memperkecil $\Omega$, mereduksi banyak kemungkinan menjadi satu bentuk yang tetap.</p>
+<p>Saat kita menolak label semacam itu, kita sebenarnya sedang membuka kembali ruang kemungkinan. Identitas bergerak menuju entropi yang lebih tinggi, bukan untuk menjadi kacau, melainkan untuk memberi dirinya kesempatan mengeksplorasi berbagai konfigurasi.</p>
+<p>Seperti sistem di alam, identitas tidak selalu menemukan bentuknya dalam satu keadaan tetap. Ia melebar ke berbagai kemungkinan terlebih dahulu, sebelum perlahan mengendap pada struktur yang baru.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Bayangkan seseorang yang selama bertahun-tahun ditempeli label statis sebagai &ldquo;anak pesantren&rdquo;, dengan keseharian yang berputar di literatur Islam berbahasa Arab dan ayat suci. Dalam kerangka itu, identitasnya tampak berada pada $\Omega$ yang sempit, membuatnya tampak terkunci dalam satu konfigurasi. Setidaknya, begitulah yang terlihat dari luar.</p>
+<p>Perlahan, ruang itu mulai melebar. Ia membaca literatur yang lebih luas, menyusun interpretasi filosofis dari puisi dan novel, dan menemukan ketertarikan pada musik. Kemudian ia belajar instrumen secara otodidak, menghubungkan fakta-fakta dalam biologi dengan konsep-konsep dalam ilmu pengetahuan lainnya, hingga tenggelam dalam barisan kode di bahasa pemrograman. Satu per satu, kemungkinan baru ditambahkan, memperluas konfigurasi yang dapat ditempati oleh identitasnya.</p>
+<p>Dari kacamata orang luar yang menyukai keteraturan, perubahan ini mungkin terlihat tidak fokus, bahkan seperti keluar jalur. Namun ia tidak sedang menghancurkan identitasnya. Ia hanya sedang memperbesar $\Omega$, membiarkan dirinya menjelajah lebih banyak kemungkinan sebelum menetap pada bentuk tertentu. Bahkan, bisa jadi identitas awal itu tidak pernah benar-benar tetap. Ia hanya tampak stabil karena ruang kemungkinannya belum terbuka.</p>
+<p>Kemungkinan yang terlalu luas memang tidak selalu terasa nyaman. Di tengah banyaknya versi diri yang mungkin, kita sering terdorong untuk menyederhanakan diri sendiri. Label menjadi semacam titik istirahat, sesuatu yang bisa dipegang ketika kompleksitas mulai terasa melelahkan. Ia bekerja seperti <a href="../noiseidentitas/">noise</a> yang menenangkan, mengaburkan keragaman kemungkinan menjadi satu pola yang mudah dikenali. Dunia sosial pun bekerja dengan cara yang serupa: ia lebih mudah memahami sesuatu yang tetap, konsisten, dan dapat diprediksi.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Sebelumnya aku pernah menulis bahwa <a href="../identitas/">otak dan dunia saling berimplikasi.</a> Cara kita memandang diri tidak pernah sepenuhnya lahir dari dalam. Ia terus dibentuk oleh lingkungan yang berubah. Jika dunia di sekitar kita memiliki $\Omega$ yang tinggi, dengan banyak kemungkinan yang terus bergeser, apa yang terjadi ketika pandangan kita terhadap diri justru dibekukan pada kemungkinan yang sempit?</p>
+<p>Ketidaksinkronan inilah yang perlahan memicu krisis. Label memang terasa nyaman karena ia mereduksi kemungkinan dan menciptakan keteraturan lokal. Namun pada saat yang sama, ia membuat identitas menjadi kaku di tengah lingkungan yang terus berubah. Dunia bergerak dengan entropi tinggi, sementara kita mencoba bertahan dalam konfigurasi yang tetap.</p>
+<p>Dalam kondisi seperti itu, tekanan menjadi tak terhindarkan. Layaknya organisme yang harus terus menyesuaikan diri dengan lingkungan ekologisnya, identitas juga dituntut untuk beradaptasi. Namun adaptasi tidak pernah berjalan cepat atau sederhana. Ia membutuhkan fase tidak stabil, di mana bentuk lama mulai longgar sebelum konfigurasi baru benar-benar terbentuk.</p>
+<p>Karena itu, wajar jika dalam proses memperluas kemungkinan ini kita sesekali merasa seperti seekor beruang kutub yang dipaksa beradaptasi di tengah hutan hujan. Lingkungan terasa asing, ritme tidak lagi cocok, dan setiap langkah dipenuhi ketidakpastian. Dibutuhkan waktu panjang bagi organisme seperti itu untuk menemukan cara hidup yang baru.</p>
+<p>Begitu pula dengan identitas. Ia memerlukan waktu untuk berproses, membiarkan dirinya tidak stabil, sebelum akhirnya menemukan ritme yang lebih selaras dengan dunia yang terus berubah.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Identitas dan Noise dalam Persepsi Orang Lain</title>
+      <link>https://musnotess.vercel.app/posts/noiseidentitas/</link>
+      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>https://musnotess.vercel.app/posts/noiseidentitas/</guid>
+      <description>&lt;p&gt;Di artikel sebelumnya, aku membahas bahwa &lt;a href=&#34;../identitas/&#34;&gt;identitas&lt;/a&gt; adalah proses biologis dan kognitif yang terus bergerak, yang membentuk asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?&lt;/p&gt;
+&lt;p&gt;Untuk memahaminya, kita bisa melihat bagaimana identitas diverifikasi. Dalam kehidupan sehari-hari, identitas sering kali direduksi menjadi data: nama, tempat lahir, status, atau pekerjaan. Seolah-olah dengan data itu seseorang sudah bisa &amp;ldquo;dipahami.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Hal yang mirip terjadi dalam biologi. Untuk mengenali suatu organisme, dibutuhkan berbagai indikator: morfologi, anatomi, fisiologi, bahkan data molekuler. Proses ini rumit, sedemikian rumitnya hingga taksonomi sering dianggap sebagai salah satu bidang paling &amp;ldquo;abu-abu&amp;rdquo; dalam biologi.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Di artikel sebelumnya, aku membahas bahwa <a href="../identitas/">identitas</a> adalah proses biologis dan kognitif yang terus bergerak, yang membentuk asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?</p>
+<p>Untuk memahaminya, kita bisa melihat bagaimana identitas diverifikasi. Dalam kehidupan sehari-hari, identitas sering kali direduksi menjadi data: nama, tempat lahir, status, atau pekerjaan. Seolah-olah dengan data itu seseorang sudah bisa &ldquo;dipahami.&rdquo;</p>
+<p>Hal yang mirip terjadi dalam biologi. Untuk mengenali suatu organisme, dibutuhkan berbagai indikator: morfologi, anatomi, fisiologi, bahkan data molekuler. Proses ini rumit, sedemikian rumitnya hingga taksonomi sering dianggap sebagai salah satu bidang paling &ldquo;abu-abu&rdquo; dalam biologi.</p>
+<p>Namun, ada satu pertanyaan sederhana: apakah organisme yang sedang diidentifikasi itu sendiri peduli dengan identitas kompleksnya?</p>
+<p>Jawabannya: tidak.</p>
+<p>Kecuali, tentu saja, jika organisme itu adalah yang sedang mengidentifikasi dirinya sendiri, seperti <em>Homo sapiens</em>.</p>
+<p>Di sinilah letak perbedaannya. Dalam sains, identitas adalah hasil pengamatan. Dalam manusia, identitas juga merupakan pengalaman mental.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Pemikiran ini mengingatkanku pada sebuah bait dalam buku Sapardi Djoko Damono dan Rintik Sedu:</p>
+<blockquote>
+<p>&ldquo;siapa gerangan yang sudi mendengarkan kita bernyanyi, kecuali nyanyian itu sendiri&rdquo;</p>
+<ul>
+<li>Sapardi Djoko Damono &amp; Rintik Sedu, <em>Masih Ingatkah Kau Jalan Pulang</em>
+(Siapa yang bersedia mendengarkan kita bernyanyi, kecuali nyanyian itu sendiri?)</li>
+</ul>
+</blockquote>
+<p>Tentu, bait ini dapat dimaknai dengan banyak cara. Namun bagiku, &ldquo;nyanyian&rdquo; itu mewakili pengalaman subjektif: emosi, memori, dan makna yang hanya bisa dipahami sepenuhnya oleh individu itu sendiri.</p>
+<p>Bernyanyi adalah upaya memproyeksikan pengalaman itu ke luar diri.</p>
+<p>Tetapi, apakah orang lain benar-benar &ldquo;mendengarkan&rdquo;?
+Atau mereka hanya <em>merasa</em> sedang mendengarkan?</p>
+<p>Mungkin, ketika seseorang menerima ekspresi kita, yang ia pahami bukan pengalaman kita yang sebenarnya, melainkan interpretasinya sendiri terhadap pengalaman itu, sebuah model mental yang dibangunnya berdasarkan persepsinya sendiri.</p>
+<p>Jika demikian, maka pemahaman antarindividu bukanlah perpindahan makna, melainkan konstruksi makna.</p>
+<p>Dan di sini, pertanyaannya bergeser:</p>
+<p>Bisakah seseorang sungguh-sungguh memahami kita,
+atau mereka hanya memahami versi diri kita yang ada di dalam benak mereka sendiri?</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Ketidakmampuan untuk benar-benar &ldquo;mendengar&rdquo; nyanyian orang lain sering kali berujung pada satu hal: pelabelan. Label adalah cara termudah bagi orang lain untuk mengakhiri kompleksitas interpretasi. Namun pada saat yang sama, kita pun sering jatuh pada kelelahan yang sama.</p>
+<p>Aku teringat bagian lain dari buku yang sama, tentang bagaimana sebuah tanda ditakdirkan menjadi interpretasi atas dirinya sendiri. Dan saat ia lelah menafsirkan, ia tak lagi peduli pada tafsir atas dirinya.</p>
+<p>Bukankah kita pun sama? Tanda yang tak pernah selesai menafsirkan dirinya sendiri?</p>
+<p>Pertanyaan besarnya: jika kita sendiri adalah tanda yang tak pernah selesai menafsirkan diri, bagaimana mungkin kita menuntut orang lain memiliki tafsir yang &ldquo;benar&rdquo; atas kita?</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Mungkin identitas memang tak pernah dimaksudkan untuk dipahami sepenuhnya oleh orang lain. Ia seperti <em>musik sunyi</em>, dengan frekuensi yang paling sempurna beresonansi hanya di telinga kita sendiri. Orang lain mungkin hanya menangkapnya sebagai bunyi yang terdistorsi, yang kemudian mereka beri nama dengan label-label tertentu.</p>
+<p>Label-label itu tetap menjadi &ldquo;noise&rdquo; bagi pengalaman subjektif kita. Namun, seperti gangguan sinyal pada umumnya, sebagian noise itu mungkin justru kita serap, kita tafsir ulang, lalu perlahan menjadi bagian dari komposisi yang kita dengar sebagai &ldquo;aku.&rdquo;</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Identitas: Organisme yang Hidup di Balik Gray Matter</title>
+      <link>https://musnotess.vercel.app/posts/identitas/</link>
+      <pubDate>Tue, 21 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>https://musnotess.vercel.app/posts/identitas/</guid>
+      <description>&lt;p&gt;Kebingungan ini sebenarnya bukan hal baru. Ia sudah mengendap bertahun-tahun, mengingatkanku pada kebingungan yang pernah kutulis tentang &lt;a href=&#34;../kepastian/&#34;&gt;Kepastian&lt;/a&gt;. Di sana aku mempertanyakan kepastian persepsi kita terhadap dunia. Kali ini, aku mulai meragukan kepastian tentang siapa yang sedang memandang dunia itu: diriku sendiri.&lt;/p&gt;
+&lt;p&gt;Ada satu masa di mana aku merasa seperti anomali di tengah keramaian. Sebagai mahasiswa komunikasi saat itu, aku seharusnya bersemangat melatih teknik persuasi atau tampil percaya diri di depan publik. Namun, kenyataannya aku justru merasa asing. Alih-alih bergabung dalam diskusi praktis, aku lebih sering ditemukan duduk menyendiri di depan fakultas psikologi, sebuah tempat yang saat itu terasa seperti &amp;ldquo;rumah yang tak tergapai&amp;rdquo;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Kebingungan ini sebenarnya bukan hal baru. Ia sudah mengendap bertahun-tahun, mengingatkanku pada kebingungan yang pernah kutulis tentang <a href="../kepastian/">Kepastian</a>. Di sana aku mempertanyakan kepastian persepsi kita terhadap dunia. Kali ini, aku mulai meragukan kepastian tentang siapa yang sedang memandang dunia itu: diriku sendiri.</p>
+<p>Ada satu masa di mana aku merasa seperti anomali di tengah keramaian. Sebagai mahasiswa komunikasi saat itu, aku seharusnya bersemangat melatih teknik persuasi atau tampil percaya diri di depan publik. Namun, kenyataannya aku justru merasa asing. Alih-alih bergabung dalam diskusi praktis, aku lebih sering ditemukan duduk menyendiri di depan fakultas psikologi, sebuah tempat yang saat itu terasa seperti &ldquo;rumah yang tak tergapai&rdquo;.</p>
+<p>Sambil mengenakan <em>earphone</em> yang memutar komposisi klasik Chopin, aku tenggelam dalam barisan kalimat dari buku-buku tebal Freud dan Karen Horney. Di sana, di antara aroma buku perpustakaan dan melodi piano, aku mulai bertanya-tanya: jika label &ldquo;mahasiswa komunikasi&rdquo; ini terasa begitu tidak pas di kulitku, lalu sebenarnya siapa &ldquo;aku&rdquo; ini?</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Pencarian jawaban ini kemudian membawaku keluar dari sekadar narasi sosial menuju pemahaman yang lebih fisik. Titik terangnya muncul bukan dari diskusi kelas, melainkan dari sebuah video kuliah MIT, <em>Introduction to the Human Brain</em>. Saat instruktur itu membedah keajaiban di balik batok kepala manusia, sebuah gagasan liar meledak di kepalaku: bagaimana jika identitas bukanlah label yang diberikan lingkungan, melainkan sesuatu yang jauh lebih organik? Bagaimana jika satu-satunya tempat identitas berdiam hanyalah di dalam jaringan neuron dan sinapsis kita sendiri?</p>
+<p>Dari sana, aku mulai menyusun sebuah hipotesis: bahwa identitas sangat berkaitan dengan proses biologis dan kognitif yang terus bergerak. Ia lahir dari interaksi kompleks antara jaringan neuron, sinapsis, dan pengalaman sosial yang menumpuk sepanjang hidup. Otak berperan sebagai pusat integrasi, sedangkan lingkungan sosial menyediakan stimulus yang membentuk arah perkembangannya.</p>
+<p>Keduanya tidak berdiri terpisah; otak dan dunia saling berimplikasi. Informasi sosial diserap, diseleksi, lalu diolah menjadi narasi diri. Namun otak bersifat selektif: ia seolah-olah mencoba mempertahankan hal-hal yang membantu kelangsungan identitas atau memberi rasa stabilitas dalam lingkungan baru. Mungkin, dorongan untuk bertahan, bahkan keinginan untuk merasa superior adalah mekanisme adaptif agar model diri tidak runtuh di tengah tekanan sosial.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Identitas bukan sesuatu yang statis atau topeng yang berganti, melainkan sistem yang berkembang. Ia berevolusi sebagaimana ilmu pengetahuan: model baru menggantikan sebagian struktur lama tanpa meniadakan fondasinya. Seperti teori ilmiah yang tumbuh dari kesalahan dan pembaruan, identitas manusia juga menyimpan versi lamanya sebagai bagian dari kontinuitas eksistensial.</p>
+<p>Jika seperti itu, menjadi diri sendiri bukan berarti membekukan makna &ldquo;aku,&rdquo; melainkan terus menegosiasikannya seiring perubahan informasi, pengalaman, dan lingkungan. Identitas adalah organisme yang hidup di dalam otak, selalu berubah, tapi tak pernah sepenuhnya menjadi orang lain.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Namun bagaimana dengan persepsi bahwa identitas adalah label yang dilekatkan pihak luar kepada diri kita? Mungkin label itu bisa menjadi bagian dari identitas jika diinternalisasi. Atau sebaliknya, ia hanya memperkuat identitas yang sudah kita asumsikan tentang diri sendiri.</p>
+<p>Label-label itu berasal dari persepsi orang lain terhadap persona yang kita tampilkan. Mereka membangun imajinasi tentang diri kita, lalu menamai imajinasi itu sebagai identitas. Pertanyaannya kemudian bergeser: apakah orang lain benar-benar melihat diri kita, atau hanya melihat model mental yang mereka bentuk sendiri?</p>
+<p>Sepertinya pertanyaan ini akan terlalu panjang jika diteruskan di sini. Mungkin aku akan menuliskannya dalam artikel berikutnya: tentang persepsi orang lain, dan apakah seseorang benar-benar bisa memahami diri kita.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Membahas Kepastian Tanpa Kepastian</title>
+      <link>https://musnotess.vercel.app/posts/kepastian/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://musnotess.vercel.app/posts/kepastian/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Aku pernah menulis di caption bahwa &lt;em&gt;&amp;ldquo;lebih sering bingung daripada tahu.&amp;rdquo;&lt;/em&gt;
+Dan sekarang, kebetulan aku benar-benar bingung ingin menulis apa untuk konten pertama.&lt;/p&gt;
+&lt;p&gt;Teman imajinerku memberi saran.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Nulis tentang kepastian saja.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Baiklah. Kita bahas tentang kepastian tanpa kepastian&lt;/p&gt;
+&lt;p&gt;Apa yang pasti di alam semesta?&lt;/p&gt;
+&lt;p&gt;Aku mungkin akan menjawab pertanyaan itu dengan senyum tipis lalu berkata,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Mungkin yang pasti di alam semesta adalah persepsi kita terhadap materi yang ada di ruang dan waktu.&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<hr>
+<p>Aku pernah menulis di caption bahwa <em>&ldquo;lebih sering bingung daripada tahu.&rdquo;</em>
+Dan sekarang, kebetulan aku benar-benar bingung ingin menulis apa untuk konten pertama.</p>
+<p>Teman imajinerku memberi saran.</p>
+<blockquote>
+<p>&ldquo;Nulis tentang kepastian saja.&rdquo;</p>
+</blockquote>
+<p>Baiklah. Kita bahas tentang kepastian tanpa kepastian</p>
+<p>Apa yang pasti di alam semesta?</p>
+<p>Aku mungkin akan menjawab pertanyaan itu dengan senyum tipis lalu berkata,</p>
+<blockquote>
+<p>&ldquo;Mungkin yang pasti di alam semesta adalah persepsi kita terhadap materi yang ada di ruang dan waktu.&rdquo;</p>
+</blockquote>
+<p>Jawaban yang aneh, kan?</p>
+<p>Tapi sebelum mencoba menjelaskannya, ada satu hal yang mengganggu.</p>
+<p>Siapa yang mengajukan pertanyaan itu?
+Oh iya. Diriku sendiri.</p>
+<p>Jika pertanyaan tentang kepastian saja lahir dari pikiranku sendiri,
+mungkin kepastian yang kucari juga tidak sepenuhnya berada di luar.</p>
+<p>Bisa jadi ia hanya muncul dari caraku memersepsikan dunia.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Kita sering merasa bahwa daun pasti berwarna hijau.
+Tapi, apakah benar-benar pasti?</p>
+<p>&hellip;Jawabannya belum tentu.</p>
+<p>Kalau kamu mencari di YouTube dengan keyword <em>&ldquo;bagaimana warna diproses oleh otak?&rdquo;</em>, kamu akan menemukan konten edukasi yang menjelaskan tentang <a href="https://www.britannica.com/science/photoreception">fotoreseptor</a> di retina.
+Sel-sel ini mengubah panjang gelombang cahaya menjadi sinyal listrik, lalu otak menginterpretasikannya sebagai pengalaman mental yang kita sebut <em>warna</em>.</p>
+<p>Pertanyaannya:</p>
+<p>Kenapa kita melihat 534-545 nanometer sebagai hijau?
+Kenapa bukan warna lain yang tak pernah kita bayangkan?</p>
+<p>Bagian dari fotoreseptor, yaitu sel kerucut seperti M cone, sensitif terhadap rentang panjang gelombang itu.
+Otak kemudian membandingkan pola aktivasi:</p>
+<ul>
+<li>S cone -&gt; biru</li>
+<li>M cone -&gt; hijau</li>
+<li>L cone -&gt; merah</li>
+</ul>
+<p>Jika cahaya sekitar 540 nm masuk ke mata, M cone aktif lebih kuat.
+Otak menyimpulkan: <em>ini hijau.</em></p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Jadi, warna sebagai sifat cahaya sebenarnya tidak pasti.
+Ia adalah hasil interpretasi neural pada <em>Homo sapiens</em>.</p>
+<p>Apakah daun berwarna hijau?
+Jawabannya tergantung siapa yang menjadi pengamat.</p>
+<p>Jika hijau hanya label mental, apa yang tersisa di luar kepala kita?</p>
+<p>Mungkin alam semesta tidak pernah benar-benar melukis materi dengan warna.
+Yang ada hanyalah panjang gelombang elektromagnetik di sekitar 540 nanometer.</p>
+<p>Angka itu akan tetap ada meskipun kita tidak melihatnya.</p>
+<p>Mungkin kepastian hanya berhenti di angka.</p>
+<p>Setelah angka itu menyentuh retina,
+kepastian mulai runtuh,
+digantikan oleh label yang dikarang sistem saraf agar kita tidak menabrak pohon saat berjalan.</p>
+<div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="8" fill="currentColor"/>
+  <ellipse cx="50" cy="50" rx="40" ry="25" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-15 50 50)"/>
+  <ellipse cx="50" cy="50" rx="30" ry="45" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 50 50)"/>
+</svg>
+</div>
+
+<p>Kalau begitu, ketika aku bertanya apa yang pasti di alam semesta,
+apakah aku benar-benar mencari kepastian&hellip;
+atau hanya mencari label yang terasa pasti?</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

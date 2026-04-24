@@ -5,6 +5,11 @@ defaultContentLanguage = "id"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    tema = "tema"
+
 [params]
     env = "production"
     defaultTheme = "auto"
@@ -58,8 +63,13 @@ enableRobotsTXT = true
                     url = "posts"
 
                 [[languages.id.params.profileMode.buttons]]
-                    name = "Aktualisasi lain"
-                    url = "projects"
+                    name = "Cerpen"
+                    url = "cerpen"
+
+        [[languages.id.menu.main]]
+            name = "Other Work"
+            url = "projects"
+            weight = 10
 
     [languages.en]
         languageName = "English"
@@ -85,5 +95,10 @@ enableRobotsTXT = true
                     url = "posts"
 
                 [[languages.en.params.profileMode.buttons]]
-                    name = "Other Work"
-                    url = "projects"
+                    name = "Short Stories"
+                    url = "cerpen"
+
+        [[languages.en.menu.main]]
+            name = "Other Work"
+            url = "projects"
+            weight = 10

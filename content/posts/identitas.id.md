@@ -1,11 +1,11 @@
 ﻿---
-
 title: "Identitas: Organisme yang Hidup di Balik Gray Matter"
 date: 2026-04-21T01:00:00+07:00
 draft: false
-------------
+tema: ["Identitas"]
+---
 
-Kebingungan ini sebenarnya bukan hal baru. Ia sudah mengendap bertahun-tahun, mengingatkanku pada kebingungan yang pernah kutulis tentang [Kepastian](/musnotes/posts/kepastian/). Di sana aku mempertanyakan kepastian persepsi kita terhadap dunia. Kali ini, aku mulai meragukan kepastian tentang siapa yang sedang memandang dunia itu: diriku sendiri.
+Kebingungan ini sebenarnya bukan hal baru. Ia sudah mengendap bertahun-tahun, mengingatkanku pada kebingungan yang pernah kutulis tentang [Kepastian](../kepastian/). Di sana aku mempertanyakan kepastian persepsi kita terhadap dunia. Kali ini, aku mulai meragukan kepastian tentang siapa yang sedang memandang dunia itu: diriku sendiri.
 
 Ada satu masa di mana aku merasa seperti anomali di tengah keramaian. Sebagai mahasiswa komunikasi saat itu, aku seharusnya bersemangat melatih teknik persuasi atau tampil percaya diri di depan publik. Namun, kenyataannya aku justru merasa asing. Alih-alih bergabung dalam diskusi praktis, aku lebih sering ditemukan duduk menyendiri di depan fakultas psikologi, sebuah tempat yang saat itu terasa seperti "rumah yang tak tergapai".
 

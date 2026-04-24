@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Themes on MuS</title>
+    <link>https://musnotess.vercel.app/en/tema/</link>
+    <description>Recent content in Themes on MuS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 23 Apr 2026 01:00:00 +0700</lastBuildDate>
+    <atom:link href="https://musnotess.vercel.app/en/tema/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identitas</title>
+      <link>https://musnotess.vercel.app/en/tema/identitas/</link>
+      <pubDate>Thu, 23 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>https://musnotess.vercel.app/en/tema/identitas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interpretasi Seni</title>
+      <link>https://musnotess.vercel.app/en/tema/interpretasi-seni/</link>
+      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>https://musnotess.vercel.app/en/tema/interpretasi-seni/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

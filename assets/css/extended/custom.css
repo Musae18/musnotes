@@ -537,6 +537,12 @@ article a:hover,
     width: 100%;
 }
 
+/* Avoid desktop hover showing a scrollbar UI on the navbar menu. */
+.menu {
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
 /* Post entry hover effects */
 .post-entry {
     transition: all 0.25s ease;
@@ -684,6 +690,17 @@ article a:hover,
 }
 
 @media (max-width: 640px) {
+    .menu {
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .menu::-webkit-scrollbar {
+        display: none;
+    }
+
     .post-content blockquote {
         margin: 2.4rem auto;
         padding: 1.8rem 1rem 1.7rem;
