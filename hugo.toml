@@ -64,7 +64,7 @@ enableRobotsTXT = true
 
                 [[languages.id.params.profileMode.buttons]]
                     name = "Prosa"
-                    url = "/prosa/"
+                    url = "prosa"
 
         [[languages.id.menu.main]]
             name = "Other Work"
@@ -96,7 +96,7 @@ enableRobotsTXT = true
 
                 [[languages.en.params.profileMode.buttons]]
                     name = "Prose"
-                    url = "/prosa/"
+                    url = "prosa"
 
         [[languages.en.menu.main]]
             name = "Other Work"
