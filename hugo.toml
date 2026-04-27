@@ -60,15 +60,15 @@ enableRobotsTXT = true
 
                 [[languages.id.params.profileMode.buttons]]
                     name = "Catatan Keraguan"
-                    url = "posts"
+                    url = "/musnotes/posts/"
 
                 [[languages.id.params.profileMode.buttons]]
                     name = "Prosa"
-                    url = "prosa"
+                    url = "/musnotes/prosa/"
 
         [[languages.id.menu.main]]
             name = "Other Work"
-            url = "projects"
+            url = "/musnotes/projects/"
             weight = 10
 
     [languages.en]
@@ -92,13 +92,13 @@ enableRobotsTXT = true
 
                 [[languages.en.params.profileMode.buttons]]
                     name = "Notes on Doubt"
-                    url = "posts"
+                    url = "/musnotes/en/posts/"
 
                 [[languages.en.params.profileMode.buttons]]
                     name = "Prose"
-                    url = "prosa"
+                    url = "/musnotes/en/prosa/"
 
         [[languages.en.menu.main]]
             name = "Other Work"
-            url = "projects"
+            url = "/musnotes/en/projects/"
             weight = 10
