@@ -2,169 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://musnotess.vercel.app/posts/entropi-identitas/</loc>
-    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/posts/entropi-identitas/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/posts/entropi-identitas/"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>https://musnotess.vercel.app/tema/identitas/</loc>
-    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/prosa/</loc>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/tema/identitas/"
+                href="http://localhost:1313/en/prosa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/tema/identitas/"
+                href="http://localhost:1313/prosa/"
                 />
   </url><url>
-    <loc>https://musnotess.vercel.app/</loc>
-    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/prosa/troideshelena/</loc>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/"
+                href="http://localhost:1313/en/prosa/troideshelena/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/"
+                href="http://localhost:1313/prosa/troideshelena/"
                 />
   </url><url>
-    <loc>https://musnotess.vercel.app/posts/</loc>
-    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://musnotess.vercel.app/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="https://musnotess.vercel.app/posts/"
-                />
+    <loc>http://localhost:1313/tema/identitas/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://musnotess.vercel.app/tema/</loc>
-    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://musnotess.vercel.app/en/tema/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="https://musnotess.vercel.app/tema/"
-                />
+    <loc>http://localhost:1313/posts/kepastian/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://musnotess.vercel.app/posts/noiseidentitas/</loc>
-    <lastmod>2026-04-22T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://musnotess.vercel.app/en/posts/noiseidentitas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="https://musnotess.vercel.app/posts/noiseidentitas/"
-                />
-  </url><url>
-    <loc>https://musnotess.vercel.app/tema/interpretasi-seni/</loc>
-    <lastmod>2026-04-22T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://musnotess.vercel.app/en/tema/interpretasi-seni/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="https://musnotess.vercel.app/tema/interpretasi-seni/"
-                />
-  </url><url>
-    <loc>https://musnotess.vercel.app/posts/identitas/</loc>
-    <lastmod>2026-04-21T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://musnotess.vercel.app/en/posts/identitas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="https://musnotess.vercel.app/posts/identitas/"
-                />
-  </url><url>
-    <loc>https://musnotess.vercel.app/posts/kepastian/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/posts/kepastian/"
+                href="http://localhost:1313/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/posts/kepastian/"
+                href="http://localhost:1313/posts/"
                 />
   </url><url>
-    <loc>https://musnotess.vercel.app/categories/</loc>
+    <loc>http://localhost:1313/tema/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/categories/"
+                href="http://localhost:1313/en/tema/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/categories/"
+                href="http://localhost:1313/tema/"
                 />
   </url><url>
-    <loc>https://musnotess.vercel.app/cerpen/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/cerpen/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/cerpen/"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>https://musnotess.vercel.app/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/projects/"
+                href="http://localhost:1313/en/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/projects/"
+                href="http://localhost:1313/projects/"
                 />
   </url><url>
-    <loc>https://musnotess.vercel.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://musnotess.vercel.app/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="https://musnotess.vercel.app/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url>
 </urlset>

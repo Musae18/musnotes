@@ -51,7 +51,7 @@ enableRobotsTXT = true
             [languages.id.params.profileMode]
                 enabled = true
                 title = "MuS"
-                subtitle = "Refleksi kosmik yang mungkin terlalu percaya diri. Lebih sering bingung daripada tahu."
+                subtitle = "Refleksi yang mungkin terlalu percaya diri. Lebih sering bingung daripada tahu."
                 imageUrl = "https://github.com/Musae18.png"
                 imageTitle = "MuS"
                 imageWidth = 120
@@ -63,8 +63,8 @@ enableRobotsTXT = true
                     url = "posts"
 
                 [[languages.id.params.profileMode.buttons]]
-                    name = "Cerpen"
-                    url = "cerpen"
+                    name = "Prosa"
+                    url = "Prosa"
 
         [[languages.id.menu.main]]
             name = "Other Work"
@@ -83,7 +83,7 @@ enableRobotsTXT = true
             [languages.en.params.profileMode]
                 enabled = true
                 title = "MuS"
-                subtitle = "Cosmic reflections, perhaps a little too confident. More often confused than certain"
+                subtitle = "Perhaps an overconfident reflection—more often confused than knowing."
                 imageUrl = "https://github.com/Musae18.png"
                 imageTitle = "MuS"
                 imageWidth = 120
@@ -95,8 +95,8 @@ enableRobotsTXT = true
                     url = "posts"
 
                 [[languages.en.params.profileMode.buttons]]
-                    name = "Short Stories"
-                    url = "cerpen"
+                    name = "Prose"
+                    url = "Prosa"
 
         [[languages.en.menu.main]]
             name = "Other Work"

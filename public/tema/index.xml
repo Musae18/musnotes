@@ -2,24 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tema on MuS</title>
-    <link>https://musnotess.vercel.app/tema/</link>
+    <link>http://localhost:1313/tema/</link>
     <description>Recent content in Tema on MuS</description>
     <generator>Hugo</generator>
     <language>id-ID</language>
-    <lastBuildDate>Thu, 23 Apr 2026 01:00:00 +0700</lastBuildDate>
-    <atom:link href="https://musnotess.vercel.app/tema/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tema/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identitas</title>
-      <link>https://musnotess.vercel.app/tema/identitas/</link>
-      <pubDate>Thu, 23 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>https://musnotess.vercel.app/tema/identitas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Interpretasi Seni</title>
-      <link>https://musnotess.vercel.app/tema/interpretasi-seni/</link>
-      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>https://musnotess.vercel.app/tema/interpretasi-seni/</guid>
+      <link>http://localhost:1313/tema/identitas/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tema/identitas/</guid>
       <description></description>
     </item>
   </channel>

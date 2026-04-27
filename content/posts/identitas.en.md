@@ -1,34 +1,39 @@
 ﻿---
 title: "Identity: The Living Organism Behind the Gray Matter"
 date: 2026-04-21T01:00:00+07:00
-draft: true
+draft: false
 tema: ["Identitas"]
 ---
 
-This confusion isn't exactly new. It has been simmering for years, reminding me of the uncertainty I once wrote about in [Certainty](../kepastian/). There, I questioned the reliability of our perception of the world. This time, I'm beginning to doubt the certainty of the one observing that world: myself.
+This confusion isn't exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.
 
-There was a time when I felt like an anomaly in the middle of a crowd. As a communications student back then, I was supposed to be enthusiastic about practicing persuasion techniques or appearing confident in public. Instead, I felt like a stranger to it all. Rather than joining practical discussions, I was often found sitting alone in front of the psychology faculty - a place that, at the time, felt like an "unreachable home."
+There was a time when I felt like the "weird" one among "normal" people (honestly, I still feel weird now). As a communications student back then, the "normal" thing to do was to practice persuasion techniques or try to look confident in front of an audience. But in reality, I actively avoided it. Instead of joining discussions about practical methods, I spent most of my time sitting alone in front of the psychology faculty, imagining that if I were a psychology student, I’d confidently mock Sigmund Freud’s [penis envy](https://www.britannica.com/science/penis-envy) theory.
 
-With earphones playing Chopin's classical compositions, I would lose myself in the lines of thick books by Freud and Karen Horney. There, amidst the scent of library books and piano melodies, I began to wonder: if the label "communications student" felt so ill-fitting, then who exactly is this "I"?
-
-{{< mus-divider >}}
-
-The search for an answer eventually led me away from social narratives toward a more physical understanding. The turning point didn't come from a classroom discussion, but from an MIT lecture video, *Introduction to the Human Brain*. As the instructor dissected the wonders beneath the human skull, a wild idea exploded in my head: what if identity isn't a label given by our environment, but something far more organic? What if the only place identity truly resides is within our own network of neurons and synapses?
-
-From there, I began to formulate a hypothesis: that identity is deeply intertwined with ongoing biological and cognitive processes. It is born from the complex interaction between neural networks, synapses, and the social experiences accumulated throughout life. The brain acts as the integration center, while the social environment provides the stimuli that shape its developmental path.
-
-The two are not separate; the brain and the world are mutually implicated. Social information is absorbed, filtered, and then processed into a self-narrative. Yet, the brain is selective: it seems to try and preserve things that help maintain the continuity of identity or provide a sense of stability in new environments. Perhaps the drive to survive - even the urge to feel superior - is an adaptive mechanism so that the "self-model" doesn't collapse under social pressure.
+I also skipped classes a lot just to hang out in the library, wearing earphones playing my favorite classical compositions at the time. I’d spend hours staring at lines of text from thick books on classical psychology—from Freud to Karen Horney. It was a gaze perhaps too "romantic" to be called just reading. It was in that library that I began to wonder: if the label "communications student" felt so uncomfortable on my skin, then who was "I," really?
 
 {{< mus-divider >}}
 
-Identity is not a static object or a mask that we swap out; it is an evolving system. It evolves much like science: new models replace parts of the old structure without negating the foundation. Just as a scientific theory grows through errors and updates, human identity stores its older versions as part of an existential continuity.
+The search for an answer eventually led me away from social narratives toward a more biological understanding. The turning point didn't come from a philosophy or social science discussion, but from an MIT lecture video I clicked on out of pure curiosity, titled "Introduction to the Human Brain".
 
-If that's the case, being oneself doesn't mean freezing the meaning of "I," but rather constantly negotiating it as information, experience, and environments change. Identity is a living organism within the brain - always changing, yet never entirely becoming someone else.
+While the instructor was dissecting the wonders behind the human skull, a student asked a question—if I remember correctly, it was about identity. I don't recall the exact details of the question or how Prof. Kanwisher answered, but a premise stuck in my mind ever since: the only place identity truly exists is in our brain.
+
+From there, I began to form my own hypothesis: that identity is deeply tied to biological and cognitive processes that are constantly in motion. It is born from a complex interaction between neural networks, synapses, and social experiences accumulated over a lifetime. The brain acts as the integration center, while the social environment provides the stimuli that shape its direction.
+
+The brain and the world are mutually implicated. Social information is absorbed, filtered, and processed into a self-narrative—often subconsciously—directing our tendencies toward things that align with our assumed identity.
+
+For example, if someone is constantly exposed to the idea that jazz standards is cool, they might internalize it and subconsciously feel like part of the jazz community. They might impulsively buy an instrument, learn basic music theory, and try to play  jazz standards, all to fit that new internal model.
 
 {{< mus-divider >}}
 
-But what about the perception that identity is merely a label attached to us by outsiders? Perhaps those labels become part of our identity if internalized. Or conversely, they only reinforce the identity we have already assumed for ourselves.
+But because our brains are actually incredibly flexible, identity isn’t static. It’s an evolving system, much like science itself: new models replace parts of old structures without erasing the foundation. Like a scientific theory that grows through trial, error, and updates, human identity stores its "old versions" as part of an existential continuity.
 
-Those labels stem from others' perceptions of the persona we project. They build an imagination of us, then name that imagination "identity." The question then shifts: do others truly see us, or do they only see the mental model they have constructed themselves?
+If that’s the case, being yourself doesn’t mean freezing the meaning of "I," but rather constantly negotiating it as information, experience, and environment change. Identity is a living organism within the brain—always changing due to neuroplasticity, yet maintaining a thread that connects every bit of information to build a self-narrative that feels consistent, even if there’s no actual requirement for it to be.
 
-It seems this question will grow too long if I continue here. Perhaps I'll save it for the next article: about the perception of others, and whether someone can ever truly understand who we are.
+{{< mus-divider >}}
+
+But what about the view that identity is just a label attached to us by outsiders?
+In my opinion, that label can become part of our identity if it’s internalized. Or, it simply reinforces the identity we’ve already assumed for ourselves.
+
+Those labels come from other people’s perceptions of the "persona" we display. They build an imagination of who we are and then name that imagination "identity." The question then shifts: are people actually seeing us, or are they just seeing the mental models they’ve built for themselves?
+
+I feel like this will get way too long if I keep going. Perhaps I’ll write about it in the next post: about other people's perceptions, and whether anyone can truly understand who we are.

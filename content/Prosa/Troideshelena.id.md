@@ -1,0 +1,39 @@
+---
+title: "Troides Helena"
+date: 2026-04-27
+draft: false
+---
+
+Di suatu sudut pikiranku yang tidak pernah benar-benar ingin aku kunjungi, ada sebuah wilayah bernama _Silva Nigra_; hutan dengan daun-daun hitam, seperti telah terlalu lama menyerap cahaya hingga lupa cara memantulkannya kembali.
+
+Di tengahnya berdiri _Aristolochia_, sebuah kastil yang tersusun dari biomolekul.
+
+Di sanalah _Troides helena_ bersemayam.
+
+Di luar pikiranku, ia hanya kupu-kupu yang semakin jarang ditemukan, tersisih oleh eksploitasi manusia terhadap hutan tropis. Ratu Helena dikenal sangat cantik. Forewing-nya hitam pekat, hindwing-nya kuning dengan corak gelap yang puitis.
+
+Mereka yang tidak berani melukis di kanvas memilih mengawetkan tubuhnya.  
+Memburunya.  
+Membunuhnya dengan rapi.
+
+Jarum disematkan.  
+Sayap hitamnya dibentangkan.  
+Kuningnya dipertontonkan.
+
+Lalu mereka berdiri dengan bangga di hadapan bangkai itu, seolah baru saja menciptakan sesuatu.  
+Kemudian menjualnya sebagai _butterfly art_.
+
+Di sana, _Troides helena_ bukan ratu.  
+Ia hanya representasi manusia yang malas melukis.
+
+Tapi tidak di sini.
+
+Di dalam pikiranku, tempat realitas dipaksa tunduk pada apa yang menurutku seharusnya terjadi, ia adalah Ratu Helena. Bukan karena ia paling indah, melainkan karena di sini ia tidak bisa dihentikan.
+
+Setiap kepakan sayapnya adalah penolakan terhadap eksploitasi hutan tropis yang membuat _Aristolochia_ menghilang.
+
+Aku dan dia tahu dunia di luar sana masih ada. Dunia yang akan dengan senang hati mengulang cerita yang sama: menemukan, mengagumi, lalu menghancurkan.
+
+Dan mungkin itu satu-satunya alasan Helena tidak akan pernah benar-benar punah.
+
+karena aku belum selesai membayangkannya.
