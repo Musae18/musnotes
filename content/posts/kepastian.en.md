@@ -1,7 +1,7 @@
 ﻿---
 title: "Discussing Certainty Without Certainty"
 date: 2026-04-19
-draft: false
+draft: true
 tema: ["Identitas"]
 ---
 

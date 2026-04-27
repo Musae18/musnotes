@@ -2,7 +2,7 @@
 
 title: "Membahas Kepastian Tanpa Kepastian"
 date: 2026-04-19
-draft: false
+draft: true
 tema: ["Identitas"]
 ------------
 

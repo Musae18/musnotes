@@ -5,7 +5,7 @@ draft: true
 tema: ["Identitas", "Interpretasi Seni"]
 ---
 
-Di artikel sebelumnya, aku membahas bahwa [identitas](../identitas/) adalah proses biologis dan kognitif yang terus bergerak, yang membentuk asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?
+Di artikel sebelumnya, aku membahas bahwa [identitas](../identitas/) adalah proses biologis dan kognitif yang terus bergerak, yang membentuk asumsi kita terhadap diri sendiri. Namun, pertanyaan itubelum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?
 
 Untuk memahaminya, kita bisa melihat bagaimana identitas diverifikasi. Dalam kehidupan sehari-hari, identitas sering kali direduksi menjadi data: nama, tempat lahir, status, atau pekerjaan. Seolah-olah dengan data itu seseorang sudah bisa "dipahami."
 
