@@ -2,111 +2,144 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/musnotes/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="http://localhost:1313/musnotes/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/musnotes/"
                 />
   </url><url>
-    <loc>http://localhost:1313/prosa/</loc>
+    <loc>http://localhost:1313/musnotes/prosa/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/prosa/"
+                href="http://localhost:1313/musnotes/en/prosa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="http://localhost:1313/prosa/"
+                href="http://localhost:1313/musnotes/prosa/"
                 />
   </url><url>
-    <loc>http://localhost:1313/prosa/troideshelena/</loc>
+    <loc>http://localhost:1313/musnotes/prosa/troideshelena/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/prosa/troideshelena/"
+                href="http://localhost:1313/musnotes/en/prosa/troideshelena/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="http://localhost:1313/prosa/troideshelena/"
+                href="http://localhost:1313/musnotes/prosa/troideshelena/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tema/identitas/</loc>
+    <loc>http://localhost:1313/musnotes/tema/identitas/</loc>
+    <lastmod>2026-04-21T01:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/tema/identitas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/tema/identitas/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/posts/identitas/</loc>
+    <lastmod>2026-04-21T01:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/identitas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/identitas/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/posts/</loc>
+    <lastmod>2026-04-21T01:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/tema/</loc>
+    <lastmod>2026-04-21T01:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/tema/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/tema/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/posts/kepastian/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/kepastian/</loc>
-    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/posts/"
+                href="http://localhost:1313/musnotes/en/posts/kepastian/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="http://localhost:1313/posts/"
+                href="http://localhost:1313/musnotes/posts/kepastian/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tema/</loc>
-    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/musnotes/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tema/"
+                href="http://localhost:1313/musnotes/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="http://localhost:1313/tema/"
+                href="http://localhost:1313/musnotes/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/musnotes/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:1313/musnotes/en/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/musnotes/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/musnotes/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/projects/"
+                href="http://localhost:1313/musnotes/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
-                href="http://localhost:1313/projects/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/musnotes/tags/"
                 />
   </url>
 </urlset>

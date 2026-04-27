@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MuS</title>
-    <link>http://localhost:1313/en/</link>
+    <link>http://localhost:1313/musnotes/en/</link>
     <description>Recent content on MuS</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/musnotes/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Troides Helena</title>
-      <link>http://localhost:1313/en/prosa/troideshelena/</link>
+      <link>http://localhost:1313/musnotes/en/prosa/troideshelena/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/prosa/troideshelena/</guid>
+      <guid>http://localhost:1313/musnotes/en/prosa/troideshelena/</guid>
       <description>&lt;p&gt;In a corner of my mind I never truly wish to visit, lies a realm called Silva Nigra; a forest of black leaves, as if they have absorbed light for too long and forgotten how to reflect it back.&lt;/p&gt;
 &lt;p&gt;At its center stands Aristolochia, a castle composed of biomolecules.&lt;/p&gt;
 &lt;p&gt;There, Troides helena resides.&lt;/p&gt;
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>Identity: The Living Organism Behind the Gray Matter</title>
-      <link>http://localhost:1313/en/posts/identitas/</link>
+      <link>http://localhost:1313/musnotes/en/posts/identitas/</link>
       <pubDate>Tue, 21 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/en/posts/identitas/</guid>
+      <guid>http://localhost:1313/musnotes/en/posts/identitas/</guid>
       <description>&lt;p&gt;This confusion isn&amp;rsquo;t exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.&lt;/p&gt;
 &lt;p&gt;There was a time when I felt like the &amp;ldquo;weird&amp;rdquo; one among &amp;ldquo;normal&amp;rdquo; people (honestly, I still feel weird now). As a communications student back then, the &amp;ldquo;normal&amp;rdquo; thing to do was to practice persuasion techniques or try to look confident in front of an audience. But in reality, I actively avoided it. Instead of joining discussions about practical methods, I spent most of my time sitting alone in front of the psychology faculty, imagining that if I were a psychology student, I’d confidently mock Sigmund Freud’s &lt;a href=&#34;https://www.britannica.com/science/penis-envy&#34;&gt;penis envy&lt;/a&gt; theory.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This confusion isn&rsquo;t exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.</p>
@@ -85,9 +85,9 @@ In my opinion, that label can become part of our identity if it’s internalized
     </item>
     <item>
       <title>Discussing Certainty Without Certainty</title>
-      <link>http://localhost:1313/en/posts/kepastian/</link>
+      <link>http://localhost:1313/musnotes/en/posts/kepastian/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/kepastian/</guid>
+      <guid>http://localhost:1313/musnotes/en/posts/kepastian/</guid>
       <description>&lt;p&gt;I once wrote in a caption that I am &amp;ldquo;more often confused than knowing.&amp;rdquo; And right now, as it happens, I’m genuinely confused about what to write for my first post.&lt;/p&gt;
 &lt;p&gt;My imaginary friend gave me a suggestion. (He’s actually just me, talkin&amp;rsquo; to myself).&lt;/p&gt;
 &lt;blockquote&gt;

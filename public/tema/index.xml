@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tema on MuS</title>
-    <link>http://localhost:1313/tema/</link>
+    <link>http://localhost:1313/musnotes/tema/</link>
     <description>Recent content in Tema on MuS</description>
     <generator>Hugo</generator>
     <language>id-ID</language>
-    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tema/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 01:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/musnotes/tema/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identitas</title>
-      <link>http://localhost:1313/tema/identitas/</link>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tema/identitas/</guid>
+      <link>http://localhost:1313/musnotes/tema/identitas/</link>
+      <pubDate>Tue, 21 Apr 2026 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/musnotes/tema/identitas/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prosa on MuS</title>
-    <link>http://localhost:1313/prosa/</link>
+    <link>http://localhost:1313/musnotes/prosa/</link>
     <description>Recent content in Prosa on MuS</description>
     <generator>Hugo</generator>
     <language>id-ID</language>
     <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/prosa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/musnotes/prosa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Troides Helena</title>
-      <link>http://localhost:1313/prosa/troideshelena/</link>
+      <link>http://localhost:1313/musnotes/prosa/troideshelena/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/prosa/troideshelena/</guid>
+      <guid>http://localhost:1313/musnotes/prosa/troideshelena/</guid>
       <description>&lt;p&gt;Di suatu sudut pikiranku yang tidak pernah benar-benar ingin aku kunjungi, ada sebuah wilayah bernama &lt;em&gt;Silva Nigra&lt;/em&gt;; hutan dengan daun-daun hitam, seperti telah terlalu lama menyerap cahaya hingga lupa cara memantulkannya kembali.&lt;/p&gt;
 &lt;p&gt;Di tengahnya berdiri &lt;em&gt;Aristolochia&lt;/em&gt;, sebuah kastil yang tersusun dari biomolekul.&lt;/p&gt;
 &lt;p&gt;Di sanalah &lt;em&gt;Troides helena&lt;/em&gt; bersemayam.&lt;/p&gt;

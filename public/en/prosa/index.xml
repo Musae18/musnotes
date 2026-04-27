@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Prose on MuS</title>
-    <link>http://localhost:1313/en/prosa/</link>
+    <link>http://localhost:1313/musnotes/en/prosa/</link>
     <description>Recent content in Prose on MuS</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/prosa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/musnotes/en/prosa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Troides Helena</title>
-      <link>http://localhost:1313/en/prosa/troideshelena/</link>
+      <link>http://localhost:1313/musnotes/en/prosa/troideshelena/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/prosa/troideshelena/</guid>
+      <guid>http://localhost:1313/musnotes/en/prosa/troideshelena/</guid>
       <description>&lt;p&gt;In a corner of my mind I never truly wish to visit, lies a realm called Silva Nigra; a forest of black leaves, as if they have absorbed light for too long and forgotten how to reflect it back.&lt;/p&gt;
 &lt;p&gt;At its center stands Aristolochia, a castle composed of biomolecules.&lt;/p&gt;
 &lt;p&gt;There, Troides helena resides.&lt;/p&gt;
