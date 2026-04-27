@@ -1,7 +1,7 @@
 ﻿---
 title: "Identitas dan Noise dalam Persepsi Orang Lain"
 date: 2026-04-22T01:00:00+07:00
-draft: false
+draft: true
 tema: ["Identitas", "Interpretasi Seni"]
 ---
 
