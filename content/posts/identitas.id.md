@@ -14,7 +14,13 @@ aku juga sering bolos dan diam di perpustakaan, mengenakan *earphone* yang memut
 
 {{< mus-divider >}}
 
-Pencarian jawaban ini kemudian membawaku keluar dari sekadar narasi sosial menuju pemahaman yang lebih biologis. Titik terangnya muncul bukan dari diskusi filsafat atau ilmu sosial, tapi dari sebuah video kuliah MIT, yang aku klik karena penasaran, berjudul *Introduction to the Human Brain*. Di sela sela instruktur membedah keajaiban di balik batok kepala manusia, ada salah satu mahasiswa yang bertanya, kalau tidak salah ingat pertanyaannya berkaitan dengan identitas, aku tidak ingat detail bagaimana mahasiswa itu bertanya dan Prof. Kanwisher (si instruktur) menjawabnya tapi premis itu sudah ada di pikiranku sejak menonton kuliah itu, bahwa satu satunya tempat identitas adalah otak kita. Lalu aku mulai menyusun hipotesisku sendiri: bahwa identitas sangat berkaitan dengan proses biologis dan kognitif yang terus bergerak. Ia lahir dari interaksi kompleks antara jaringan neuron, sinapsis, dan pengalaman sosial yang menumpuk sepanjang hidup. Otak berperan sebagai pusat integrasi, sedangkan lingkungan sosial menyediakan stimulus yang membentuk arah perkembangannya.
+Pencarian jawaban ini kemudian membawaku keluar dari sekadar narasi sosial menuju pemahaman yang lebih biologis. 
+
+Titik terangnya muncul bukan dari diskusi filsafat atau ilmu sosial, tapi dari sebuah video kuliah MIT, yang aku klik karena penasaran, berjudul *Introduction to the Human Brain*. 
+
+Di sela sela instruktur membedah keajaiban di balik batok kepala manusia, ada salah satu mahasiswa yang bertanya, kalau tidak salah ingat pertanyaannya berkaitan dengan identitas, aku tidak ingat detail bagaimana mahasiswa itu bertanya dan Prof. Kanwisher (si instruktur) menjawabnya tapi premis itu sudah ada di pikiranku sejak menonton kuliah itu, bahwa satu satunya tempat identitas adalah otak kita.
+
+Lalu aku mulai menyusun hipotesisku sendiri: bahwa identitas sangat berkaitan dengan proses biologis dan kognitif yang terus bergerak. Ia lahir dari interaksi kompleks antara jaringan neuron, sinapsis, dan pengalaman sosial yang menumpuk sepanjang hidup. Otak berperan sebagai pusat integrasi, sedangkan lingkungan sosial menyediakan stimulus yang membentuk arah perkembangannya.
 
 otak dan dunia saling berimplikasi. Informasi sosial diserap, diseleksi, lalu diolah menjadi narasi diri atau mungkin seringkali narasi itu tidak di sadari, dan mengarahkan kecenderungan kita ke hal hal yang barkaitan dengan asumsi identitas kita.
 
