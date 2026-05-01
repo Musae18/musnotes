@@ -72,6 +72,57 @@
 <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
 
 <style>
+  .profile .profile_inner {
+    max-width: 34rem;
+  }
+
+  .about-card {
+    width: min(100%, 31rem);
+    margin-top: 0.55rem;
+    text-align: center;
+  }
+
+  .about-card::before {
+    content: "";
+    display: block;
+    width: 4.5rem;
+    height: 1px;
+    margin: 0 auto 0.9rem;
+    background: linear-gradient(90deg, rgba(122, 144, 118, 0.15) 0%, rgba(181, 106, 160, 0.65) 50%, rgba(122, 144, 118, 0.15) 100%);
+  }
+
+  .about-card-label {
+    margin-bottom: 0.6rem;
+    font-family: "Alice", serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: color-mix(in srgb, var(--primary) 72%, #b56aa0 28%);
+    opacity: 0.8;
+  }
+
+  .about-card p {
+    margin: 0;
+    font-family: "Alice", serif;
+    font-size: 1.12rem;
+    line-height: 1.9;
+    letter-spacing: 0.01em;
+    color: color-mix(in srgb, var(--primary) 82%, var(--secondary) 18%);
+  }
+
+  @media (max-width: 640px) {
+    .about-card {
+      width: min(100%, 25rem);
+      margin-top: 0.4rem;
+    }
+
+    .about-card p {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+  }
+
   .lang-menu {
     gap: 0.5rem;
   }
@@ -319,6 +370,10 @@ S = k_{\mathrm{B}} ,, \ln ,, \Omega
   <a class="prev" href="http://localhost:1313/musnotes/en/posts/noiseidentitas/">
     <span class="title">« Prev</span>
     <span>Identity and the Noise of Others&#39; Perception</span>
+  </a>
+  <a class="next" href="http://localhost:1313/musnotes/en/posts/maafakugagalmenjadikonsisten/">
+    <span class="title">Next »</span>
+    <span>My Apologies, I Have Failed to Remain Consistent</span>
   </a>
 
 </nav>

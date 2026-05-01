@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/musnotes/en/</loc>
-    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id-ID"
@@ -13,6 +13,32 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/musnotes/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/en/posts/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/en/posts/maafakugagalmenjadikonsisten/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/maafakugagalmenjadikonsisten/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/maafakugagalmenjadikonsisten/"
                 />
   </url><url>
     <loc>http://localhost:1313/musnotes/en/prosa/</loc>
@@ -52,19 +78,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/musnotes/en/tema/identitas/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/musnotes/en/posts/</loc>
-    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="http://localhost:1313/musnotes/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/musnotes/en/posts/"
                 />
   </url><url>
     <loc>http://localhost:1313/musnotes/en/posts/entropi-identitas/</loc>

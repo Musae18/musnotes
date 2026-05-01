@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/musnotes/posts/maafakugagalmenjadikonsisten/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/maafakugagalmenjadikonsisten/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/maafakugagalmenjadikonsisten/"
+                />
+  </url><url>
     <loc>http://localhost:1313/musnotes/</loc>
-    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -13,6 +26,19 @@
                 rel="alternate"
                 hreflang="id-ID"
                 href="http://localhost:1313/musnotes/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/posts/</loc>
+    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/"
                 />
   </url><url>
     <loc>http://localhost:1313/musnotes/prosa/</loc>
@@ -65,19 +91,6 @@
                 rel="alternate"
                 hreflang="id-ID"
                 href="http://localhost:1313/musnotes/tema/identitas/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/musnotes/posts/</loc>
-    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/musnotes/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="http://localhost:1313/musnotes/posts/"
                 />
   </url><url>
     <loc>http://localhost:1313/musnotes/tema/</loc>
