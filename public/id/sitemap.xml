@@ -41,8 +41,21 @@
                 href="http://localhost:1313/musnotes/prosa/troideshelena/"
                 />
   </url><url>
+    <loc>http://localhost:1313/musnotes/posts/entropi-identitas/</loc>
+    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/entropi-identitas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/entropi-identitas/"
+                />
+  </url><url>
     <loc>http://localhost:1313/musnotes/tema/identitas/</loc>
-    <lastmod>2026-04-22T01:00:00+07:00</lastmod>
+    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -52,6 +65,32 @@
                 rel="alternate"
                 hreflang="id-ID"
                 href="http://localhost:1313/musnotes/tema/identitas/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/posts/</loc>
+    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/musnotes/tema/</loc>
+    <lastmod>2026-04-23T01:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/musnotes/en/tema/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id-ID"
+                href="http://localhost:1313/musnotes/tema/"
                 />
   </url><url>
     <loc>http://localhost:1313/musnotes/posts/noiseidentitas/</loc>
@@ -78,32 +117,6 @@
                 rel="alternate"
                 hreflang="id-ID"
                 href="http://localhost:1313/musnotes/tema/interpretasi-seni/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/musnotes/posts/</loc>
-    <lastmod>2026-04-22T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/musnotes/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="http://localhost:1313/musnotes/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/musnotes/tema/</loc>
-    <lastmod>2026-04-22T01:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/musnotes/en/tema/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id-ID"
-                href="http://localhost:1313/musnotes/tema/"
                 />
   </url><url>
     <loc>http://localhost:1313/musnotes/posts/identitas/</loc>
