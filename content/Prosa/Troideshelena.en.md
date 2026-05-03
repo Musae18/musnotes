@@ -4,42 +4,36 @@ date: 2026-04-27
 draft: false
 ---
 
-In a corner of my mind I never truly wish to visit, lies a realm called Silva Nigra; a forest of black leaves, as if they have absorbed light for too long and forgotten how to reflect it back.
+In a corner of my mind, there lies a realm called Silva Nigra; a forest of blackened leaves.
 
-At its center stands Aristolochia, a castle composed of biomolecules.
+At its heart stands Aristolochia, a castle woven from biomolecules.
 
-There, Troides helena resides.
+There, Troides helena dwells.
 
-Outside of my mind, she is merely a butterfly becoming rarer by the day, pushed aside by human exploitation of tropical forests. Queen Helena is famed for her beauty. Her forewings are a deep jet-black; her hindwings, a golden yellow with patterns that are nothing short of poetic.
+Outside my mind, she is merely a butterfly growing rare, cast aside by human exploitation of the tropical forests.
 
-Those who lack the courage to paint on canvas choose instead to preserve her corpse.
+Queen Helena is renowned for her exquisite beauty. Her forewings are a deep, ink-black; her hindwings a vibrant yellow, etched with poetic, dark patterns.
 
-They hunt her.
+Those who lack the courage to paint upon a canvas choose instead to preserve her corpse.
 
-They kill her—neatly.
+A needle is driven through.
+The black wings are spread wide.
+The yellow is put on display.
 
-A needle is pinned.
-
-Her black wings are spread wide.
-
-Her gold is put on display.
-
-Then they stand proudly before the carcass, as if they had just created something.
-
-Then they sell it as "butterfly art."
+Then they stand proudly before the carcass, as if they had truly created something.
+And then, they sell it as butterfly art.
 
 Out there, Troides helena is no queen.
-
-She is merely a representation of human laziness.
+She is but a representation of human lethargy in art.
 
 But not here.
 
-In my mind, a place where reality is forced to bow to what I believe should be, she is Queen Helena. Not because she is the most beautiful, but because here, she is unstoppable.
+Within my mind, where reality is forced to bow to what I believe ought to be, she is Queen Helena.
 
-Every flap of her wings is a refusal of the forest exploitation that made Aristolochia vanish.
+Every beat of her wings is a defiance against the exploitation that ravages the Aristolochia.
 
-She and I both know the world outside still exists. A world that would gladly repeat the same story: find, admire, then destroy.
+She and I both know the world outside still exists. A world that would gladly repeat the same old cycle: to discover, to admire, and then to destroy.
 
-And perhaps that is the only reason Helena will never truly go extinct.
+And perhaps, that is the only reason Helena will never truly go extinct.
 
-Because I am not yet finished imagining her.
+Because I have not yet finished imagining her.

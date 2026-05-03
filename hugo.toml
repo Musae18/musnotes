@@ -67,8 +67,8 @@ enableRobotsTXT = true
                     url = "/musnotes/prosa/"
 
         [[languages.id.menu.main]]
-            name = "Other Work"
-            url = "/musnotes/projects/"
+            name = "Quiet Hours"
+            url = "https://musae18.github.io/quiet-hours/"
             weight = 10
 
     [languages.en]
@@ -99,6 +99,6 @@ enableRobotsTXT = true
                     url = "/musnotes/en/prosa/"
 
         [[languages.en.menu.main]]
-            name = "Other Work"
-            url = "/musnotes/en/projects/"
+            name = "Quiet Hours"
+            url = "https://musae18.github.io/quiet-hours/"
             weight = 10
