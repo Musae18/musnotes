@@ -6,7 +6,7 @@ draft: false
 tema: ["Identitas"]
 ------------
 
-Kebingungan ini sebenarnya bukan hal baru. Ia ada sejak lama, mengingatkanku pada kebingungan yang pernah kutulis tentang [Kepastian](/musnotes/posts/kepastian/). Di sana aku mempertanyakan kepastian persepsi kita terhadap dunia. kali ini tentang kepastian tentang siapa yang sedang memandang dunia itu.
+Kebingungan ini sebenarnya bukan hal baru. Ia ada sejak lama, mengingatkanku pada kebingungan yang pernah kutulis tentang [Kepastian](/posts/kepastian/). Di sana aku mempertanyakan kepastian persepsi kita terhadap dunia. kali ini tentang kepastian tentang siapa yang sedang memandang dunia itu.
 
 Ada satu masa di mana aku merasa seperti orang aneh di tengah orang normal (sekarang masih aneh sih). Sebagai mahasiswa komunikasi saat itu,hal yang normal dilakukan adalah melatih teknik persuasi atau tampil percaya diri di depan publik. Namun, kenyataannya aku justru menghindarinya. Alih-alih bergabung dalam diskusi yang membahas metode praktis, aku lebih sering duduk menyendiri di depan fakultas psikologi, membayangkan jika aku adalah mahasiswa psikologi aku pasti mengejek [*penis envy*](https://www.britannica.com/science/penis-envy) yang di ajukan sigmund freud dengan percaya diri.
 

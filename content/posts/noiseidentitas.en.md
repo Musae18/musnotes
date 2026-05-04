@@ -5,7 +5,7 @@ draft: false
 tema: ["Identitas","Interpretasi Seni"]
 ---
 
-In my previous post, I stated that [identity](https://musae18.github.io/musnotes/posts/identitas/) is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?
+In my previous post, I stated that [identity](/posts/identitas/) is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?
 
 To understand this, we can look at how identity is typically verified. In daily life, identity is often reduced to data: name, place of birth, status, or occupation. As if with just that data, a person can be fully "understood."
 

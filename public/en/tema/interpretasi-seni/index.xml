@@ -1,21 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Interpretasi Seni on MuS</title>
-    <link>http://localhost:1313/musnotes/en/tema/interpretasi-seni/</link>
-    <description>Recent content in Interpretasi Seni on MuS</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 22 Apr 2026 01:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/musnotes/en/tema/interpretasi-seni/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Identity and the Noise of Others&#39; Perception</title>
-      <link>http://localhost:1313/musnotes/en/posts/noiseidentitas/</link>
-      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/musnotes/en/posts/noiseidentitas/</guid>
-      <description>&lt;p&gt;In my previous post, I stated that &lt;a href=&#34;https://musae18.github.io/musnotes/posts/identitas/&#34;&gt;identity&lt;/a&gt; is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?&lt;/p&gt;
-&lt;p&gt;To understand this, we can look at how identity is typically verified. In daily life, identity is often reduced to data: name, place of birth, status, or occupation. As if with just that data, a person can be fully &amp;ldquo;understood.&amp;rdquo;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In my previous post, I stated that <a href="https://musae18.github.io/musnotes/posts/identitas/">identity</a> is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Interpretasi Seni on MuS</title><link>https://www.musnotes.my.id/en/tema/interpretasi-seni/</link><description>Recent content in Interpretasi Seni on MuS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 22 Apr 2026 01:00:00 +0700</lastBuildDate><atom:link href="https://www.musnotes.my.id/en/tema/interpretasi-seni/index.xml" rel="self" type="application/rss+xml"/><item><title>Identity and the Noise of Others' Perception</title><link>https://www.musnotes.my.id/en/posts/noiseidentitas/</link><pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate><guid>https://www.musnotes.my.id/en/posts/noiseidentitas/</guid><description>&lt;p&gt;In my previous post, I stated that &lt;a href="https://www.musnotes.my.id/en/posts/identitas/"&gt;identity&lt;/a&gt; is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?&lt;/p&gt;
+&lt;p&gt;To understand this, we can look at how identity is typically verified. In daily life, identity is often reduced to data: name, place of birth, status, or occupation. As if with just that data, a person can be fully &amp;ldquo;understood.&amp;rdquo;&lt;/p&gt;</description><content:encoded><![CDATA[<p>In my previous post, I stated that <a href="/en/posts/identitas/">identity</a> is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?</p>
 <p>To understand this, we can look at how identity is typically verified. In daily life, identity is often reduced to data: name, place of birth, status, or occupation. As if with just that data, a person can be fully &ldquo;understood.&rdquo;</p>
 <p>Something similar happens in biology. To recognize an organism, we need various indicators—from morphology and anatomy to physiology and even molecular data. It’s a complex process, and interestingly, taxonomy is often considered one of the &ldquo;grayest&rdquo; areas in biology.</p>
 <p>But does the organism being identified actually care about its complex identity?</p>
@@ -63,7 +47,4 @@ Can someone truly understand us, or as I suspect, do they only understand the ve
 <p>Perhaps identity was never meant to be fully understood. It is like silent music, with a frequency that resonates perfectly only in our own ears. Others might only catch it as distorted sound, which they then name with specific labels.</p>
 <p>Those labels remain &ldquo;noise&rdquo; to our subjective experience. However, like any signal interference, we might absorb some of that noise, reinterpret it, and eventually, it becomes part of the composition we hear as &ldquo;me.&rdquo;</p>
 <p>So, as for &ldquo;who am I?&quot;—is there no certain answer?</p>
-]]></content:encoded>
-    </item>
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>

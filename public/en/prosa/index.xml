@@ -1,21 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Prose on MuS</title>
-    <link>http://localhost:1313/musnotes/en/prosa/</link>
-    <description>Recent content in Prose on MuS</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/musnotes/en/prosa/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Leptosia and the Café Between Neurons</title>
-      <link>http://localhost:1313/musnotes/en/prosa/leptosia/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/musnotes/en/prosa/leptosia/</guid>
-      <description>&lt;p&gt;One night, long before I ever knew poetry, little Mus was awakened by the sound of weeping, rising and falling like a haunting scale.&lt;/p&gt;
-&lt;p&gt;A girl in an ivory-white dress sat in the corner of the room, leaning against the cold wall. Her knees were drawn tightly to her chest, her arms wrapped around them, her head bowed, and her face hidden in the fold of her arms. In that small space between breath and sob, tears fell.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>One night, long before I ever knew poetry, little Mus was awakened by the sound of weeping, rising and falling like a haunting scale.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Prose on MuS</title><link>https://www.musnotes.my.id/en/prosa/</link><description>Recent content in Prose on MuS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.musnotes.my.id/en/prosa/index.xml" rel="self" type="application/rss+xml"/><item><title>Leptosia and the Café Between Neurons</title><link>https://www.musnotes.my.id/en/prosa/leptosia/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><guid>https://www.musnotes.my.id/en/prosa/leptosia/</guid><description>&lt;p&gt;One night, long before I ever knew poetry, little Mus was awakened by the sound of weeping, rising and falling like a haunting scale.&lt;/p&gt;
+&lt;p&gt;A girl in an ivory-white dress sat in the corner of the room, leaning against the cold wall. Her knees were drawn tightly to her chest, her arms wrapped around them, her head bowed, and her face hidden in the fold of her arms. In that small space between breath and sob, tears fell.&lt;/p&gt;</description><content:encoded><![CDATA[<p>One night, long before I ever knew poetry, little Mus was awakened by the sound of weeping, rising and falling like a haunting scale.</p>
 <p>A girl in an ivory-white dress sat in the corner of the room, leaning against the cold wall. Her knees were drawn tightly to her chest, her arms wrapped around them, her head bowed, and her face hidden in the fold of her arms. In that small space between breath and sob, tears fell.</p>
 <p>Panicked, I called for my mother. But Mother came carrying only a sentence: &ldquo;There is no one here, go back to sleep.&rdquo;</p>
 <p>Yet, the girl was stubborn. She refused to be evicted from the crevices of my neurons. She stayed there, growing up alongside my doubts and my knowledge.</p>
@@ -32,19 +16,11 @@
 <p>The girl looked down. The name fit her body like a garment newly tailored.</p>
 <p>&ldquo;Leptosia&hellip;&rdquo; She tasted her own name. &ldquo;That name feels as though it has been waiting at the tip of your tongue for a long time. Now I exist, Mus. Real—at least within your synapses, or perhaps in a place far beyond your world.&rdquo;</p>
 <p>In that imaginary café, amidst the coffee dregs and the glow of the hanging lamps, Mus felt a circle finally close. A childhood fear had officially been renamed as an encounter.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Troides Helena</title>
-      <link>http://localhost:1313/musnotes/en/prosa/troideshelena/</link>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/musnotes/en/prosa/troideshelena/</guid>
-      <description>&lt;p&gt;In a corner of my mind, there lies a realm called Silva Nigra; a forest of blackened leaves.&lt;/p&gt;
+]]></content:encoded></item><item><title>Troides Helena</title><link>https://www.musnotes.my.id/en/prosa/troideshelena/</link><pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.musnotes.my.id/en/prosa/troideshelena/</guid><description>&lt;p&gt;In a corner of my mind, there lies a realm called Silva Nigra; a forest of blackened leaves.&lt;/p&gt;
 &lt;p&gt;At its heart stands Aristolochia, a castle woven from biomolecules.&lt;/p&gt;
 &lt;p&gt;There, Troides helena dwells.&lt;/p&gt;
 &lt;p&gt;Outside my mind, she is merely a butterfly growing rare, cast aside by human exploitation of the tropical forests.&lt;/p&gt;
-&lt;p&gt;Queen Helena is renowned for her exquisite beauty. Her forewings are a deep, ink-black; her hindwings a vibrant yellow, etched with poetic, dark patterns.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In a corner of my mind, there lies a realm called Silva Nigra; a forest of blackened leaves.</p>
+&lt;p&gt;Queen Helena is renowned for her exquisite beauty. Her forewings are a deep, ink-black; her hindwings a vibrant yellow, etched with poetic, dark patterns.&lt;/p&gt;</description><content:encoded><![CDATA[<p>In a corner of my mind, there lies a realm called Silva Nigra; a forest of blackened leaves.</p>
 <p>At its heart stands Aristolochia, a castle woven from biomolecules.</p>
 <p>There, Troides helena dwells.</p>
 <p>Outside my mind, she is merely a butterfly growing rare, cast aside by human exploitation of the tropical forests.</p>
@@ -63,7 +39,4 @@ She is but a representation of human lethargy in art.</p>
 <p>She and I both know the world outside still exists. A world that would gladly repeat the same old cycle: to discover, to admire, and then to destroy.</p>
 <p>And perhaps, that is the only reason Helena will never truly go extinct.</p>
 <p>Because I have not yet finished imagining her.</p>
-]]></content:encoded>
-    </item>
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>

@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Identitas on MuS</title>
-    <link>http://localhost:1313/musnotes/en/tema/identitas/</link>
-    <description>Recent content in Identitas on MuS</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Thu, 23 Apr 2026 01:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/musnotes/en/tema/identitas/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Entropy of Identity</title>
-      <link>http://localhost:1313/musnotes/en/posts/entropi-identitas/</link>
-      <pubDate>Thu, 23 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/musnotes/en/posts/entropi-identitas/</guid>
-      <description>In a cemetery in Vienna, an equation about entropy is carved onto Ludwig Boltzmann&amp;rsquo;s tombstone. If our identity is a system, this equation explains why we need the space to be &amp;lsquo;messy&amp;rsquo; in order to keep evolving.</description>
-      <content:encoded><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Identitas on MuS</title><link>https://www.musnotes.my.id/en/tema/identitas/</link><description>Recent content in Identitas on MuS</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 23 Apr 2026 01:00:00 +0700</lastBuildDate><atom:link href="https://www.musnotes.my.id/en/tema/identitas/index.xml" rel="self" type="application/rss+xml"/><item><title>The Entropy of Identity</title><link>https://www.musnotes.my.id/en/posts/entropi-identitas/</link><pubDate>Thu, 23 Apr 2026 01:00:00 +0700</pubDate><guid>https://www.musnotes.my.id/en/posts/entropi-identitas/</guid><description>In a cemetery in Vienna, an equation about entropy is carved onto Ludwig Boltzmann&amp;rsquo;s tombstone. If our identity is a system, this equation explains why we need the space to be &amp;lsquo;messy&amp;rsquo; in order to keep evolving.</description><content:encoded><![CDATA[<blockquote>
 <p>In a cemetery in Vienna, on the tombstone of Ludwig Boltzmann, an equation is engraved:</p>
 <p>\begin{equation}
 S = k_{\mathrm{B}} ,, \ln ,, \Omega
@@ -49,16 +33,8 @@ S = k_{\mathrm{B}} ,, \ln ,, \Omega
 <p>In such conditions, pressure becomes inevitable. Like an organism that must constantly adapt to its ecological environment, identity is also demanded to adapt. But adaptation is never fast or simple. It requires an unstable phase, where old forms begin to loosen before a new configuration truly takes shape.</p>
 <p>Because of that, it’s only natural that in the process of expanding these possibilities, we occasionally feel like a polar bear forced to adapt in the middle of a rainforest. The environment feels alien, the rhythm no longer fits, and every step is filled with uncertainty. It takes a long time for an organism in such extreme conditions to find a new way of living.</p>
 <p>The same goes for identity. It needs time to process, allowing itself to be unstable, before finally finding a rhythm that is more in tune with a world that never stops changing.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Identity and the Noise of Others&#39; Perception</title>
-      <link>http://localhost:1313/musnotes/en/posts/noiseidentitas/</link>
-      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/musnotes/en/posts/noiseidentitas/</guid>
-      <description>&lt;p&gt;In my previous post, I stated that &lt;a href=&#34;https://musae18.github.io/musnotes/posts/identitas/&#34;&gt;identity&lt;/a&gt; is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?&lt;/p&gt;
-&lt;p&gt;To understand this, we can look at how identity is typically verified. In daily life, identity is often reduced to data: name, place of birth, status, or occupation. As if with just that data, a person can be fully &amp;ldquo;understood.&amp;rdquo;&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>In my previous post, I stated that <a href="https://musae18.github.io/musnotes/posts/identitas/">identity</a> is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?</p>
+]]></content:encoded></item><item><title>Identity and the Noise of Others' Perception</title><link>https://www.musnotes.my.id/en/posts/noiseidentitas/</link><pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate><guid>https://www.musnotes.my.id/en/posts/noiseidentitas/</guid><description>&lt;p&gt;In my previous post, I stated that &lt;a href="https://www.musnotes.my.id/en/posts/identitas/"&gt;identity&lt;/a&gt; is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?&lt;/p&gt;
+&lt;p&gt;To understand this, we can look at how identity is typically verified. In daily life, identity is often reduced to data: name, place of birth, status, or occupation. As if with just that data, a person can be fully &amp;ldquo;understood.&amp;rdquo;&lt;/p&gt;</description><content:encoded><![CDATA[<p>In my previous post, I stated that <a href="/en/posts/identitas/">identity</a> is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?</p>
 <p>To understand this, we can look at how identity is typically verified. In daily life, identity is often reduced to data: name, place of birth, status, or occupation. As if with just that data, a person can be fully &ldquo;understood.&rdquo;</p>
 <p>Something similar happens in biology. To recognize an organism, we need various indicators—from morphology and anatomy to physiology and even molecular data. It’s a complex process, and interestingly, taxonomy is often considered one of the &ldquo;grayest&rdquo; areas in biology.</p>
 <p>But does the organism being identified actually care about its complex identity?</p>
@@ -106,16 +82,8 @@ Can someone truly understand us, or as I suspect, do they only understand the ve
 <p>Perhaps identity was never meant to be fully understood. It is like silent music, with a frequency that resonates perfectly only in our own ears. Others might only catch it as distorted sound, which they then name with specific labels.</p>
 <p>Those labels remain &ldquo;noise&rdquo; to our subjective experience. However, like any signal interference, we might absorb some of that noise, reinterpret it, and eventually, it becomes part of the composition we hear as &ldquo;me.&rdquo;</p>
 <p>So, as for &ldquo;who am I?&quot;—is there no certain answer?</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Identity: The Living Organism Behind the Gray Matter</title>
-      <link>http://localhost:1313/musnotes/en/posts/identitas/</link>
-      <pubDate>Tue, 21 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/musnotes/en/posts/identitas/</guid>
-      <description>&lt;p&gt;This confusion isn&amp;rsquo;t exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.&lt;/p&gt;
-&lt;p&gt;There was a time when I felt like the &amp;ldquo;weird&amp;rdquo; one among &amp;ldquo;normal&amp;rdquo; people (honestly, I still feel weird now). As a communications student back then, the &amp;ldquo;normal&amp;rdquo; thing to do was to practice persuasion techniques or try to look confident in front of an audience. But in reality, I actively avoided it. Instead of joining discussions about practical methods, I spent most of my time sitting alone in front of the psychology faculty, imagining that if I were a psychology student, I’d confidently mock Sigmund Freud’s &lt;a href=&#34;https://www.britannica.com/science/penis-envy&#34;&gt;penis envy&lt;/a&gt; theory.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>This confusion isn&rsquo;t exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.</p>
+]]></content:encoded></item><item><title>Identity: The Living Organism Behind the Gray Matter</title><link>https://www.musnotes.my.id/en/posts/identitas/</link><pubDate>Tue, 21 Apr 2026 01:00:00 +0700</pubDate><guid>https://www.musnotes.my.id/en/posts/identitas/</guid><description>&lt;p&gt;This confusion isn&amp;rsquo;t exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.&lt;/p&gt;
+&lt;p&gt;There was a time when I felt like the &amp;ldquo;weird&amp;rdquo; one among &amp;ldquo;normal&amp;rdquo; people (honestly, I still feel weird now). As a communications student back then, the &amp;ldquo;normal&amp;rdquo; thing to do was to practice persuasion techniques or try to look confident in front of an audience. But in reality, I actively avoided it. Instead of joining discussions about practical methods, I spent most of my time sitting alone in front of the psychology faculty, imagining that if I were a psychology student, I’d confidently mock Sigmund Freud’s &lt;a href="https://www.britannica.com/science/penis-envy"&gt;penis envy&lt;/a&gt; theory.&lt;/p&gt;</description><content:encoded><![CDATA[<p>This confusion isn&rsquo;t exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.</p>
 <p>There was a time when I felt like the &ldquo;weird&rdquo; one among &ldquo;normal&rdquo; people (honestly, I still feel weird now). As a communications student back then, the &ldquo;normal&rdquo; thing to do was to practice persuasion techniques or try to look confident in front of an audience. But in reality, I actively avoided it. Instead of joining discussions about practical methods, I spent most of my time sitting alone in front of the psychology faculty, imagining that if I were a psychology student, I’d confidently mock Sigmund Freud’s <a href="https://www.britannica.com/science/penis-envy">penis envy</a> theory.</p>
 <p>I also skipped classes a lot just to hang out in the library, wearing earphones playing my favorite classical compositions at the time. I’d spend hours staring at lines of text from thick books on classical psychology—from Freud to Karen Horney. It was a gaze perhaps too &ldquo;romantic&rdquo; to be called just reading. It was in that library that I began to wonder: if the label &ldquo;communications student&rdquo; felt so uncomfortable on my skin, then who was &ldquo;I,&rdquo; really?</p>
 <div class="mus-divider" aria-hidden="true"><svg viewBox="0 0 100 100" class="mus-symbol" xmlns="http://www.w3.org/2000/svg">
@@ -150,22 +118,14 @@ Can someone truly understand us, or as I suspect, do they only understand the ve
 In my opinion, that label can become part of our identity if it’s internalized. Or, it simply reinforces the identity we’ve already assumed for ourselves.</p>
 <p>Those labels come from other people’s perceptions of the &ldquo;persona&rdquo; we display. They build an imagination of who we are and then name that imagination &ldquo;identity.&rdquo; The question then shifts: are people actually seeing us, or are they just seeing the mental models they’ve built for themselves?</p>
 <p>I feel like this will get way too long if I keep going. Perhaps I’ll write about it in the next post: about other people&rsquo;s perceptions, and whether anyone can truly understand who we are.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Discussing Certainty Without Certainty</title>
-      <link>http://localhost:1313/musnotes/en/posts/kepastian/</link>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/musnotes/en/posts/kepastian/</guid>
-      <description>&lt;p&gt;I once wrote in a caption that I am &amp;ldquo;more often confused than knowing.&amp;rdquo; And right now, as it happens, I’m genuinely confused about what to write for my first post.&lt;/p&gt;
+]]></content:encoded></item><item><title>Discussing Certainty Without Certainty</title><link>https://www.musnotes.my.id/en/posts/kepastian/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.musnotes.my.id/en/posts/kepastian/</guid><description>&lt;p&gt;I once wrote in a caption that I am &amp;ldquo;more often confused than knowing.&amp;rdquo; And right now, as it happens, I’m genuinely confused about what to write for my first post.&lt;/p&gt;
 &lt;p&gt;My imaginary friend gave me a suggestion. (He’s actually just me, talkin&amp;rsquo; to myself).&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Just write about certainty.&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Alright then. Let&amp;rsquo;s talk about certainty&amp;hellip; or the lack thereof.&lt;/p&gt;
 &lt;p&gt;What is actually certain in this universe?&lt;/p&gt;
-&lt;p&gt;I’d probably answer that question with a faint smirk and say,&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>I once wrote in a caption that I am &ldquo;more often confused than knowing.&rdquo; And right now, as it happens, I’m genuinely confused about what to write for my first post.</p>
+&lt;p&gt;I’d probably answer that question with a faint smirk and say,&lt;/p&gt;</description><content:encoded><![CDATA[<p>I once wrote in a caption that I am &ldquo;more often confused than knowing.&rdquo; And right now, as it happens, I’m genuinely confused about what to write for my first post.</p>
 <p>My imaginary friend gave me a suggestion. (He’s actually just me, talkin&rsquo; to myself).</p>
 <blockquote>
 <p>&ldquo;Just write about certainty.&rdquo;</p>
@@ -218,7 +178,4 @@ The answer depends entirely on who’s looking.</p>
 
 <p>So, when I ask what is certain in the universe, am I actually looking for certainty&hellip;
 or am I just looking for a label that feels certain?</p>
-]]></content:encoded>
-    </item>
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>

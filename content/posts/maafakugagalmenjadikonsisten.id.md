@@ -12,8 +12,6 @@ Mungkin karena terlalu sering mengulang tes di situs seperti [16Personalities](h
 
 Sedikit seperti… bermain dengan sistem.
 
-{{< mus-divider >}}
-
 Kalau bisa seperti itu, sebenarnya MBTI aku ini apa?
 
 Pertanyaannya terdengar sederhana, tapi setiap kali aku mencoba menjawabnya, jawabannya bercabang.

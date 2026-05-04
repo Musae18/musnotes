@@ -1,4 +1,4 @@
-baseURL = "https://musae18.github.io/musnotes/"
+baseURL = "https://www.musnotes.my.id/"
 title = "MuS"
 theme = "PaperMod"
 defaultContentLanguage = "id"
@@ -60,11 +60,11 @@ enableRobotsTXT = true
 
                 [[languages.id.params.profileMode.buttons]]
                     name = "Catatan Keraguan"
-                    url = "/musnotes/posts/"
+                    url = "/posts/"
 
                 [[languages.id.params.profileMode.buttons]]
                     name = "Prosa"
-                    url = "/musnotes/prosa/"
+                    url = "/prosa/"
 
         [[languages.id.menu.main]]
             name = "Quiet Hours"
@@ -92,11 +92,11 @@ enableRobotsTXT = true
 
                 [[languages.en.params.profileMode.buttons]]
                     name = "Notes on Doubt"
-                    url = "/musnotes/en/posts/"
+                    url = "/en/posts/"
 
                 [[languages.en.params.profileMode.buttons]]
                     name = "Prose"
-                    url = "/musnotes/en/prosa/"
+                    url = "/en/prosa/"
 
         [[languages.en.menu.main]]
             name = "Quiet Hours"

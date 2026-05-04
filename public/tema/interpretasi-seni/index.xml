@@ -1,22 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Interpretasi Seni on MuS</title>
-    <link>http://localhost:1313/musnotes/tema/interpretasi-seni/</link>
-    <description>Recent content in Interpretasi Seni on MuS</description>
-    <generator>Hugo</generator>
-    <language>id-ID</language>
-    <lastBuildDate>Wed, 22 Apr 2026 01:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/musnotes/tema/interpretasi-seni/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Identitas dan Noise dalam Persepsi Orang Lain</title>
-      <link>http://localhost:1313/musnotes/posts/noiseidentitas/</link>
-      <pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/musnotes/posts/noiseidentitas/</guid>
-      <description>&lt;p&gt;Di artikel sebelumnya, aku menyatakan bahwa &lt;a href=&#34;../identitas/&#34;&gt;identitas&lt;/a&gt; adalah proses yang terus bergerak, yang menggembangkan asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Interpretasi Seni on MuS</title><link>https://www.musnotes.my.id/tema/interpretasi-seni/</link><description>Recent content in Interpretasi Seni on MuS</description><generator>Hugo</generator><language>id-ID</language><lastBuildDate>Wed, 22 Apr 2026 01:00:00 +0700</lastBuildDate><atom:link href="https://www.musnotes.my.id/tema/interpretasi-seni/index.xml" rel="self" type="application/rss+xml"/><item><title>Identitas dan Noise dalam Persepsi Orang Lain</title><link>https://www.musnotes.my.id/posts/noiseidentitas/</link><pubDate>Wed, 22 Apr 2026 01:00:00 +0700</pubDate><guid>https://www.musnotes.my.id/posts/noiseidentitas/</guid><description>&lt;p&gt;Di artikel sebelumnya, aku menyatakan bahwa &lt;a href="../identitas/"&gt;identitas&lt;/a&gt; adalah proses yang terus bergerak, yang menggembangkan asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?&lt;/p&gt;
 &lt;p&gt;Untuk memahaminya, kita bisa melihat bagaimana identitas umumnya diverifikasi. Dalam kehidupan sehari-hari, identitas sering kali direduksi menjadi data seperti nama, tempat lahir, status,atau pekerjaan. Seolah-olah dengan data itu seseorang sudah bisa &amp;ldquo;dipahami.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Hal yang mirip terjadi dalam biologi. Untuk mengenali suatu organisme, dibutuhkan berbagai indikator dari morfologi, anatomi, fisiologi, bahkan data molekuler. Proses ini kompleks dan kerennya taksonomi sering dianggap sebagai salah satu bidang paling &amp;ldquo;abu-abu&amp;rdquo; dalam biologi.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Di artikel sebelumnya, aku menyatakan bahwa <a href="../identitas/">identitas</a> adalah proses yang terus bergerak, yang menggembangkan asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?</p>
+&lt;p&gt;Hal yang mirip terjadi dalam biologi. Untuk mengenali suatu organisme, dibutuhkan berbagai indikator dari morfologi, anatomi, fisiologi, bahkan data molekuler. Proses ini kompleks dan kerennya taksonomi sering dianggap sebagai salah satu bidang paling &amp;ldquo;abu-abu&amp;rdquo; dalam biologi.&lt;/p&gt;</description><content:encoded><![CDATA[<p>Di artikel sebelumnya, aku menyatakan bahwa <a href="../identitas/">identitas</a> adalah proses yang terus bergerak, yang menggembangkan asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar?</p>
 <p>Untuk memahaminya, kita bisa melihat bagaimana identitas umumnya diverifikasi. Dalam kehidupan sehari-hari, identitas sering kali direduksi menjadi data seperti nama, tempat lahir, status,atau pekerjaan. Seolah-olah dengan data itu seseorang sudah bisa &ldquo;dipahami.&rdquo;</p>
 <p>Hal yang mirip terjadi dalam biologi. Untuk mengenali suatu organisme, dibutuhkan berbagai indikator dari morfologi, anatomi, fisiologi, bahkan data molekuler. Proses ini kompleks dan kerennya taksonomi sering dianggap sebagai salah satu bidang paling &ldquo;abu-abu&rdquo; dalam biologi.</p>
 <p>Tapi apakah organisme yang sedang diidentifikasi itu sendiri peduli dengan identitas kompleksnya?</p>
@@ -66,7 +50,4 @@ atau seperti dugaanku mereka hanya memahami versi diri kita yang ada imajinasi m
 <p>Mungkin identitas memang tak pernah dimaksudkan untuk dipahami sepenuhnya. Ia seperti <em>musik sunyi</em>, dengan frekuensi yang paling sempurna beresonansi hanya di telinga kita sendiri. Orang lain mungkin hanya menangkapnya sebagai bunyi yang terdistorsi, yang kemudian mereka beri nama dengan label-label tertentu.</p>
 <p>Label-label itu tetap menjadi &ldquo;noise&rdquo; bagi pengalaman subjektif kita. Namun, seperti gangguan sinyal pada umumnya, sebagian noise itu mungkin justru kita serap, kita tafsir ulang, lalu perlahan menjadi bagian dari komposisi yang kita dengar sebagai &ldquo;aku.&rdquo;</p>
 <p>Jadi &ldquo;siapa aku?&rdquo; tidak ada jawaban yang pasti?</p>
-]]></content:encoded>
-    </item>
-  </channel>
-</rss>
+]]></content:encoded></item></channel></rss>
