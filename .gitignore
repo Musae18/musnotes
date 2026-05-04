@@ -1,2 +1,4 @@
 .codex-hugo-build/
 .hugo_cache/
+public/
+public-preview/
