@@ -11,7 +11,7 @@ Di tengahnya berdiri _Aristolochia_, sebuah kastil yang tersusun dari biomolekul
 
 Di sanalah _Troides helena_ bersemayam.
 
-Di luar pikiranku, ia hanya kupu-kupu yang semakin jarang ditemukan, tersisih oleh eksploitasi manusia terhadap hutan tropis. 
+Di luar pikiranku, dia hanya kupu-kupu yang semakin jarang ditemukan, tersisih oleh eksploitasi manusia terhadap hutan tropis. 
 
 Ratu Helena dikenal sangat cantik. Forewing-nya hitam pekat, hindwing-nya kuning dengan corak gelap yang puitis.
 
@@ -25,11 +25,11 @@ Lalu mereka berdiri dengan bangga di hadapan bangkai itu, seolah baru saja menci
 Kemudian menjualnya sebagai _butterfly art_.
 
 Di sana, _Troides helena_ bukan ratu.  
-Ia hanya representasi manusia yang malas melukis.
+Dia hanya representasi manusia yang malas melukis.
 
 Tapi tidak di sini.
 
-Di dalam pikiranku, tempat realitas dipaksa tunduk pada apa yang menurutku seharusnya terjadi, ia adalah Ratu Helena. 
+Di dalam pikiranku, tempat realitas dipaksa tunduk pada apa yang menurutku seharusnya terjadi, dia adalah Ratu Helena. 
 
 Setiap kepakan sayapnya adalah penolakan terhadap eksploitasi hutan tropis yang membuat _Aristolochia_ berkurang.
 
