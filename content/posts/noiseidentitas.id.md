@@ -2,7 +2,7 @@
 title: "Identitas dan Noise dalam Persepsi Orang Lain"
 date: 2026-04-22T01:00:00+07:00
 draft: false
-tema: ["Identitas", "Interpretasi Seni"]
+categories: ["Identitas", "Interpretasi Seni"]
 ---
 
 Di artikel sebelumnya, aku menyatakan bahwa [identitas](../identitas/) adalah proses yang terus bergerak, yang menggembangkan asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar? 

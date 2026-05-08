@@ -3,7 +3,7 @@
 title: "Identitas: Organisme yang Hidup di Balik Gray Matter"
 date: 2026-04-21T01:00:00+07:00
 draft: false
-tema: ["Identitas"]
+categories: ["Identitas"]
 ------------
 
 Kebingungan ini sebenarnya bukan hal baru. Ia ada sejak lama, mengingatkanku pada kebingungan yang pernah kutulis tentang [Kepastian](/posts/kepastian/). Di sana aku mempertanyakan kepastian persepsi kita terhadap dunia. kali ini tentang kepastian tentang siapa yang sedang memandang dunia itu.

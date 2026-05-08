@@ -689,6 +689,137 @@ article a:hover,
     margin-top: 10px;
 }
 
+/* Botanical table styling */
+.post-content .table-wrapper {
+    margin: 2.2rem 0;
+    padding: 0;
+    background: #FBF8F4;
+    border: 1px solid rgba(226, 220, 211, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 14px 34px rgba(58, 47, 38, 0.05);
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;S
+}
+
+.post-content .table-wrapper > table {
+    display: table;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 0.97rem;
+    line-height: 1.65;
+    background: transparent;
+    font-family: "Alice", Georgia, "Times New Roman", serif;
+    box-sizing: border-box;
+}
+
+.post-content .table-wrapper > table th,
+.post-content .table-wrapper > table td {
+    padding: 16px 22px;
+    transition: background-color 0.24s ease, color 0.24s ease;
+    box-sizing: border-box;
+}
+
+.post-content .table-wrapper > table th {
+    text-align: left;
+    padding: 16px 22px 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    color: #5B4D42;
+    background: #F6F0E8;
+    border-bottom: 2px solid #B5A4A3;
+}
+
+.post-content .table-wrapper > table td {
+    color: #4A3F35;
+    border-bottom: 1px solid #EEE7DE;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+.post-content .table-wrapper > table tbody tr:nth-child(even) {
+    background-color: #f4ede7;
+}
+
+.post-content .table-wrapper > table tbody tr:hover {
+    background-color: #F2ECEE;
+}
+
+.post-content .table-wrapper > table td:first-child {
+    font-weight: 700;
+    color: #7D6B60;
+}
+
+.post-content .table-wrapper > table th:nth-child(1),
+.post-content .table-wrapper > table td:nth-child(1) {
+    width: 22%;
+}
+
+.post-content .table-wrapper > table th:nth-child(2),
+.post-content .table-wrapper > table td:nth-child(2) {
+    width: 23%;
+}
+
+.post-content .table-wrapper > table th:nth-child(3),
+.post-content .table-wrapper > table td:nth-child(3) {
+    width: 30%;
+}
+
+.post-content .table-wrapper > table th:nth-child(4),
+.post-content .table-wrapper > table td:nth-child(4) {
+    width: 25%;
+}
+
+.post-content .table-wrapper > table td em {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.05em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #5C4A3F;
+}
+
+.post-content h3:has(+ .table-wrapper) {
+    letter-spacing: 0.04em;
+}
+
+:root[data-theme="dark"] .post-content .table-wrapper {
+    background: rgba(37, 32, 40, 0.84);
+    border-color: rgba(214, 168, 188, 0.18);
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.22);
+}
+
+:root[data-theme="dark"] .post-content .table-wrapper > table th {
+    color: #F0E4EA;
+    background: rgba(255, 255, 255, 0.04);
+    border-bottom-color: rgba(214, 168, 188, 0.36);
+}
+
+:root[data-theme="dark"] .post-content .table-wrapper > table td {
+    color: #F2F0F1;
+    border-bottom-color: rgba(214, 168, 188, 0.12);
+}
+
+:root[data-theme="dark"] .post-content .table-wrapper > table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+:root[data-theme="dark"] .post-content .table-wrapper > table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="dark"] .post-content .table-wrapper > table td em {
+    color: #E6CBD8;
+}
+
 @media (max-width: 640px) {
     .menu {
         overflow-x: auto;
@@ -713,5 +844,29 @@ article a:hover,
     .post-content mjx-container[display="true"] {
         font-size: clamp(1.2rem, 8vw, 1.65rem);
         padding-bottom: 0.45rem;
+    }
+
+    .post-content .table-wrapper {
+        border-radius: 16px;
+    }
+
+    .post-content .table-wrapper > table th,
+    .post-content .table-wrapper > table td {
+        padding: 13px 16px;
+    }
+
+    .post-content .table-wrapper > table th {
+        padding: 14px 16px 12px;
+    }
+
+    .post-content .table-wrapper > table th:nth-child(1),
+    .post-content .table-wrapper > table td:nth-child(1),
+    .post-content .table-wrapper > table th:nth-child(2),
+    .post-content .table-wrapper > table td:nth-child(2),
+    .post-content .table-wrapper > table th:nth-child(3),
+    .post-content .table-wrapper > table td:nth-child(3),
+    .post-content .table-wrapper > table th:nth-child(4),
+    .post-content .table-wrapper > table td:nth-child(4) {
+        width: auto;
     }
 }

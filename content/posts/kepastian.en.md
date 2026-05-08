@@ -2,7 +2,7 @@
 title: "Discussing Certainty Without Certainty"
 date: 2026-04-19
 draft: false
-tema: ["Identitas"]
+categories: ["Identitas"]
 ---
 
 I once wrote in a caption that I am "more often confused than knowing." And right now, as it happens, I’m genuinely confused about what to write for my first post.

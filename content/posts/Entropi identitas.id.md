@@ -4,7 +4,7 @@ date: 2026-04-23T01:00:00+07:00
 draft: false
 math: true
 summary: "Di sebuah pemakaman di Wina, terukir sebuah persamaan tentang entropi pada nisan Ludwig Boltzmann. Jika identitas kita adalah sebuah sistem, persamaan ini menjelaskan mengapa kita butuh ruang untuk menjadi 'berantakan' agar bisa terus berkembang."
-tema: ["Identitas"]
+categories: ["Identitas"]
 ---
 
 > Di sebuah pemakaman di Wina, pada nisan Ludwig Boltzmann, terukir sebuah persamaan:

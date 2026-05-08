@@ -3,7 +3,7 @@
 title: "Membahas Kepastian Tanpa Kepastian"
 date: 2026-04-19
 draft: false
-tema: ["Identitas"]
+categories: ["Identitas"]
 ------------
 
 Aku pernah menulis di caption bahwa *"lebih sering bingung daripada tahu."*

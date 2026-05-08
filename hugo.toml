@@ -6,10 +6,14 @@ defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 cleanDestinationDir = true
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [taxonomies]
     tag = "tags"
     category = "categories"
-    tema = "tema"
 
 [params]
     env = "production"
@@ -71,6 +75,15 @@ cleanDestinationDir = true
                     name = "Prosa"
                     url = "/prosa/"
 
+                [[languages.id.params.profileMode.buttons]]
+                    name = "Digital Garden"
+                    url = "/digital-garden/"
+
+        [[languages.id.menu.main]]
+            name = "Digital Garden"
+            url = "/digital-garden/"
+            weight = 9
+
         [[languages.id.menu.main]]
             name = "Quiet Hours"
             url = "https://musae18.github.io/quiet-hours/"
@@ -102,6 +115,15 @@ cleanDestinationDir = true
                 [[languages.en.params.profileMode.buttons]]
                     name = "Prose"
                     url = "/en/prosa/"
+
+                [[languages.en.params.profileMode.buttons]]
+                    name = "Digital Garden"
+                    url = "/en/digital-garden/"
+
+        [[languages.en.menu.main]]
+            name = "Digital Garden"
+            url = "/en/digital-garden/"
+            weight = 9
 
         [[languages.en.menu.main]]
             name = "Quiet Hours"

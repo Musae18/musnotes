@@ -2,7 +2,7 @@
 title: "Identity: The Living Organism Behind the Gray Matter"
 date: 2026-04-21T01:00:00+07:00
 draft: false
-tema: ["Identitas"]
+categories: ["Identitas"]
 ---
 
 This confusion isn't exactly new. It’s been lingering for a long time, reminding me of the doubts I once wrote about in Certainty. Back then, I questioned the certainty of our perception of the world. This time, I’m questioning the certainty of who is actually doing the perceiving.

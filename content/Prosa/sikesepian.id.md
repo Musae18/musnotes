@@ -22,7 +22,7 @@ Dia menutup pagar rumahnya perlahan,
 Agar Tuhan tidak menyadarinya.
 
 Lalu dia menyusuri jalan yang lurus dan sepi.
-jalan yang mudah di prediksi. tidak ada belokan, tidak ada persimpangan, tidak ada pilihan.
+jalan yang mudah diprediksi. tidak ada belokan, tidak ada persimpangan, dan tidak ada pilihan.
 
 {{< mus-divider >}}
 
@@ -35,4 +35,5 @@ Masalahnya, dia bingung harus memilih yang mana.
 
 Daripada berdebat terlalu lama dengan dirinya sendiri,
 Perempuan itu membagi dirinya menjadi dua 
+
 " kau ambil kanan, aku yang kiri" kata si kesepian kepada dirinya sendiri, dan mereka pun melakukan perjalanan terpisah.

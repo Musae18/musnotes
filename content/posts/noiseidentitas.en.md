@@ -2,7 +2,7 @@
 title: "Identity and the Noise of Others' Perception"
 date: 2026-04-22T01:00:00+07:00
 draft: false
-tema: ["Identitas","Interpretasi Seni"]
+categories: ["Identitas","Interpretasi Seni"]
 ---
 
 In my previous post, I stated that [identity](/posts/identitas/) is a constantly moving process—one that evolves our assumptions about ourselves. However, that question remains unfinished: what if identity is actually a label attached to us by outsiders?
