@@ -2,6 +2,7 @@
 title: "Leptosia and the Café Between Neurons"
 date: 2026-05-01
 draft: false
+type: garden-fragment
 ---
 
 One night, long before I knew anything of encrypted texts, little Mus was awakened by the sound of crying, rising and falling like a musical scale.

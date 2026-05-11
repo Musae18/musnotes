@@ -45,6 +45,35 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Skip link: off-screen until keyboard focus */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0.75rem;
+    z-index: 10000;
+    padding: 0.65rem 1rem;
+    border-radius: var(--radius);
+    background: var(--orchid-accent);
+    color: var(--bg-color);
+    font-size: 0.92rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    border: 0;
+    box-shadow: 0 8px 24px rgba(107, 79, 91, 0.2);
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+    left: 0.75rem;
+    outline: 2px solid var(--orchid-accent);
+    outline-offset: 3px;
+}
+
+main#main:focus {
+    outline: none;
+}
+
 body,
 button,
 input,
@@ -185,6 +214,112 @@ a:focus-visible {
     color: var(--sage-fade);
 }
 
+.profile .profile_inner {
+    max-width: 34rem;
+}
+
+.about-card {
+    width: min(100%, 31rem);
+    margin-top: 0.55rem;
+    text-align: center;
+}
+
+.about-card::before {
+    content: "";
+    display: block;
+    width: 4.5rem;
+    height: 1px;
+    margin: 0 auto 0.9rem;
+    background: linear-gradient(90deg, rgba(122, 144, 118, 0.15) 0%, rgba(181, 106, 160, 0.65) 50%, rgba(122, 144, 118, 0.15) 100%);
+}
+
+.about-card-label {
+    margin-bottom: 0.6rem;
+    font-family: "Alice", serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: color-mix(in srgb, var(--primary) 72%, #b56aa0 28%);
+    opacity: 0.8;
+}
+
+.about-card p {
+    margin: 0;
+    font-family: "Alice", serif;
+    font-size: 1.12rem;
+    line-height: 1.9;
+    letter-spacing: 0.01em;
+    color: color-mix(in srgb, var(--primary) 82%, var(--secondary) 18%);
+}
+
+@media (max-width: 640px) {
+    .about-card {
+        width: min(100%, 25rem);
+        margin-top: 0.4rem;
+    }
+
+    .about-card p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+}
+
+.lang-menu {
+    gap: 0.5rem;
+}
+
+.lang-menu li {
+    min-height: inherit;
+    display: inline-flex;
+    align-items: center;
+}
+
+.lang-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.08rem;
+    font-size: 0.86rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--primary);
+    opacity: 0.6;
+    transition: opacity 180ms ease, color 180ms ease;
+}
+
+.lang-link::after {
+    content: "";
+    position: absolute;
+    left: 0.08rem;
+    right: 0.08rem;
+    bottom: 0.76rem;
+    height: 1.5px;
+    background: #b56aa0;
+    transform: scaleX(0);
+    transform-origin: left center;
+    opacity: 0;
+    transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.lang-link:hover,
+.lang-link:focus-visible {
+    opacity: 0.92;
+}
+
+.lang-link:hover::after,
+.lang-link:focus-visible::after,
+.lang-link.is-active::after {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.lang-link.is-active {
+    opacity: 1;
+    font-weight: 600;
+}
+
 .social-icons a {
     color: var(--orchid-accent);
     opacity: 0.84;
@@ -201,13 +336,32 @@ a:focus-visible {
     background: transparent;
     border: 1px solid rgba(107, 79, 91, 0.12);
     box-shadow: none;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease,
+        background-color 0.25s ease;
 }
 
 .post-entry:hover,
 .post-entry:focus-within {
-    transform: scale(1.01);
-    box-shadow: 0 16px 34px rgba(107, 79, 91, 0.08);
+    transform: translateY(-3px);
+    background-color: #f3eaf0;
+    box-shadow: 0 12px 28px rgba(107, 79, 91, 0.18);
     border-color: rgba(107, 79, 91, 0.2);
+}
+
+:root[data-theme="dark"] .post-entry,
+:root[data-theme="dark"] .first-entry {
+    background: rgba(0, 0, 0, 0.2);
+    border-color: rgba(210, 183, 196, 0.14);
+}
+
+:root[data-theme="dark"] .post-entry:hover,
+:root[data-theme="dark"] .post-entry:focus-within {
+    background-color: #2a242e;
+    box-shadow: 0 12px 28px rgba(143, 108, 124, 0.18);
+    border-color: rgba(210, 183, 196, 0.24);
 }
 
 .entry-header h2 {
@@ -310,17 +464,6 @@ a:focus-visible {
     border-inline-start: 2px solid rgba(107, 79, 91, 0.34);
     background: rgba(255, 255, 255, 0.45);
     color: var(--sage-fade);
-}
-
-:root[data-theme="dark"] .post-entry,
-:root[data-theme="dark"] .first-entry {
-    border-color: rgba(210, 183, 196, 0.14);
-}
-
-:root[data-theme="dark"] .post-entry:hover,
-:root[data-theme="dark"] .post-entry:focus-within {
-    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
-    border-color: rgba(210, 183, 196, 0.24);
 }
 
 :root[data-theme="dark"] .entry-content p,
@@ -437,68 +580,35 @@ a:focus-visible {
     }
 }
 
-/* --- DARK MODE FIX --- */
-/* Styling tambahan untuk memastikan semua elemen nurut di dark mode */
-
-/* Memaksa PaperMod untuk nurut sama warna kita di dark mode */
-[data-theme="dark"] body {
+/* --- DARK MODE: layout overrides (design tokens: single :root[data-theme="dark"] near top) --- */
+:root[data-theme="dark"] body {
+    background-image: none !important;
     background-color: var(--bg-color) !important;
     color: var(--main-text) !important;
     transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-/* Pastikan header dan elemen lain nggak nyangkut di warna lama */
-[data-theme="dark"] .header, [data-theme="dark"] .header .logo a, [data-theme="dark"] a {
+:root[data-theme="dark"] .header,
+:root[data-theme="dark"] .header .logo a,
+:root[data-theme="dark"] a {
     color: var(--main-text);
 }
 
-[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3 {
+:root[data-theme="dark"] h1,
+:root[data-theme="dark"] h2,
+:root[data-theme="dark"] h3 {
     color: var(--orchid-accent);
 }
 
-/* Pastikan kartu postingan tetep cakep di mode gelap */
-[data-theme="dark"] .post-entry {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-[data-theme="dark"] .post-entry:hover {
-    box-shadow: 0 10px 20px rgba(184, 144, 162, 0.1);
-}
-
-/* --- DARK MODE REFACTOR --- */
-:root[data-theme="dark"] {
-    --bg-color: #161417; /* Deep background for better contrast */
-    --main-text: #F2F0F1; /* Comfortable off-white for text */
-    --orchid-accent: #D6A8BC; /* Brighter accent color */
-    --sage-fade: #A397A0; /* Softer secondary color */
-
-    --theme: var(--bg-color);
-    --entry: #1E1B20; /* Card background */
-    --primary: var(--main-text);
-    --secondary: var(--sage-fade);
-    --tertiary: rgba(214, 168, 188, 0.15);
-    --content: var(--main-text);
-    --code-block-bg: #252028; /* Code block background */
-    --border: rgba(214, 168, 188, 0.2); /* Subtle border */
-
-    color-scheme: dark;
-}
-
-[data-theme="dark"] body {
-    background-image: none !important; /* Disable gradients */
-    background-color: var(--bg-color) !important;
+:root[data-theme="dark"] .post-content,
+:root[data-theme="dark"] .post-content p,
+:root[data-theme="dark"] .post-content li {
     color: var(--main-text) !important;
+    opacity: 1 !important;
 }
 
-[data-theme="dark"] .post-content, 
-[data-theme="dark"] .post-content p, 
-[data-theme="dark"] .post-content li {
-    color: var(--main-text) !important;
-    opacity: 1 !important; /* Ensure full opacity */
-}
-
-[data-theme="dark"] .mus-divider::before,
-[data-theme="dark"] .mus-divider::after {
+:root[data-theme="dark"] .mus-divider::before,
+:root[data-theme="dark"] .mus-divider::after {
     background: linear-gradient(90deg, transparent, var(--orchid-accent), transparent);
 }
 
@@ -541,24 +651,6 @@ article a:hover,
 .menu {
     overflow-x: visible;
     overflow-y: visible;
-}
-
-/* Post entry hover effects */
-.post-entry {
-    transition: all 0.25s ease;
-}
-
-/* Light mode post entry hover */
-.post-entry:hover {
-    background-color: #F3EAF0; /* Slightly more orchid-ish */
-    box-shadow: 0 12px 28px rgba(107, 79, 91, 0.18);
-    transform: translateY(-3px);
-}
-
-/* Dark mode post entry hover */
-:root[data-theme="dark"] .post-entry:hover {
-    background-color: #2A242E;
-    box-shadow: 0 12px 28px rgba(143, 108, 124, 0.18);
 }
 
 /* --- END HOVER EFFECT FIXES --- */
@@ -870,3 +962,123 @@ article a:hover,
         width: auto;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .post-entry,
+    .first-entry {
+        transition: none;
+    }
+
+    .post-entry:hover,
+    .post-entry:focus-within,
+    .logo a,
+    .logo a:hover,
+    .social-icons a:hover,
+    .social-icons a:focus-visible,
+    #theme-toggle,
+    #theme-toggle:hover,
+    .profile_inner img,
+    .profile_inner img:hover,
+    .profile .buttons .button:hover,
+    .profile .buttons .button:focus-visible {
+        transform: none;
+    }
+
+    .lang-link,
+    .lang-link::after {
+        transition: none;
+    }
+}
+
+/* --- Generic Flow Diagram System --- */
+:root {
+    --flow-bg: #fdfaf6; /* Background blog kamu */
+    --font-serif: 'Alice', serif;
+}
+
+/* Container utama agar bisa scroll horizontal di HP */
+.flow-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 20px 0;
+    cursor: grab;
+    /* Sembunyikan scrollbar untuk Chrome/Safari/Opera */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.flow-container::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.flow-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 0; /* Jarak diatur manual di arrow */
+    padding-left: 10px;
+}
+
+/* Desain Node (Kotak) */
+.flow-node {
+    font-family: var(--font-serif);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    white-space: nowrap;
+    border-left: 5px solid #ccc; /* Default border */
+    transition: transform 0.2s ease;
+}
+
+.flow-node:hover {
+    transform: translateY(-3px);
+}
+
+.node-icon {
+    font-size: 1.2em;
+}
+
+.node-label {
+    font-weight: 600;
+    color: #444;
+    letter-spacing: 0.3px;
+}
+
+/* Desain Arrow (Panah) */
+.flow-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    color: #cbd5e0;
+    position: relative;
+}
+
+.flow-arrow::before {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: currentColor;
+    display: block;
+}
+
+.flow-arrow::after {
+    content: '▶';
+    font-size: 8px;
+    position: absolute;
+    right: 5px;
+}
+
+/* Variasi Warna (Reusable) */
+.node-sage { border-left-color: #dfd2ef; background: #e6ebe5; }
+.node-orchid { border-left-color: #d8cceb; background: #eae4f9; }
+.node-blue { border-left-color: #8fa9bb; background: #f0f3f4; }
+
+.arrow-sage { color: #e5b7fa; }
+.arrow-orchid { color: #b5abcc; }

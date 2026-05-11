@@ -2,6 +2,7 @@
 title: "Troides Helena"
 date: 2026-04-27
 draft: false
+type: garden-fragment
 ---
 
 In a corner of my mind, there lies a realm called Silva Nigra; a forest of blackened leaves.

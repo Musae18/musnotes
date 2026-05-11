@@ -1,0 +1,86 @@
+{{- define "main" }}
+
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- else }} {{/* if not profileMode */}}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>
+    {{ .Title }}
+    {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
+    {{- with .OutputFormats.Get "rss" }}
+    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+    {{- end }}
+    {{- end }}
+  </h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="md-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+<div class="custom-garden-grid">
+    
+    <a href="/digital-garden/musnotes/" class="garden-card">
+        <img src="/images/musnotes-cover.svg" alt="Musnotes Archive">
+    </a>
+
+    <a href="/digital-garden/silva-nigra/" class="garden-card">
+        <img src="/images/silva-nigra-cover.svg" alt="Silva Nigra">
+    </a>
+
+</div>
+
+<style>
+.custom-garden-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+    justify-items: center;
+}
+
+.garden-card {
+    display: block;
+    width: 100%;
+    max-width: 450px; 
+    border-radius: 12px; 
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03); 
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.garden-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Animasi saat di-hover */
+.garden-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08); 
+}
+</style>
+{{- end }}{{/* end profileMode */}}
+
+{{- end }}{{- /* end main */ -}}

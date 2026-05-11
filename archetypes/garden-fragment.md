@@ -1,10 +1,11 @@
 ---
 title: "{{ replace .File.ContentBaseName `-` ` ` | title }}"
-description: "A fragment, intuition, or unfinished trace inside the digital garden."
-date: {{ .Date }}
+description: A fragment, intuition, or unfinished trace inside the digital garden.
+date:
+    "{ .Date }": null
 draft: true
-type: "garden-fragment"
-layout: "single"
+type: garden-fragment
+layout: single
 categories: []
 tags: []
 ---

@@ -19,9 +19,9 @@ cleanDestinationDir = true
     env = "production"
     defaultTheme = "auto"
     disableThemeToggle = false
-    disableLangToggle = false
+    disableLangToggle = true
 
-    ShowReadingTime = true
+    ShowReadingTime = false
     ShowShareButtons = false
     ShowPostNavLinks = true
     ShowBreadCrumbs = true
@@ -62,7 +62,7 @@ cleanDestinationDir = true
             [languages.id.params.profileMode]
                 enabled = true
                 title = "MuS"
-                subtitle = "Lebih sering bingung daripada tahu."
+                subtitle = "More often confused than knowing."
                 imageUrl = "https://github.com/Musae18.png"
                 imageTitle = "MuS"
                 imageWidth = 120

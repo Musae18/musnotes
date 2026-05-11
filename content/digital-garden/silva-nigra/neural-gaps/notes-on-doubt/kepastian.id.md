@@ -3,9 +3,9 @@
 title: "Membahas Kepastian Tanpa Kepastian"
 date: 2026-04-19
 draft: false
-type: "garden-node"
-categories: ["Identitas", "Notes on doubt", "Certainty"]
-tags: ["identity","silva nigra", "Biology", "math"]
+type: "garden-note"
+categories: ["Identity", "confused", "Certainty"]
+tags: ["confused", "question","my opinion"]
 ------------
 
 Aku pernah menulis di caption bahwa *"lebih sering bingung daripada tahu."*
