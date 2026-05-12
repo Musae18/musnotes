@@ -69,11 +69,6 @@ cleanDestinationDir = true
                 imageHeight = 120
                 imageBorder = false
 
-
-                [[languages.id.params.profileMode.buttons]]
-                    name = "Prosa"
-                    url = "/prosa/"
-
                 [[languages.id.params.profileMode.buttons]]
                     name = "Digital Garden"
                     url = "/digital-garden/"
@@ -101,11 +96,6 @@ cleanDestinationDir = true
                 imageWidth = 120
                 imageHeight = 120
                 imageBorder = false
-
-            
-                [[languages.en.params.profileMode.buttons]]
-                    name = "Prose"
-                    url = "/en/prosa/"
 
                 [[languages.en.params.profileMode.buttons]]
                     name = "Digital Garden"

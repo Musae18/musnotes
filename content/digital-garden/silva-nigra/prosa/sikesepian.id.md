@@ -14,7 +14,7 @@ Dia dipanggil begitu karena tak seorang pun menyadari dirinya kesepian,
 bahkan dirinya sendiri.
 
 Alasannya sederhana,
-Dia belum pernah mendefinisikan “kesepian”.
+Dia belum pernah mendefinisikan "kesepian".
 
 Maka perempuan itu memutuskan untuk memulai perjalanan.
 Mencari tahu apa sebenarnya arti dari sesuatu yang diam-diam melekat padanya.
@@ -27,7 +27,7 @@ jalan yang mudah diprediksi. tidak ada belokan, tidak ada persimpangan, dan tida
 
 {{< mus-divider >}}
 
-“Ini dia… jalan bercabang.”
+"Ini dia… jalan bercabang."
 
 Dia menghentikan langkahnya.
 Setelah perjalanan panjang tanpa pilihan, sekarang dia dihadapkan pada dua arah.

@@ -42,7 +42,7 @@ We laughed.
 
 A laughter synchronized across realities.
 
-We then talked about trivial things: about showering, and the absurdities of humans in different dimensions. In that café, we agreed that something doesn’t have to be touchable to be real.
+We then talked about trivial things: about showering, and the absurdities of humans in different dimensions. In that café, we agreed that something doesn't have to be touchable to be real.
 
 {{< mus-divider >}}
 

@@ -27,7 +27,7 @@ A predictable path. No turns, no crossroads, and no choices.
 
 {{< mus-divider >}}
 
-“Here it is… a fork in the road.”
+"Here it is… a fork in the road."
 
 She halted.
 After a long journey without options, she was now faced with two directions.
