@@ -11,6 +11,9 @@ cleanDestinationDir = true
         [markup.goldmark.renderer]
             unsafe = true
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [taxonomies]
     tag = "tags"
     category = "categories"
@@ -19,7 +22,7 @@ cleanDestinationDir = true
     env = "production"
     defaultTheme = "auto"
     disableThemeToggle = false
-    disableLangToggle = true
+    disableLangToggle = false
 
     ShowReadingTime = false
     ShowShareButtons = false
@@ -95,9 +98,24 @@ cleanDestinationDir = true
                     url = "/digital-garden/"
 
         [[languages.id.menu.main]]
-            name = "Quiet Hours"
-            url = "https://musae18.github.io/quiet-hours/"
+            name = "Garden"
+            url = "/digital-garden/"
             weight = 10
+
+        [[languages.id.menu.main]]
+            name = "Projects"
+            url = "/projects/"
+            weight = 20
+
+        [[languages.id.menu.main]]
+            name = "Quiet Hours ↗"
+            url = "https://musae18.github.io/quiet-hours/"
+            weight = 30
+
+        [[languages.id.menu.main]]
+            name = "Cari"
+            pageRef = "/search"
+            weight = 40
 
     [languages.en]
         languageName = "English"
@@ -146,6 +164,21 @@ cleanDestinationDir = true
     
 
         [[languages.en.menu.main]]
-            name = "Quiet Hours"
-            url = "https://musae18.github.io/quiet-hours/"
+            name = "Garden"
+            url = "/en/digital-garden/"
             weight = 10
+
+        [[languages.en.menu.main]]
+            name = "Projects"
+            url = "/en/projects/"
+            weight = 20
+
+        [[languages.en.menu.main]]
+            name = "Quiet Hours ↗"
+            url = "https://musae18.github.io/quiet-hours/"
+            weight = 30
+
+        [[languages.en.menu.main]]
+            name = "Search"
+            pageRef = "/search"
+            weight = 40

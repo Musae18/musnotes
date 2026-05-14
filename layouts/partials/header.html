@@ -32,8 +32,7 @@
             </a>
             {{- end }}
 
-            {{- $hideLangSwitch := eq .Section "digital-garden" }}
-            {{- $lsenabled := (or (not site.Params.disableThemeToggle) (and (not site.Params.disableLangToggle) (hugo.IsMultilingual) (not $hideLangSwitch))) }}
+            {{- $lsenabled := (or (not site.Params.disableThemeToggle) (and (not site.Params.disableLangToggle) (hugo.IsMultilingual))) }}
             {{- if $lsenabled }}
             <div class="logo-switches">
                 {{- if (not site.Params.disableThemeToggle) }}
@@ -59,7 +58,7 @@
                 </button>
                 {{- end }}
 
-                {{- if and (not site.Params.disableLangToggle) (not $hideLangSwitch) }}
+                {{- if and (not site.Params.disableLangToggle) (hugo.IsMultilingual) }}
                     {{- $lang := .Lang }}
                     {{- $pageTranslations := dict }}
                     {{- range .Translations }}
