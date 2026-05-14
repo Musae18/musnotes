@@ -16,7 +16,7 @@ Ilmuwan Inggris ini adalah orang pertama yang memperkenalkan istilah bagi unit k
 
   ![ilustrasi gabus](/images/robert_hooke/ilustrasi_gabus.png)
 
-  <p style="font-style: italic; font-size: 0.9em; color: #888; margin-top: 10px;">ini ilustrasinya</p>
+  <p style="font-style: italic; font-size: 0.9em; color: #888; margin-top: 10px;">ilustrasinya</p>
 
 </div>
 

@@ -6,5 +6,5 @@ weight: 1
 type: "garden-node"
 layout: "list"
 cover:
-  image: "/static/images/neural-gaps-cover.mp4"
+  image: "images/neural-gaps-cover.mp4"
 ---

@@ -5,7 +5,7 @@ date: 2026-04-19
 draft: false
 type: "garden-note"
 categories: ["Identity", "confused", "Certainty"]
-tags: ["confused", "question","my opinion"]
+tags: ["confused", "question","perception"]
 ------------
 
 Aku pernah menulis di caption bahwa *"lebih sering bingung daripada tahu."*

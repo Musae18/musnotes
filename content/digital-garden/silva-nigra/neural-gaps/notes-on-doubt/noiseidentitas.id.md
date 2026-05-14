@@ -4,7 +4,7 @@ date: 2026-04-22T01:00:00+07:00
 draft: false
 type: "garden-note"
 categories: ["Identity", "philosophy","social narratives" ]
-tags: ["identity","social narratives", "Human Brain", "my opinion"]
+tags: ["identity","social narratives", "Human Brain", "perception"]
 ---
 
 Di artikel sebelumnya, aku menyatakan bahwa [identitas](../identitas/) adalah proses yang terus bergerak, yang menggembangkan asumsi kita terhadap diri sendiri. Namun, pertanyaan itu belum selesai: bagaimana jika identitas justru merupakan label yang dilekatkan oleh pihak luar? 
