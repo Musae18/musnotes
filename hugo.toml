@@ -63,8 +63,8 @@ cleanDestinationDir = true
                 enabled = true
                 eyebrow = "PERSONAL BLOG · DIGITAL GARDEN · PROJECT STUDIO"
                 title = "More often confused than knowing."
-                subheadline = "Mahasiswa biologi, digital gardener, dan pembuat hal-hal web yang tenang."
-                intro = "Sebuah arsip pelan untuk catatan biologi, esai reflektif, pikiran yang belum selesai, dan eksperimen digital kecil."
+                subheadline = "Biology student, digital gardener, and maker of quiet web things."
+                intro = "Sebuah arsip untuk catatan non-linear, esai reflektif, pikiran yang belum selesai, dan eksperimen digital kecil."
 
                 [languages.id.params.homepage.primaryButton]
                     name = "Enter the Garden"
@@ -75,10 +75,10 @@ cleanDestinationDir = true
                     url = "/projects/"
 
                 [languages.id.params.homepage.visual]
-                    caption = "MusNotes"
+                    caption = "MuS"
                     meta = "est. 2026"
-                    symbol = "svg/mus-symbol.svg"
-                    symbolAlt = "MusNotes botanical symbol"
+                    symbol = "svg/mus-card.svg"
+                    symbolAlt = "musnotes botanical symbol"
 
             [languages.id.params.profileMode]
                 enabled = true
@@ -113,7 +113,7 @@ cleanDestinationDir = true
                 eyebrow = "PERSONAL BLOG · DIGITAL GARDEN · PROJECT STUDIO"
                 title = "More often confused than knowing."
                 subheadline = "Biology student, digital gardener, and maker of quiet web things."
-                intro = "A quiet archive for biology notes, reflective essays, unfinished thoughts, and small digital experiments."
+                intro = "A quiet archive for non-linear notes, reflective essays, unfinished thoughts, and small digital experiments."
 
                 [languages.en.params.homepage.primaryButton]
                     name = "Enter the Garden"
@@ -124,10 +124,10 @@ cleanDestinationDir = true
                     url = "/en/projects/"
 
                 [languages.en.params.homepage.visual]
-                    caption = "MusNotes"
+                    caption = "MuS"
                     meta = "est. 2026"
-                    symbol = "svg/mus-symbol.svg"
-                    symbolAlt = "MusNotes botanical symbol"
+                    symbol = "svg/mus-card.svg"
+                    symbolAlt = "musnotes botanical symbol"
 
             [languages.en.params.profileMode]
                 enabled = true

@@ -896,13 +896,14 @@ a:focus-visible {
 
     .home-hero {
         width: min(100%, calc(100% - 1.4rem));
+        min-height: calc(100svh - 7.5rem);
         padding-top: 1.1rem;
-        padding-bottom: 1.9rem;
+        padding-bottom: 1.7rem;
     }
 
     .home-hero__inner {
         grid-template-columns: 1fr;
-        gap: 1.55rem;
+        gap: 1.15rem;
     }
 
     .home-hero__title {
@@ -931,31 +932,57 @@ a:focus-visible {
 
     .home-hero__button {
         width: 100%;
+        min-height: 46px;
+    }
+
+    .home-hero__social {
+        margin-top: 1.15rem;
     }
 
     .home-hero__social .social-icons {
         justify-content: flex-start;
+        gap: 0.7rem;
+    }
+
+    .home-hero__social .social-icons a {
+        opacity: 0.68;
     }
 
     .home-hero-card {
         width: min(100%, 100%);
-        min-height: 340px;
-        padding: 1.2rem;
+        min-height: 264px;
+        padding: 0.8rem;
         border-radius: 6px;
+        box-shadow: 0 5px 16px rgba(87, 70, 74, 0.025);
     }
 
     .home-hero-card::before {
-        inset: 16px;
-        border-radius: 18px;
+        inset: 0;
+        border-radius: 0;
     }
 
     .home-hero-card__symbol {
-        min-height: 220px;
-        padding: 1.2rem 1.15rem 0.85rem;
+        min-height: 150px;
+        padding: 0.55rem 0.9rem 0.25rem;
     }
 
     .home-hero-card__symbol svg {
-        width: min(100%, 128px);
+        width: min(100%, 98px);
+    }
+
+    .home-hero-card__meta {
+        gap: 0.18rem;
+        padding: 0 0 0.7rem;
+    }
+
+    .home-hero-card__caption {
+        font-size: 0.8rem;
+    }
+
+    .home-hero-card__note {
+        font-size: 0.66rem;
+        letter-spacing: 0.01em;
+        opacity: 0.44;
     }
 
     .profile .buttons {
