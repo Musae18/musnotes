@@ -2,7 +2,148 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Gabriela&display=swap" rel="stylesheet">
+
+<style>
+  html[data-theme="light"] {
+    --nav-paper: #f5efe7;
+    --nav-paper-edge: rgba(122, 101, 120, 0.16);
+    --nav-ink: #3f3344;
+    --nav-ink-soft: rgba(63, 51, 68, 0.72);
+    --nav-accent: #7c8f74;
+    --nav-accent-soft: rgba(124, 143, 116, 0.16);
+    --nav-orchid-soft: rgba(132, 106, 136, 0.12);
+  }
+
+  html[data-theme="dark"] {
+    --nav-paper: #27242a;
+    --nav-paper-edge: rgba(205, 190, 208, 0.14);
+    --nav-ink: #eee6ea;
+    --nav-ink-soft: rgba(238, 230, 234, 0.72);
+    --nav-accent: #a0b495;
+    --nav-accent-soft: rgba(160, 180, 149, 0.16);
+    --nav-orchid-soft: rgba(173, 144, 177, 0.14);
+  }
+
+  .header {
+    background: color-mix(in srgb, var(--nav-paper) 92%, transparent);
+    border-bottom: 1px solid var(--nav-paper-edge);
+  }
+
+  .header-nav {
+    gap: 1rem;
+    min-height: 4.2rem;
+    padding: 0.85rem 0;
+  }
+
+  .logo > a {
+    align-items: center;
+    color: var(--nav-ink);
+    display: inline-flex;
+    gap: 0.55rem;
+    letter-spacing: 0.02em;
+  }
+
+  .logo > a img {
+    display: block;
+    width: auto;
+  }
+
+  .logo-switches {
+    gap: 0.45rem;
+    margin-inline-start: 0.7rem;
+  }
+
+  .theme-toggle {
+    color: var(--nav-ink-soft);
+    border-radius: 999px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+  }
+
+  .theme-toggle:hover {
+    color: var(--nav-ink);
+    background: var(--nav-orchid-soft);
+  }
+
+  #menu {
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  #menu li + li {
+    margin-inline-start: 0.1rem;
+  }
+
+  #menu a {
+    color: var(--nav-ink-soft);
+    border-radius: 999px;
+    padding: 0.4rem 0.75rem;
+    transition: color 0.2s ease, background-color 0.2s ease;
+  }
+
+  #menu a:hover {
+    color: var(--nav-ink);
+    background: var(--nav-orchid-soft);
+  }
+
+  #menu .active {
+    color: var(--nav-ink);
+    text-decoration: underline;
+    text-decoration-color: var(--nav-accent);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.28em;
+  }
+
+  #menu svg {
+    color: var(--nav-ink-soft);
+  }
+
+  .lang-menu {
+    gap: 0.18rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .lang-menu a,
+  .lang-menu .lang-link.is-active {
+    color: var(--nav-ink-soft);
+    border-radius: 999px;
+    padding: 0.1rem 0.28rem;
+    transition: color 0.2s ease, background-color 0.2s ease;
+  }
+
+  .lang-menu a:hover {
+    color: var(--nav-ink);
+    background: var(--nav-accent-soft);
+  }
+
+  .lang-menu .lang-link.is-active {
+    color: var(--nav-ink);
+    text-decoration: underline;
+    text-decoration-color: var(--nav-accent);
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.22em;
+  }
+
+  @media (max-width: 767px) {
+    .header-nav {
+      padding: 0.7rem 0;
+    }
+
+    #menu {
+      gap: 0.15rem;
+    }
+
+    #menu a {
+      padding: 0.35rem 0.55rem;
+    }
+
+    .lang-menu {
+      font-size: 0.72rem;
+    }
+  }
+</style>
 
 {{ if or .Params.math .Site.Params.math }}
 <script>

@@ -24,6 +24,11 @@ cleanDestinationDir = true
     disableThemeToggle = false
     disableLangToggle = false
 
+    [params.label]
+        text = "MuS"
+        icon = "mus-logo.png"
+        iconHeight = 28
+
     ShowReadingTime = false
     ShowShareButtons = false
     ShowPostNavLinks = true
@@ -108,7 +113,7 @@ cleanDestinationDir = true
             weight = 20
 
         [[languages.id.menu.main]]
-            name = "Quiet Hours ↗"
+            name = "Quiet Hours"
             url = "https://musae18.github.io/quiet-hours/"
             weight = 30
 
@@ -174,7 +179,7 @@ cleanDestinationDir = true
             weight = 20
 
         [[languages.en.menu.main]]
-            name = "Quiet Hours ↗"
+            name = "Quiet Hours"
             url = "https://musae18.github.io/quiet-hours/"
             weight = 30
 
