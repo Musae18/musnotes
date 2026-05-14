@@ -2,3 +2,4 @@
 .hugo_cache/
 public/
 public-preview/
+.hugo_build.lock
