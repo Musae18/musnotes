@@ -29,7 +29,7 @@
           <img src="/images/musnotes-cover.svg" alt="{{ .Title }}">
         </div>
         <div class="garden-landing__card-copy">
-          <p class="garden-landing__card-kicker">{{ cond (eq site.Language.Lang "id") "Catatan hidup" "Living notes" }}</p>
+          <p class="garden-landing__card-kicker">{{ cond (eq site.Language.Lang "id") "Catatanku" "Living notes" }}</p>
           <h2 class="garden-landing__card-title">{{ .Title }}</h2>
           <p class="garden-landing__card-description">{{ .Description | default .Summary }}</p>
         </div>
@@ -42,7 +42,7 @@
           <img src="/images/silva-nigra-cover.svg" alt="{{ .Title }}">
         </div>
         <div class="garden-landing__card-copy">
-          <p class="garden-landing__card-kicker">{{ cond (eq site.Language.Lang "id") "Hutan imajinatif" "Imagined forest" }}</p>
+          <p class="garden-landing__card-kicker">{{ cond (eq site.Language.Lang "id") "Hutan imajiner" "Imagined forest" }}</p>
           <h2 class="garden-landing__card-title">{{ .Title }}</h2>
           <p class="garden-landing__card-description">{{ .Description | default .Summary }}</p>
         </div>

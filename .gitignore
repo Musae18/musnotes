@@ -3,3 +3,5 @@
 public/
 public-preview/
 .hugo_build.lock
+.tmp*/
+tmp*/

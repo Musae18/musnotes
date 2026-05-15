@@ -1,0 +1,108 @@
+{{- $lang := .Site.Language.Lang -}}
+{{- $isIndonesian := eq $lang "id" -}}
+{{- $kicker := cond $isIndonesian "SPECIMEN REGISTER" "SPECIMEN REGISTER" -}}
+{{- $emptyTitle := cond $isIndonesian "Belum ada arsip terbuka" "No public entries yet" -}}
+{{- $emptyCopy := cond $isIndonesian "Catatan publik untuk ruang ini belum tersedia. Arsip akan tumbuh perlahan, seiring musim." "No public notes have been filed in this register yet. The cabinet will fill in time." -}}
+{{- $specimenLabel := cond $isIndonesian "spesimen terbuka" "open specimens" -}}
+{{- $entryLabel := cond $isIndonesian "entri" "entries" -}}
+{{- $archivePages := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $path := "" -}}
+  {{- with .File }}
+    {{- $path = .Path -}}
+  {{- end -}}
+  {{- $isUtility := or (eq .Section "archives") (eq .Section "search") (eq .Layout "search") (in $path "search.") -}}
+  {{- $isExcludedType := or (eq .Type "archives") (eq .Type "search") (eq .Type "projects") -}}
+  {{- $isHidden := or (.Param "private") (.Param "unlisted") (.Param "archived") -}}
+  {{- if and (not .Draft) (not $isUtility) (not $isExcludedType) (not $isHidden) -}}
+    {{- $archivePages = $archivePages | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $pages := sort $archivePages "Date" "desc" -}}
+{{- $totalEntries := len $pages -}}
+
+<section class="archives-register" aria-labelledby="archives-register-title">
+  <div class="archives-register__inner">
+    <header class="archives-register__header">
+      {{- partial "breadcrumbs.html" . }}
+      <p class="archives-register__kicker">{{ $kicker }}</p>
+      <div class="archives-register__heading">
+        <h1 id="archives-register-title" class="archives-register__title">{{ .Title }}</h1>
+        {{- with .Description }}
+        <p class="archives-register__subtitle">{{ . }}</p>
+        {{- end }}
+        {{- if gt $totalEntries 0 }}
+        <p class="archives-register__meta">{{ $totalEntries }} {{ $specimenLabel }}</p>
+        {{- end }}
+      </div>
+      {{- if .Content }}
+      <div class="archives-register__note md-content">
+        {{- if not (.Param "disableAnchoredHeadings") }}
+        {{- partial "anchored_headings.html" .Content -}}
+        {{- else }}{{ .Content }}{{ end }}
+      </div>
+      {{- end }}
+    </header>
+
+    {{- if gt (len $pages) 0 }}
+    <div class="archives-register__cabinet">
+      {{- range $yearGroup := ($pages.GroupByDate "2006") }}
+      {{- $yearCount := len $yearGroup.Pages -}}
+      <section class="archives-year" aria-labelledby="archives-year-{{ $yearGroup.Key }}">
+        <div class="archives-year__heading">
+          <p class="archives-year__label">{{ cond $isIndonesian "Tahun" "Year" }}</p>
+          <h2 id="archives-year-{{ $yearGroup.Key }}" class="archives-year__title">{{ $yearGroup.Key }}</h2>
+          <p class="archives-year__meta">{{ $yearCount }} {{ $entryLabel }}</p>
+        </div>
+
+        <div class="archives-year__months">
+          {{- range $monthGroup := ($yearGroup.Pages.GroupByDate "January") }}
+          {{- $monthCount := len $monthGroup.Pages -}}
+          <section class="archives-month" aria-labelledby="archives-month-{{ $lang }}-{{ $yearGroup.Key }}-{{ $monthGroup.Key | urlize }}">
+            <div class="archives-month__rail">
+              <h3 id="archives-month-{{ $lang }}-{{ $yearGroup.Key }}-{{ $monthGroup.Key | urlize }}" class="archives-month__title">{{ $monthGroup.Key }}</h3>
+              <p class="archives-month__meta">{{ $monthCount }}</p>
+            </div>
+            <ol class="archives-month__entries">
+              {{- range $monthGroup.Pages }}
+              {{- $source := "" -}}
+              {{- if in .File.Path "digital-garden/musnotes/" -}}
+                {{- $source = "musnotes" -}}
+              {{- else if in .File.Path "digital-garden/silva-nigra/" -}}
+                {{- $source = "Silva Nigra" -}}
+              {{- else if .CurrentSection -}}
+                {{- $source = .CurrentSection.Title -}}
+              {{- else -}}
+                {{- $source = .Section | humanize -}}
+              {{- end -}}
+              {{- $summary := ((.Description | default .Summary) | plainify | htmlUnescape | replaceRE "\\s+" " ") -}}
+              <li class="archives-entry">
+                <article class="archives-entry__card">
+                  <div class="archives-entry__meta">
+                    <time class="archives-entry__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan" }}</time>
+                    <span class="archives-entry__dot" aria-hidden="true"></span>
+                    <span class="archives-entry__source">{{ $source }}</span>
+                  </div>
+                  <h4 class="archives-entry__title">{{ .Title }}</h4>
+                  {{- if and (ne (.Param "hideSummary") true) $summary }}
+                  <p class="archives-entry__summary">{{ $summary }}{{ if .Truncated }}...{{ end }}</p>
+                  {{- end }}
+                  <a class="archives-entry__link" href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}"></a>
+                </article>
+              </li>
+              {{- end }}
+            </ol>
+          </section>
+          {{- end }}
+        </div>
+      </section>
+      {{- end }}
+    </div>
+    {{- else }}
+    <section class="archives-register__empty" aria-live="polite">
+      <h2 class="archives-register__empty-title">{{ $emptyTitle }}</h2>
+      <p class="archives-register__empty-copy">{{ $emptyCopy }}</p>
+    </section>
+    {{- end }}
+  </div>
+</section>

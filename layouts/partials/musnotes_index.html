@@ -1,0 +1,95 @@
+{{- $notes := .RegularPages.ByDate.Reverse -}}
+{{- $paginator := .Paginate $notes -}}
+{{- $lang := site.Language.Lang -}}
+{{- $eyebrow := cond (eq $lang "id") "Indeks catatan lapangan" "Field notes index" -}}
+{{- $emptyCopy := cond (eq $lang "id") "Catatan di ruang ini masih sedang ditumbuhkan." "English notes are still being cultivated. The Indonesian index contains the current field notes." -}}
+{{- $emptyLinkLabel := cond (eq $lang "id") "Kembali nanti" "Open Indonesian index" -}}
+{{- $idTranslations := where .AllTranslations "Lang" "id" -}}
+{{- $idPage := cond (gt (len $idTranslations) 0) (index $idTranslations 0) nil -}}
+
+<section class="musnotes-index" aria-labelledby="musnotes-index-title">
+  <div class="musnotes-index__inner">
+    <header class="musnotes-index__header">
+      {{- partial "breadcrumbs.html" . }}
+      <p class="musnotes-index__eyebrow">{{ $eyebrow }}</p>
+      <div class="musnotes-index__heading">
+        <h1 id="musnotes-index-title" class="musnotes-index__title">{{ .Title }}</h1>
+        {{- with .Description }}
+        <p class="musnotes-index__subtitle">{{ . }}</p>
+        {{- end }}
+      </div>
+    </header>
+
+    {{- if .Content }}
+    <div class="musnotes-index__prologue md-content">
+      {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+      {{- else }}{{ .Content }}{{ end }}
+    </div>
+    {{- end }}
+
+    {{- if gt (len $paginator.Pages) 0 }}
+    <div class="musnotes-notes" role="list">
+      {{- range $paginator.Pages }}
+      {{- $topic := "" -}}
+      {{- with .Params.categories }}
+        {{- $topic = index . 0 -}}
+      {{- else }}
+        {{- with .Params.tags }}
+          {{- $topic = index . 0 -}}
+        {{- end }}
+      {{- end }}
+      {{- $summary := ((.Description | default .Summary) | plainify | htmlUnescape | replaceRE "\\s+" " ") -}}
+      <article class="musnotes-note" role="listitem">
+        <div class="musnotes-note__body">
+          <div class="musnotes-note-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
+            {{- with $topic }}
+            <span class="musnotes-note-meta__separator" aria-hidden="true">&middot;</span>
+            <span class="musnotes-note-meta__tag">{{ . }}</span>
+            {{- end }}
+          </div>
+          <h2 class="musnotes-note-title">{{ .Title }}</h2>
+          {{- if and (ne (.Param "hideSummary") true) $summary }}
+          <p class="musnotes-note-summary">{{ $summary }}{{ if .Truncated }}...{{ end }}</p>
+          {{- end }}
+        </div>
+        <a class="musnotes-note-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .RelPermalink }}"></a>
+      </article>
+      {{- end }}
+    </div>
+    {{- else }}
+    <section class="musnotes-empty" aria-live="polite">
+      <p class="musnotes-empty__copy">{{ $emptyCopy }}</p>
+      {{- with $idPage }}
+      {{- if ne $lang "id" }}
+      <a class="musnotes-empty__link" href="{{ .RelPermalink }}">{{ $emptyLinkLabel }}</a>
+      {{- end }}
+      {{- end }}
+    </section>
+    {{- end }}
+
+    {{- if gt $paginator.TotalPages 1 }}
+    <footer class="page-footer">
+      <nav class="pagination">
+        {{- if $paginator.HasPrev }}
+        <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+          Ã‚Â«&nbsp;{{ i18n "prev_page" }}&nbsp;
+          {{- if (.Param "ShowPageNums") }}
+          {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+          {{- end }}
+        </a>
+        {{- end }}
+        {{- if $paginator.HasNext }}
+        <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+          {{- i18n "next_page" }}&nbsp;
+          {{- if (.Param "ShowPageNums") }}
+          {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+          {{- end }}&nbsp;Ã‚Â»
+        </a>
+        {{- end }}
+      </nav>
+    </footer>
+    {{- end }}
+  </div>
+</section>

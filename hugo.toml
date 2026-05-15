@@ -113,6 +113,11 @@ cleanDestinationDir = true
             weight = 20
 
         [[languages.id.menu.main]]
+            name = "Archives"
+            url = "/archives/"
+            weight = 25
+
+        [[languages.id.menu.main]]
             name = "Quiet Hours"
             url = "https://musae18.github.io/quiet-hours/"
             weight = 30
@@ -177,6 +182,11 @@ cleanDestinationDir = true
             name = "Projects"
             url = "/en/projects/"
             weight = 20
+
+        [[languages.en.menu.main]]
+            name = "Archives"
+            url = "/en/archives/"
+            weight = 25
 
         [[languages.en.menu.main]]
             name = "Quiet Hours"

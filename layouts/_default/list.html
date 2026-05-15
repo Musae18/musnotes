@@ -7,9 +7,15 @@
 </div>
 {{- else }} {{/* if not profileMode */}}
 {{- $isSilvaNigra := and .IsSection (hasSuffix .RelPermalink "/silva-nigra/") -}}
+{{- $isMusnotes := and .IsSection (hasSuffix .RelPermalink "/musnotes/") -}}
+{{- $isArchives := and .IsSection (hasSuffix .RelPermalink "/archives/") -}}
 
 {{- if $isSilvaNigra }}
 {{- partial "silva_archive.html" . }}
+{{- else if $isMusnotes }}
+{{- partial "musnotes_index.html" . }}
+{{- else if $isArchives }}
+{{- partial "archives_register.html" . }}
 {{- else }}
 
 {{- if not .IsHome | and .Title }}
