@@ -17,13 +17,15 @@
                 {{- end -}}
             </h1>
 
-            {{- with .subheadline }}
-            <p class="home-hero__subheadline">{{ . | markdownify }}</p>
-            {{- end }}
+            <div class="home-hero__lede">
+                {{- with .subheadline }}
+                <p class="home-hero__subheadline">{{ . | markdownify }}</p>
+                {{- end }}
 
-            {{- with .intro }}
-            <p class="home-hero__intro">{{ . | markdownify }}</p>
-            {{- end }}
+                {{- with .intro }}
+                <p class="home-hero__intro">{{ . | markdownify }}</p>
+                {{- end }}
+            </div>
 
             <div class="home-hero__actions">
                 {{- with .primaryButton }}

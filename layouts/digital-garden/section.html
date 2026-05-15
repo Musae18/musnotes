@@ -1,0 +1,54 @@
+{{- define "main" }}
+{{- $musnotesPage := .Site.GetPage "section" (printf "%s/%s" .Section "musnotes") -}}
+{{- $silvaNigraPage := .Site.GetPage "section" (printf "%s/%s" .Section "silva-nigra") -}}
+<section class="garden-landing" aria-labelledby="garden-landing-title">
+  <div class="garden-landing__inner">
+    <header class="garden-landing__header">
+      {{- partial "breadcrumbs.html" . }}
+      <p class="garden-landing__eyebrow">{{ cond (eq site.Language.Lang "id") "Peta yang terus tumbuh" "An ever-growing field guide" }}</p>
+      <div class="garden-landing__heading-wrap">
+        <h1 id="garden-landing-title" class="garden-landing__title">{{ .Title }}</h1>
+        {{- with .Description }}
+        <p class="garden-landing__subtitle">{{ . }}</p>
+        {{- end }}
+      </div>
+    </header>
+
+    {{- if .Content }}
+    <div class="garden-landing__content md-content">
+      {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+      {{- else }}{{ .Content }}{{ end }}
+    </div>
+    {{- end }}
+
+    <div class="garden-landing__cards">
+      {{- with $musnotesPage }}
+      <a href="{{ .RelPermalink }}" class="garden-landing__card garden-landing__card--musnotes">
+        <div class="garden-landing__card-media">
+          <img src="/images/musnotes-cover.svg" alt="{{ .Title }}">
+        </div>
+        <div class="garden-landing__card-copy">
+          <p class="garden-landing__card-kicker">{{ cond (eq site.Language.Lang "id") "Catatan hidup" "Living notes" }}</p>
+          <h2 class="garden-landing__card-title">{{ .Title }}</h2>
+          <p class="garden-landing__card-description">{{ .Description | default .Summary }}</p>
+        </div>
+      </a>
+      {{- end }}
+
+      {{- with $silvaNigraPage }}
+      <a href="{{ .RelPermalink }}" class="garden-landing__card garden-landing__card--silva">
+        <div class="garden-landing__card-media">
+          <img src="/images/silva-nigra-cover.svg" alt="{{ .Title }}">
+        </div>
+        <div class="garden-landing__card-copy">
+          <p class="garden-landing__card-kicker">{{ cond (eq site.Language.Lang "id") "Hutan imajinatif" "Imagined forest" }}</p>
+          <h2 class="garden-landing__card-title">{{ .Title }}</h2>
+          <p class="garden-landing__card-description">{{ .Description | default .Summary }}</p>
+        </div>
+      </a>
+      {{- end }}
+    </div>
+  </div>
+</section>
+{{- end }}

@@ -1,0 +1,101 @@
+{{- $sectionPages := .Sections.ByWeight -}}
+{{- $recentPages := first 8 (.RegularPagesRecursive.ByDate.Reverse) -}}
+{{- $archiveLabel := cond (eq site.Language.Lang "id") "Arsip imajinatif" "Imagined archive" -}}
+{{- $chamberLabel := cond (eq site.Language.Lang "id") "Ruang" "Chamber" -}}
+{{- $recentLabel := cond (eq site.Language.Lang "id") "Fragmen terbaru" "Recent fragments" -}}
+{{- $recentIntro := cond (eq site.Language.Lang "id") "Catatan yang baru jatuh dari hutan hitam, disusun seperti indeks sunyi." "Notes newly fallen from the black forest, arranged as a quiet index." -}}
+{{- $noteLabelPlural := cond (eq site.Language.Lang "id") "catatan" "notes" -}}
+{{- $noteLabelSingular := cond (eq site.Language.Lang "id") "catatan" "note" -}}
+
+<section class="silva-archive" aria-labelledby="silva-archive-title">
+  <div class="silva-archive__inner">
+    <header class="silva-archive__header">
+      {{- partial "breadcrumbs.html" . }}
+      <p class="silva-archive__eyebrow">{{ $archiveLabel }}</p>
+      <div class="silva-archive__heading">
+        <h1 id="silva-archive-title" class="silva-archive__title">{{ .Title }}</h1>
+        {{- with .Description }}
+        <p class="silva-archive__subtitle">{{ . }}</p>
+        {{- end }}
+      </div>
+    </header>
+
+    {{- if .Content }}
+    <div class="silva-archive__prologue md-content">
+      {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+      {{- else }}{{ .Content }}{{ end }}
+    </div>
+    {{- end }}
+
+    {{- if gt (len $sectionPages) 0 }}
+    <section class="silva-archive__chambers" aria-labelledby="silva-chambers-title">
+      <div class="silva-archive__section-head">
+        <p class="silva-archive__section-kicker">{{ $chamberLabel }}</p>
+        <h2 id="silva-chambers-title" class="silva-archive__section-title">{{ cond (eq site.Language.Lang "id") "Ruang arsip" "Archive chambers" }}</h2>
+      </div>
+
+      <div class="silva-archive__chamber-grid">
+        {{- range $sectionPages }}
+        {{- $sectionCount := len .RegularPagesRecursive -}}
+        {{- $noteLabel := cond (eq $sectionCount 1) $noteLabelSingular $noteLabelPlural -}}
+        {{- $sectionSummary := ((.Description | default .Summary) | plainify | htmlUnescape | replaceRE "\\s+" " ") -}}
+        <article class="silva-chamber">
+          <div class="silva-chamber__frame">
+            <p class="silva-chamber__meta">{{ $chamberLabel }}</p>
+            <h3 class="silva-chamber__title">{{ .Title }}</h3>
+            {{- with $sectionSummary }}
+            <p class="silva-chamber__summary">{{ . }}</p>
+            {{- end }}
+          </div>
+          <footer class="silva-chamber__footer">
+            <span class="silva-chamber__count">{{ $sectionCount }} {{ $noteLabel }}</span>
+          </footer>
+          <a class="silva-chamber__link" aria-label="{{ printf "%s %s" $chamberLabel (.Title | plainify) }}" href="{{ .RelPermalink }}"></a>
+        </article>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    {{- if gt (len $recentPages) 0 }}
+    <section class="silva-archive__recent" aria-labelledby="silva-recent-title">
+      <div class="silva-archive__section-head">
+        <p class="silva-archive__section-kicker">{{ cond (eq site.Language.Lang "id") "Indeks" "Index" }}</p>
+        <h2 id="silva-recent-title" class="silva-archive__section-title">{{ $recentLabel }}</h2>
+        <p class="silva-archive__section-intro">{{ $recentIntro }}</p>
+      </div>
+
+      <div class="silva-fragments" role="list">
+        {{- range $index, $page := $recentPages }}
+        {{- $displayIndex := printf "%02d" (add $index 1) -}}
+        {{- $sectionName := "" -}}
+        {{- with $page.CurrentSection }}
+          {{- if ne .RelPermalink $.RelPermalink }}
+            {{- $sectionName = .Title -}}
+          {{- end }}
+        {{- end }}
+        {{- $fragmentSummary := (($page.Description | default $page.Summary) | plainify | htmlUnescape | replaceRE "\\s+" " ") -}}
+        <article class="silva-fragment" role="listitem">
+          <div class="silva-fragment__index" aria-hidden="true">{{ $displayIndex }}</div>
+          <div class="silva-fragment__body">
+            <div class="silva-fragment__meta">
+              <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date | time.Format ":date_long" }}</time>
+              {{- with $sectionName }}
+              <span class="silva-fragment__separator" aria-hidden="true">•</span>
+              <span>{{ . }}</span>
+              {{- end }}
+            </div>
+            <h3 class="silva-fragment__title">{{ $page.Title }}</h3>
+            {{- if (ne ($page.Param "hideSummary") true) }}
+            <p class="silva-fragment__summary">{{ $fragmentSummary }}{{ if $page.Truncated }}...{{ end }}</p>
+            {{- end }}
+          </div>
+          <a class="silva-fragment__link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.RelPermalink }}"></a>
+        </article>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+  </div>
+</section>
