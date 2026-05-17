@@ -14,7 +14,7 @@ Menetapkan bahwa sel adalah unit fungsional kehidupan. Dia menyatakan `protoplas
 
 
 ### Rudolf Virchow (1850-an)
-Melengkapi teori sel dengan prinsip biogenesis yang terkenal: `omnis cellula ex cellulae`. Prinsip ini menegaskan bahwa semua sel baru hanya dapat muncul atau berasal dari sel-sel yang sudah ada sebelumnya.
+Melengkapi teori sel dengan prinsip biogenesis yang terkenal: `omnis cellula ex cellulae`. Prinsip ini menegaskan bahwa semua sel baru hanya bisa muncul atau berasal dari sel-sel yang sudah ada sebelumnya.
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
 

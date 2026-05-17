@@ -47,7 +47,7 @@ Contoh:
 
 > "Tuan Jawa mencintai Emma."
 
-Kalimat ini dapat diperlakukan sebagai proposisi atomik karena ia menyatakan satu relasi sederhana tanpa operator logika tambahan.
+Kalimat ini bisa diperlakukan sebagai proposisi atomik karena ia menyatakan satu relasi sederhana tanpa operator logika tambahan.
 
 {{< mus-divider >}}
 
@@ -55,7 +55,7 @@ Kalimat ini dapat diperlakukan sebagai proposisi atomik karena ia menyatakan sat
 
 Proposisi molekuler, atau proposisi majemuk, muncul ketika sebuah proposisi dibentuk dengan bantuan operator logika.
 
-Operator tersebut dapat menggabungkan dua proposisi, seperti pada `dan` dan `atau`, atau mengubah satu proposisi, seperti pada `tidak`.
+Operator tersebut bisa menggabungkan dua proposisi, seperti pada `dan` dan `atau`, atau mengubah satu proposisi, seperti pada `tidak`.
 
 Contohnya:
 
@@ -75,11 +75,11 @@ Misalnya, dari proposisi atomik:
 
 > "Tuan Jawa mencintai Emma."
 
-kita dapat membentuk proposisi baru:
+kita bisa membentuk proposisi baru:
 
 > "Tuan Jawa tidak mencintai Emma."
 
-Dalam notasi sederhana, jika proposisi pertama dilambangkan sebagai `P`, maka bentuk negasinya dapat ditulis sebagai `~P`.
+Dalam notasi sederhana, jika proposisi pertama dilambangkan sebagai `P`, maka bentuk negasinya bisa ditulis sebagai `~P`.
 
 Meskipun hanya melibatkan satu proposisi awal, bentuk `~P` tetap termasuk proposisi molekuler karena sudah mengandung operator logika.
 
@@ -96,17 +96,17 @@ Beberapa operator logika yang umum adalah:
 - **atau** (*disjunction*) → operator diadik
 - **jika ... maka ...** (*conditional*) → operator diadik
 
-Dengan bantuan operator-operator ini, logika dapat membangun struktur makna yang lebih kompleks dari proposisi yang sederhana.
+Dengan bantuan operator-operator ini, logika bisa membangun struktur makna yang lebih kompleks dari proposisi yang sederhana.
 
 {{< mus-divider >}}
 
 ## Dari Unit Dasar ke Struktur Kompleks
 
-Dengan demikian, proposisi atomik dapat dipahami sebagai unit dasar, sedangkan proposisi molekuler adalah proposisi yang sudah dibentuk melalui operator logika.
+Dengan demikian, proposisi atomik bisa dipahami sebagai unit dasar, sedangkan proposisi molekuler adalah proposisi yang sudah dibentuk melalui operator logika.
 
 Pembedaan ini penting karena banyak analisis logika bergantung pada kemampuan untuk memecah proposisi kompleks menjadi bagian-bagian yang lebih sederhana.
 
-Di titik ini, proposisi mulai terlihat seperti arsitektur kecil: satu klaim bisa berdiri sendiri, tetapi beberapa klaim dapat disusun, dinegasikan, atau dihubungkan hingga membentuk bangunan logis yang lebih rumit.
+Di titik ini, proposisi mulai terlihat seperti arsitektur kecil: satu klaim bisa berdiri sendiri, tetapi beberapa klaim bisa disusun, dinegasikan, atau dihubungkan hingga membentuk bangunan logis yang lebih rumit.
 
 {{< mus-divider >}}
 

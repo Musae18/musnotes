@@ -23,7 +23,7 @@ Ilmuwan Inggris ini adalah orang pertama yang memperkenalkan istilah bagi unit k
 {{< mus-divider >}}
 
 ### Antonie van Leeuwenhoek (1670-an)
-Ilmuwan Belanda yang pertama kali mengamati sel hidup. Menggunakan mikroskop lensa tunggal buatannya untuk mengamati air rendaman jerami, dia menemukan organisme bersel tunggal yang bergerak (bakteri dan protozoa), yang saat itu ia sebut sebagai `"animalcules"`.
+Ilmuwan Belanda yang pertama kali mengamati sel hidup. Menggunakan mikroskop lensa tunggal buatannya untuk mengamati air rendaman jerami, dia menemukan organisme bersel tunggal yang bergerak (bakteri dan protozoa), yang saat itu dia sebut sebagai `"animalcules"`.
 
 <div style="max-width: 400px; margin: 0 auto; text-align: center;">
 

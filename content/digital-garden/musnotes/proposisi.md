@@ -4,14 +4,14 @@ date: 2026-05-16T00:00:00+07:00
 draft: false
 math: false
 type: "garden-note"
-summary: "Proposisi dapat dipahami sebagai bentuk makna yang diekspresikan oleh kalimat deklaratif, bukan sebagai kalimat itu sendiri."
+summary: "Proposisi bisa dipahami sebagai bentuk makna yang diekspresikan oleh kalimat deklaratif, bukan sebagai kalimat itu sendiri."
 categories: ["Philosophy", "Logic"]
 tags: ["proposition", "logic", "language", "logical-form", "philosophy-of-language"]
 ---
 
 Dalam tradisi filsafat dan logika, proposisi sering dipahami sebagai entitas makna yang diungkapkan oleh sebuah kalimat deklaratif.
 
-Dengan kata lain, proposisi bukan sekadar rangkaian kata. Ia adalah isi makna yang dapat dinyatakan, diterjemahkan, dan dinilai benar atau salah.
+Dengan kata lain, proposisi bukan sekadar rangkaian kata. Ia adalah isi makna yang bisa dinyatakan, diterjemahkan, dan dinilai benar atau salah.
 
 {{< mus-divider >}}
 
@@ -19,9 +19,9 @@ Dengan kata lain, proposisi bukan sekadar rangkaian kata. Ia adalah isi makna ya
 
 Untuk memahaminya, aku suka membayangkan proposisi seperti energi dalam fisika.
 
-Energi dapat bermanifestasi dalam berbagai bentuk: panas, gerak, cahaya, atau listrik. Bentuk penampakannya berbeda, tetapi kita tetap mengenalinya sebagai energi. Ia tidak identik dengan satu bentuk tertentu, melainkan dapat hadir melalui banyak wujud.
+Energi bisa bermanifestasi dalam berbagai bentuk: panas, gerak, cahaya, atau listrik. Bentuk penampakannya berbeda, tetapi kita tetap mengenalinya sebagai energi. Ia tidak identik dengan satu bentuk tertentu, melainkan  hadir melalui banyak wujud.
 
-Begitu pula proposisi. Ia dapat hadir melalui kalimat yang berbeda, bahkan melalui bahasa yang berbeda, tetapi tetap membawa satu bentuk makna yang sama.
+Begitu pula proposisi. Ia bisa hadir melalui kalimat yang berbeda, bahkan melalui bahasa yang berbeda, tetapi tetap membawa satu bentuk makna yang sama.
 
 {{< mus-divider >}}
 
@@ -43,11 +43,11 @@ Dalam pengertian ini, proposisi bukanlah kalimat Indonesia atau kalimat Inggris 
 
 ## Proposisi dan Logical Form
 
-Proposisi dapat dipahami sebagai semacam bentuk logis atau _logical form_ yang berada di balik ekspresi bahasa.
+Proposisi bisa dipahami sebagai semacam bentuk logis atau _logical form_ yang berada di balik ekspresi bahasa.
 
 Kalimat adalah kendaraan linguistiknya. Proposisi adalah muatan maknanya.
 
-Karena itu, dua kalimat dapat berbeda secara sintaksis tetapi tetap menyampaikan proposisi yang sama. Sebaliknya, dua kalimat yang tampak mirip secara gramatikal belum tentu memiliki proposisi yang sama jika maknanya berbeda.
+Karena itu, dua kalimat bisa berbeda secara sintaksis tetapi tetap menyampaikan proposisi yang sama. Sebaliknya, dua kalimat yang tampak mirip secara gramatikal belum tentu memiliki proposisi yang sama jika maknanya berbeda.
 
 {{< mus-divider >}}
 

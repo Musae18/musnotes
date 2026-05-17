@@ -22,8 +22,8 @@ Pertanyaan ini membuat proposisi menjadi lebih dari sekadar topik logika. Ia mas
 Jika proposisi dipahami sebagai makna yang diekspresikan oleh kalimat, maka muncul pertanyaan berikutnya: di mana proposisi itu berada?
 
 Apakah proposisi ada di dalam pikiran manusia?  
-Apakah ia berada di dalam struktur bahasa?  
-Atau apakah ia merupakan entitas abstrak yang tidak bergantung pada manusia, seperti angka dalam matematika?
+Apakah dia berada di dalam struktur bahasa?  
+Atau apakah dia merupakan entitas abstrak yang tidak bergantung pada manusia, seperti angka dalam matematika?
 
 Di sinilah perdebatan dimulai. Proposisi tampak berguna, tetapi status keberadaannya tidak mudah dijelaskan.
 
@@ -47,7 +47,7 @@ Di sisi lain, banyak ahli logika dan filsuf bahasa tetap menggunakan konsep prop
 
 Proposisi memungkinkan kita membedakan antara kalimat sebagai bentuk bahasa dan makna logis yang dinyatakan oleh kalimat tersebut.
 
-Misalnya, dua kalimat dalam bahasa berbeda dapat mengekspresikan makna yang sama. Tanpa konsep proposisi, sulit menjelaskan mengapa dua kalimat yang berbeda secara sintaksis tetap dapat memiliki isi logis yang identik.
+Misalnya, dua kalimat dalam bahasa berbeda bisa mengekspresikan makna yang sama. Tanpa konsep proposisi, sulit menjelaskan mengapa dua kalimat yang berbeda secara sintaksis tetap bisa memiliki isi logis yang identik.
 
 Dalam konteks ini, proposisi berfungsi seperti lapisan dalam dari bahasa: tidak selalu terlihat secara langsung, tetapi berguna untuk memahami bagaimana pikiran manusia menyusun, membandingkan, dan menilai klaim.
 
@@ -55,10 +55,10 @@ Dalam konteks ini, proposisi berfungsi seperti lapisan dalam dari bahasa: tidak 
 
 ## Alat Analisis atau Entitas Nyata?
 
-Perdebatan utama dapat diringkas menjadi dua kemungkinan:
+Perdebatan utama bisa diringkas menjadi dua kemungkinan:
 
 1. Proposisi sebagai entitas abstrak  
-   Proposisi dianggap benar-benar ada sebagai objek abstrak yang dapat menjadi pembawa nilai kebenaran.
+   Proposisi dianggap benar-benar ada sebagai objek abstrak yang bisa menjadi pembawa nilai kebenaran.
 
 2. Proposisi sebagai alat analisis  
    Proposisi tidak perlu dianggap sebagai sesuatu yang benar-benar ada, tetapi tetap berguna sebagai konsep untuk memahami bahasa, logika, dan penalaran.
@@ -73,9 +73,9 @@ Mungkin pertanyaan yang lebih menarik bukan hanya apakah proposisi “ada” sep
 
 Proposisi jelas tidak tampak seperti benda fisik. Ia tidak punya massa, tidak memantulkan cahaya, dan tidak bisa dimasukkan ke dalam tabung reaksi. Namun, konsep ini tetap bekerja dalam cara manusia bernalar.
 
-Dengan demikian, proposisi dapat dipahami sebagai salah satu alat konseptual yang membantu kita membaca struktur pikiran dan bahasa.
+Dengan demikian, proposisi bisa dipahami sebagai salah satu alat konseptual yang membantu kita membaca struktur pikiran dan bahasa.
 
-Ia mungkin bukan benda di alam semesta fisik. Tetapi dalam ruang logika, ia berfungsi seperti koordinat: tidak harus dapat disentuh untuk tetap membantu kita menemukan arah.
+Ia mungkin bukan benda di alam semesta fisik. Tetapi dalam ruang logika, dia berfungsi seperti koordinat: tidak harus bisa disentuh untuk tetap membantu kita menemukan arah.
 
 {{< mus-divider >}}
 
