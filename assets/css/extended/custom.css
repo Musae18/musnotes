@@ -1822,8 +1822,7 @@ body:has(.garden-landing) .main {
         padding-bottom: 0;
         border-bottom-color: rgba(107, 79, 91, 0.035);
         backdrop-filter: blur(10px);
-        position: sticky;
-        top: 0;
+        position: relative;
         z-index: 1000;
         isolation: isolate;
     }
@@ -2935,13 +2934,21 @@ body:has(.musnotes-index) .main {
 }
 
 .silva-fragment__separator {
-    font-size: 0;
-    letter-spacing: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.6rem;
+    height: 0.6rem;
+    flex: 0 0 auto;
 }
 
 .silva-fragment__separator::before {
-    content: "Ã‚Â·";
-    font-size: 0.72rem;
+    content: "";
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 999px;
+    background: currentColor;
+    opacity: 0.72;
 }
 
 .silva-fragment__title {

@@ -82,8 +82,8 @@
             <div class="silva-fragment__meta">
               <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date | time.Format ":date_long" }}</time>
               {{- with $sectionName }}
-              <span class="silva-fragment__separator" aria-hidden="true">•</span>
-              <span>{{ . }}</span>
+              <span class="silva-fragment__separator" aria-hidden="true"></span>
+              <span class="silva-fragment__section">{{ . }}</span>
               {{- end }}
             </div>
             <h3 class="silva-fragment__title">{{ $page.Title }}</h3>
