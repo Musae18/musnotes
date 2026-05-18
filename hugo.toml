@@ -20,6 +20,7 @@ cleanDestinationDir = true
 
 [params]
     env = "production"
+    mainSections = ["digital-garden"]
     defaultTheme = "auto"
     disableThemeToggle = false
     disableLangToggle = false
@@ -65,7 +66,7 @@ cleanDestinationDir = true
         title = "MuS"
 
         [languages.id.params]
-            description = "Catatan reflektif."
+            description = "my garden."
 
             [languages.id.params.homepage]
                 enabled = true
@@ -138,7 +139,7 @@ cleanDestinationDir = true
 
             [languages.en.params.homepage]
                 enabled = true
-                eyebrow = "PERSONAL BLOG · DIGITAL GARDEN · PROJECT STUDIO"
+                eyebrow = "PERSONAL BLOG · DIGITAL GARDEN · DIGITAL WORKS STUDIO"
                 title = "More often confused than knowing."
                 subheadline = "Biology student, digital gardener, and maker of quiet web things."
                 intro = "A quiet archive for non-linear notes, reflective essays, unfinished thoughts, and small digital experiments."
