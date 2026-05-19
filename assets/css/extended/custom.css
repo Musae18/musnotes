@@ -53,6 +53,140 @@ html {
     overflow-x: clip;
 }
 
+/* --- MuS Custom Cursor --- */
+:root {
+    --mus-cursor-dot: #7f9789;
+    --mus-cursor-ring: rgba(127, 151, 137, 0.22);
+    --mus-cursor-hover: rgba(166, 132, 150, 0.28);
+    --mus-cursor-shadow: rgba(127, 151, 137, 0.16);
+    --mus-cursor-dot-size: 8px;
+    --mus-cursor-ring-size: 28px;
+    --mus-cursor-ring-size-hover: 42px;
+}
+
+.dark,
+:root[data-theme="dark"] {
+    --mus-cursor-dot: #c8a9b8;
+    --mus-cursor-ring: rgba(200, 169, 184, 0.18);
+    --mus-cursor-hover: rgba(200, 169, 184, 0.26);
+    --mus-cursor-shadow: rgba(200, 169, 184, 0.14);
+}
+
+.mus-cursor-dot,
+.mus-cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    contain: layout style paint;
+    will-change: transform, opacity, width, height, box-shadow, background-color, border-color;
+    transition:
+        opacity 0.18s ease,
+        width 0.2s ease,
+        height 0.2s ease,
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.mus-cursor-dot.is-visible,
+.mus-cursor-ring.is-visible {
+    opacity: 1;
+}
+
+.mus-cursor-dot {
+    width: var(--mus-cursor-dot-size);
+    height: var(--mus-cursor-dot-size);
+    border-radius: 999px;
+    background: var(--mus-cursor-dot);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--mus-cursor-dot) 22%, transparent);
+    --mus-cursor-dot-scale: 1;
+}
+
+.mus-cursor-ring {
+    width: var(--mus-cursor-ring-size);
+    height: var(--mus-cursor-ring-size);
+    border: 1px solid var(--mus-cursor-ring);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--mus-cursor-ring) 60%, transparent);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04), 0 0 18px var(--mus-cursor-shadow);
+    backdrop-filter: blur(2px);
+    --mus-cursor-ring-scale: 1;
+}
+
+.mus-cursor-dot.mus-cursor-hover {
+    opacity: 0.76;
+    --mus-cursor-dot-scale: 0.82;
+}
+
+.mus-cursor-ring.mus-cursor-hover {
+    width: var(--mus-cursor-ring-size-hover);
+    height: var(--mus-cursor-ring-size-hover);
+    border-color: var(--mus-cursor-hover);
+    background: color-mix(in srgb, var(--mus-cursor-hover) 52%, transparent);
+    box-shadow:
+        0 0 0 1px color-mix(in srgb, var(--mus-cursor-hover) 34%, transparent),
+        0 0 24px color-mix(in srgb, var(--mus-cursor-hover) 44%, transparent);
+}
+
+.mus-cursor-dot.mus-cursor-click {
+    background: color-mix(in srgb, var(--mus-cursor-dot) 86%, white 14%);
+    --mus-cursor-dot-scale: 0.94;
+}
+
+.mus-cursor-ring.mus-cursor-click {
+    border-color: color-mix(in srgb, var(--mus-cursor-hover) 82%, white 18%);
+    background: color-mix(in srgb, var(--mus-cursor-hover) 66%, transparent);
+    box-shadow:
+        0 0 0 10px color-mix(in srgb, var(--mus-cursor-hover) 12%, transparent),
+        0 0 28px color-mix(in srgb, var(--mus-cursor-hover) 38%, transparent);
+    --mus-cursor-ring-scale: 0.82;
+}
+
+.mus-custom-cursor-enabled,
+.mus-custom-cursor-enabled * {
+    cursor: none;
+}
+
+.mus-custom-cursor-enabled.mus-cursor-over-text,
+.mus-custom-cursor-enabled.mus-cursor-over-text body,
+.mus-custom-cursor-enabled.mus-cursor-over-text input,
+.mus-custom-cursor-enabled.mus-cursor-over-text textarea,
+.mus-custom-cursor-enabled.mus-cursor-over-text select,
+.mus-custom-cursor-enabled.mus-cursor-over-text option,
+.mus-custom-cursor-enabled.mus-cursor-over-text code,
+.mus-custom-cursor-enabled.mus-cursor-over-text pre,
+.mus-custom-cursor-enabled.mus-cursor-over-text .highlight,
+.mus-custom-cursor-enabled.mus-cursor-over-text .post-content p,
+.mus-custom-cursor-enabled.mus-cursor-over-text .post-content li,
+.mus-custom-cursor-enabled.mus-cursor-over-text .post-content blockquote,
+.mus-custom-cursor-enabled.mus-cursor-over-text .entry-content p,
+.mus-custom-cursor-enabled.mus-cursor-over-text .entry-content li,
+.mus-custom-cursor-enabled.mus-cursor-over-text .entry-content blockquote {
+    cursor: text;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mus-cursor-dot,
+    .mus-cursor-ring {
+        display: none !important;
+    }
+
+    .mus-custom-cursor-enabled,
+    .mus-custom-cursor-enabled * {
+        cursor: auto !important;
+    }
+}
+
+@media (hover: none), (pointer: coarse) {
+    .mus-cursor-dot,
+    .mus-cursor-ring {
+        display: none !important;
+    }
+}
+
 /* Skip link: off-screen until keyboard focus */
 .skip-link {
     position: absolute;

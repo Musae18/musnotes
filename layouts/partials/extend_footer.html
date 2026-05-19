@@ -1,0 +1,7 @@
+{{- $cursorScript := resources.Get "js/mus-cursor.js" | resources.Minify -}}
+{{- if not site.Params.assets.disableFingerprinting -}}
+    {{- $cursorScript = $cursorScript | fingerprint -}}
+<script defer crossorigin="anonymous" src="{{ $cursorScript.RelPermalink }}" integrity="{{ $cursorScript.Data.Integrity }}"></script>
+{{- else -}}
+<script defer crossorigin="anonymous" src="{{ $cursorScript.RelPermalink }}"></script>
+{{- end -}}
