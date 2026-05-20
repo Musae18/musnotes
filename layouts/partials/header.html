@@ -5,6 +5,7 @@
 {{- $default_icon := "mus-logo.png" -}}
 {{- $logo_icon := $configured_icon | default $default_icon -}}
 {{- $lang := .Lang -}}
+{{- $muscryptURL := site.Params.externalLinks.muscrypt -}}
 {{- $pageTranslations := dict -}}
 {{- range .Translations -}}
     {{- $pageTranslations = merge $pageTranslations (dict .Lang .RelPermalink) -}}
@@ -59,6 +60,20 @@
                 {{- $search_url := "/search/" | relLangURL }}
                 {{- $is_search := and (not (findRE "://" .URL)) (eq $menu_item_url $search_url) }}
                 {{- $is_active := and (not (findRE "://" .URL)) (eq $menu_item_url $pageURL) }}
+                {{- if and $is_search $muscryptURL }}
+                <li>
+                    <a href="{{ $muscryptURL }}" class="nav-link">
+                        <span class="nav-link__label">Muscrypt</span>
+                        &nbsp;
+                        <svg class="nav-link__external" fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                            <path d="M15 3h6v6"></path>
+                            <path d="M10 14L21 3"></path>
+                        </svg>
+                    </a>
+                </li>
+                {{- end }}
                 <li>
                     <a href="{{ $href }}"
                     {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
@@ -168,6 +183,20 @@
                 {{- $search_url := "/search/" | relLangURL }}
                 {{- $is_search := and (not (findRE "://" .URL)) (eq $menu_item_url $search_url) }}
                 {{- $is_active := and (not (findRE "://" .URL)) (eq $menu_item_url $pageURL) }}
+                {{- if and $is_search $muscryptURL }}
+                <li>
+                    <a href="{{ $muscryptURL }}" class="nav-link">
+                        <span class="nav-link__label">Muscrypt</span>
+                        &nbsp;
+                        <svg class="nav-link__external" fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                            <path d="M15 3h6v6"></path>
+                            <path d="M10 14L21 3"></path>
+                        </svg>
+                    </a>
+                </li>
+                {{- end }}
                 <li>
                     <a href="{{ $href }}"
                     {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}

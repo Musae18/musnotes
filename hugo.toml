@@ -25,6 +25,9 @@ cleanDestinationDir = true
     disableThemeToggle = false
     disableLangToggle = false
 
+    [params.externalLinks]
+        muscrypt = "https://muscrypt.musnotes.my.id/"
+
     [params.label]
         text = "MuS"
         icon = "mus-logo.png"
@@ -126,7 +129,7 @@ cleanDestinationDir = true
         [[languages.id.menu.main]]
             name = "Cari"
             pageRef = "/search"
-            weight = 50
+            weight = 60
 
     [languages.en]
         languageName = "English"
@@ -197,4 +200,4 @@ cleanDestinationDir = true
         [[languages.en.menu.main]]
             name = "Search"
             pageRef = "/search"
-            weight = 50
+            weight = 60

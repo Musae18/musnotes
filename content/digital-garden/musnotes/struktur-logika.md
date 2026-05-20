@@ -47,7 +47,7 @@ Contoh:
 
 > "Tuan Jawa mencintai Emma."
 
-Kalimat ini bisa diperlakukan sebagai proposisi atomik karena ia menyatakan satu relasi sederhana tanpa operator logika tambahan.
+Kalimat ini bisa diperlakukan sebagai proposisi atomik karena dia menyatakan satu relasi sederhana tanpa operator logika tambahan.
 
 {{< mus-divider >}}
 

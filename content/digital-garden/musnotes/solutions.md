@@ -188,6 +188,7 @@ $$
 $$
 M = \frac{\text{mol solute}}{\text{volume larutan dalam liter}}
 $$
+
 {{< mus-divider >}}
 
 ## Quick Calculation Example
