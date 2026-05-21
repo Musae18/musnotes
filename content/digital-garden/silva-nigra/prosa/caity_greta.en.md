@@ -10,6 +10,7 @@ tags: ["dialogue", "consciousness", "imagination", "story"]
 cover:
     image: "/images/caity-dan-greta.png"
     hiddenInSingle: true
+    hiddenInList: true
 ---
 
 In the synapses of my neurons, in a forest called Silva Nigra, the majority of the trees have black leaves. One of the forest's inhabitants is a pink toy pig who claims to be a hundred years old. In that forest, a piano sometimes appears, its keys moving on their own without a sound. There is also a prince named "me", and a large butterfly with purple wings.

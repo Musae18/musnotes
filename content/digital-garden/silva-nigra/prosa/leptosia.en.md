@@ -7,6 +7,7 @@ tags: ["dialogue", "consciousness"]
 cover:
   image: "/images/leptosia-dan-cafe-di-sela-neuron.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 One night, long before I knew anything of encrypted texts, little Mus was awakened by the sound of crying, rising and falling like a musical scale.

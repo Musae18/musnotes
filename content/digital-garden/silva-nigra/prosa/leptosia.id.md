@@ -7,6 +7,7 @@ tags: ["dialogue", "consciousness", "philosophy"]
 cover:
   image: "/images/leptosia-dan-cafe-di-sela-neuron.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 Di suatu malam, jauh sebelum aku mengenal teks terenkripsi, Mus kecil terbangun oleh suara tangisan yang naik turun di tangga nada.

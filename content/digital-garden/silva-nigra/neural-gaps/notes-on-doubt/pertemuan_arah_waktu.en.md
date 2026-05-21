@@ -10,6 +10,7 @@ tags: ["time", "entropy", "philosophy", "memory", "identity", "perception"]
 cover:
   image: "/images/profesor-tua.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 Some time ago, I threw a simple question onto Quora about the possibility of two different directions of time meeting.

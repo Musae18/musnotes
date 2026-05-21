@@ -7,6 +7,7 @@ tags: ["species","ecology"]
 cover:
   image: "/images/troides-helena.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 In a corner of my mind, there lies a realm called Silva Nigra; a forest of blackened leaves.

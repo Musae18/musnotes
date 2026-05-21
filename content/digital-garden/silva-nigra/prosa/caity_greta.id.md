@@ -10,6 +10,7 @@ tags: ["dialogue", "consciousness", "imagination", "story"]
 cover:
   image: "/images/caity-dan-greta.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 Di sela-sela neuronku, di sebuah hutan bernama Silva Nigra, mayoritas pohonnya berdaun hitam. Salah satu penghuni hutan itu adalah boneka babi berwarna pink yang mengaku berusia seratus tahun. Di hutan itu, kadang muncul piano yang tutsnya bergerak sendiri tanpa suara. Ada juga seorang pangeran yang bernama “aku”, dan seekor kupu-kupu besar bersayap ungu.

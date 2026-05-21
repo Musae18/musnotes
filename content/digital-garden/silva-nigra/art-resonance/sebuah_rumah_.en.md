@@ -6,6 +6,7 @@ tags: ["music", "consciousness", "imagination"]
 cover:
   image: "/images/sebuah-rumah-yang-dari-luar-keliatannya-kosong.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 *Listening to: Clara Schumann — Nocturne Op. 6 No. 2 (1827 Stein piano)*

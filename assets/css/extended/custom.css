@@ -9,6 +9,7 @@
     --mobile-header-height: 64px;
     --main-text: #2F2930;
     --orchid-accent: #6B4F5B;
+    --section-heading: color-mix(in srgb, var(--main-text) 68%, var(--orchid-accent) 32%);
     --sage-fade: #847782;
     --reading-edge: rgba(107, 79, 91, 0.12);
     --editorial-shell: 1360px;
@@ -32,6 +33,7 @@
     --bg-color: #161417; /* Deep background for better contrast */
     --main-text: #F2F0F1; /* Comfortable off-white for text */
     --orchid-accent: #D6A8BC; /* Brighter accent color */
+    --section-heading: color-mix(in srgb, var(--main-text) 62%, var(--orchid-accent) 38%);
     --sage-fade: #A397A0; /* Softer secondary color */
 
     --theme: var(--bg-color);
@@ -1834,7 +1836,7 @@ body:has(.garden-landing) .main {
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-    color: var(--orchid-accent);
+    color: var(--section-heading);
 }
 
 .mus-divider {
@@ -1950,7 +1952,7 @@ body:has(.garden-landing) .main {
 :root[data-theme="dark"] .post-single .post-content h4,
 :root[data-theme="dark"] .post-single .post-content h5,
 :root[data-theme="dark"] .post-single .post-content h6 {
-    color: var(--orchid-accent) !important;
+    color: var(--section-heading) !important;
 }
 
 :root[data-theme="dark"] .post-single .post-content a,
@@ -4771,9 +4773,15 @@ article a:hover,
 .mus-flow-branch {
     position: relative;
     display: grid;
-    grid-template-columns: minmax(0, 1.15fr) auto minmax(0, 1fr);
-    gap: 0.8rem;
-    align-items: center;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+        "label"
+        "step-primary"
+        "note-primary"
+        "step-secondary"
+        "note-secondary";
+    gap: 0.85rem;
+    align-items: start;
     padding: 1rem 1rem 1.05rem;
     min-width: 0;
     border: 1px solid color-mix(in srgb, var(--flow-panel-border) 88%, white 12%);
@@ -4799,15 +4807,27 @@ article a:hover,
 }
 
 .mus-flow-branch::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: calc(50% - 0.5rem);
-    width: 1rem;
-    height: 1px;
-    background: var(--mus-flow-line);
-    transform: translateY(-50%);
-    opacity: 0.76;
+    display: none;
+}
+
+.mus-flow-branch > :nth-child(1) {
+    grid-area: label;
+}
+
+.mus-flow-branch > :nth-child(2) {
+    grid-area: step-primary;
+}
+
+.mus-flow-branch > :nth-child(3) {
+    grid-area: note-primary;
+}
+
+.mus-flow-branch > :nth-child(4) {
+    grid-area: step-secondary;
+}
+
+.mus-flow-branch > :nth-child(5) {
+    grid-area: note-secondary;
 }
 
 .mus-flow-node {
@@ -4850,12 +4870,15 @@ article a:hover,
 .mus-flow-label {
     font-size: 0.92rem;
     line-height: 1.55;
-    text-align: right;
+    text-align: left;
+    font-weight: 600;
 }
 
 .mus-flow-note {
     font-size: 0.88rem;
     line-height: 1.55;
+    padding-left: 0.15rem;
+    color: color-mix(in srgb, var(--secondary) 82%, var(--primary) 18%);
 }
 
 .mus-flow-label strong,

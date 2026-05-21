@@ -10,6 +10,7 @@ tags: ["identity","logic","perception"]
 cover:
   image: "/images/maaf-aku-gagal-konsisten.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 Aku pernah beberapa kali mencoba tes MBTI, dan hasilnya berubah-ubah. Pernah INFP, INFJ, INTJ, dan terakhir INTP.

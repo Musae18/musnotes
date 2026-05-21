@@ -10,6 +10,7 @@ tags: ["dialogue", "consciousness", "philosophy", "loneliness"]
 cover:
   image: "/images/dialog-di-sela-neuron.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 >_"Maaf ya, ke toiletnya agak lama. Soalnya itu sudah seperti ritual."_

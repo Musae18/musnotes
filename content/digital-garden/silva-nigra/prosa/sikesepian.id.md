@@ -7,6 +7,7 @@ tags: ["consciousness", "philosophy", "loneliness"]
 cover:
   image: "/images/sebelum-kesepian-didefinisikan.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 Si kesepian.

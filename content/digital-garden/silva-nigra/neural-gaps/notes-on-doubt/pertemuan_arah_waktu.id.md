@@ -10,6 +10,7 @@ tags: ["time", "entropy", "philosophy", "memory", "identity","perception"]
 cover:
   image: "/images/profesor-tua.png"
   hiddenInSingle: true
+  hiddenInList: true
 
 ---
 

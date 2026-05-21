@@ -10,6 +10,7 @@ tags: ["dialogue", "consciousness", "philosophy", "loneliness"]
 cover:
   image: "/images/dialog-di-sela-neuron.png"
   hiddenInSingle: true
+  hiddenInList: true
 ---
 
 >_"Sorry I took so long in the restroom. It's become somewhat of a ritual."_
