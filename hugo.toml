@@ -48,7 +48,7 @@ cleanDestinationDir = true
 
     [[params.socialIcons]]
         name = "github"
-        url = "https://github.com/Musae18"
+        url = "https://github.com/musworks"
 
     [[params.socialIcons]]
         name = "codepen"
@@ -98,7 +98,7 @@ cleanDestinationDir = true
                 enabled = true
                 title = "MuS"
                 subtitle = "More often confused than knowing."
-                imageUrl = "https://github.com/Musae18.png"
+                imageUrl = "https://github.com/musworks.png"
                 imageTitle = "MuS"
                 imageWidth = 120
                 imageHeight = 120
@@ -120,7 +120,7 @@ cleanDestinationDir = true
 
         [[languages.id.menu.main]]
             name = "Quiet Hours"
-            url = "https://musae18.github.io/quiet-hours/"
+            url = "https://quiet-hours.musnotes.my.id/"
             weight = 40
 
         [[languages.id.menu.main]]
@@ -191,7 +191,7 @@ cleanDestinationDir = true
 
         [[languages.en.menu.main]]
             name = "Quiet Hours"
-            url = "https://musae18.github.io/quiet-hours/"
+            url = "https://quiet-hours.musnotes.my.id/"
             weight = 40
 
         [[languages.en.menu.main]]
